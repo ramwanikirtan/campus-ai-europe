@@ -76,3 +76,97 @@ model Profile {
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
+
+// ============================================
+// University & Program Models
+// ============================================
+
+model University {
+  id                          String    @id @default(cuid())
+  name                        String
+  country                     String
+  city                        String
+  websiteUrl                  String
+  logoUrl                     String    @default("")
+  rankingQs                   Int?
+  rankingThe                  Int?
+  estimatedMonthlyLivingCostEur Int     @default(0)
+  description                 String    @db.Text
+  foundedYear                 Int?
+  wikidataId                  String?   @unique
+  dataSource                  String    @default("manual")
+  createdAt                   DateTime  @default(now())
+  updatedAt                   DateTime  @updatedAt
+
+  programs     Program[]
+  scholarships ScholarshipUniversity[]
+
+  @@index([country])
+  @@index([rankingQs])
+}
+
+model Program {
+  id                     String   @id @default(cuid())
+  universityId           String
+  name                   String
+  fieldOfStudy           String
+  degreeLevel            String   // bachelors, masters, phd
+  languageOfInstruction  String
+  durationMonths         Int
+  tuitionPerYearEur      Float    @default(0)
+  minGpaRequired         Float?
+  requiredLanguage       String?
+  requiredLanguageLevel  String?
+  applicationDeadline    String?
+  applicationUrl         String?
+  additionalRequirements String?  @db.Text
+  dataSource             String   @default("manual")
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+
+  university University @relation(fields: [universityId], references: [id], onDelete: Cascade)
+
+  @@index([universityId])
+  @@index([fieldOfStudy])
+  @@index([degreeLevel])
+}
+
+// ============================================
+// Scholarship Models
+// ============================================
+
+model Scholarship {
+  id                       String   @id @default(cuid())
+  name                     String
+  provider                 String
+  type                     String   // full_tuition, partial, stipend, travel_grant
+  amountDescription        String
+  amountEurMonthly         Float    @default(0)
+  coverage                 String?  @db.Text
+  eligibilityNationalities Json     // string[] or "all"
+  eligibilityMinGpa        Float?
+  eligibilityFields        Json     // string[] or "all"
+  eligibilityDegreeLevels  Json     // string[]
+  eligibilityOther         String?  @db.Text
+  applicationDeadline      String?
+  applicationUrl           String?
+  dataSource               String   @default("manual")
+  createdAt                DateTime @default(now())
+  updatedAt                DateTime @updatedAt
+
+  universities ScholarshipUniversity[]
+
+  @@index([type])
+  @@index([applicationDeadline])
+}
+
+model ScholarshipUniversity {
+  id             String @id @default(cuid())
+  scholarshipId  String
+  universityId   String
+
+  scholarship Scholarship @relation(fields: [scholarshipId], references: [id], onDelete: Cascade)
+  university  University  @relation(fields: [universityId], references: [id], onDelete: Cascade)
+
+  @@unique([scholarshipId, universityId])
+}

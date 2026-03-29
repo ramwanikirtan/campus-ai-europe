@@ -1,18 +1,19 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { useAppStore } from '@/lib/store';
+import { useAppStore, useInternalStore } from '@/lib/store';
 import { Button } from '@/components/ui/button';
 import { MessageCircle, X, Send, Minus, Bot, User } from 'lucide-react';
 import { ChatMessage } from '@/lib/types';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function AIAssistant() {
-  const { isAuthenticated, isChatOpen, toggleChat, chatMessages, addChatMessage, profile } = useAppStore();
+  const { isAuthenticated, isChatOpen, toggleChat, chatMessages, addChatMessage } = useAppStore();
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const useInternalStoreRef = useRef(useInternalStore);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -24,42 +25,8 @@ export default function AIAssistant() {
     }
   }, [isChatOpen]);
 
-  const generateResponse = (userMessage: string): string => {
-    const msg = userMessage.toLowerCase();
-    const field = profile?.fieldOfStudy || 'your field';
-    const country = profile?.countryPreferences?.join(', ') || 'Europe';
-    const budget = profile?.monthlyBudgetEur || 700;
-    const gpa = profile?.gpaNormalized || 3.5;
-
-    if (msg.includes('scholarship') || msg.includes('funding') || msg.includes('financial')) {
-      return `Based on your profile (${field}, GPA: ${gpa}/4.0, Budget: €${budget}/month), here are scholarships I'd recommend:\n\n🏆 **DAAD Scholarship** — €934/month + travel\n• Open to all nationalities\n• Requires GPA 3.0+\n• Deadline: October 15\n\n🏆 **Erasmus Mundus** — Full tuition + €1,400/month\n• Very competitive but excellent coverage\n• Deadline: January 10\n\n🏆 **Holland Scholarship** — €5,000 one-time\n• For non-EEA students in Netherlands\n• Deadline: February 1\n\nWould you like details about any of these?`;
-    }
-
-    if (msg.includes('germany') || msg.includes('german')) {
-      return `Great choice! Germany is excellent for ${field} students. Key facts:\n\n🎓 **Tuition**: Most public universities are tuition-FREE (even for international students!)\n\n💰 **Living costs**: €850–€950/month on average\n\n📋 **Requirements for your profile**:\n• GPA: Your ${gpa}/4.0 is competitive\n• Language: Most Master's programs in English, but learning German helps\n\n🏛️ **Top universities for ${field}**:\n1. TU Munich (QS #37)\n2. RWTH Aachen (QS #106)\n3. TU Berlin (QS #154)\n\n⚠️ **Important**: You'll need a blocked account (Sperrkonto) of ~€11,208 for your student visa.\n\nWould you like more details about any of these universities?`;
-    }
-
-    if (msg.includes('visa') || msg.includes('blocked account') || msg.includes('sperrkonto')) {
-      return `For a student visa in Germany, you'll need:\n\n📄 **Required Documents**:\n1. University admission letter\n2. Blocked account (Sperrkonto): ~€11,208\n3. Health insurance proof\n4. Passport (valid 6+ months)\n5. Financial proof\n6. Motivation letter\n\n💰 **Blocked Account Providers**:\n• **Expatrio** — Most popular, ~€5 setup fee\n• **Deutsche Bank** — Traditional option\n• **Coracle** — Newer alternative\n\nYou'll receive €934/month from the blocked account. Given your €${budget}/month budget, ${budget >= 934 ? "you're well covered!" : "the blocked account requirement exceeds your stated budget. Consider applying for scholarships to cover the gap."}\n\nNeed help finding scholarships?`;
-    }
-
-    if (msg.includes('deadline') || msg.includes('when') || msg.includes('apply')) {
-      return `Here are upcoming deadlines for ${field} programs in ${country}:\n\n📅 **Upcoming Deadlines**:\n• DAAD Scholarship — **Oct 15, 2025**\n• TU Munich — **Oct 15, 2025**\n• ETH Zurich — **Dec 15, 2025**\n• TU Delft — **Dec 1, 2025**\n• Erasmus Mundus — **Jan 10, 2026**\n• RWTH Aachen — **Mar 1, 2026**\n\n⚡ **Tip**: Start applications 2–3 months before deadlines to gather all documents.\n\nWould you like help planning your application timeline?`;
-    }
-
-    if (msg.includes('cost') || msg.includes('budget') || msg.includes('expensive') || msg.includes('cheap') || msg.includes('affordable')) {
-      return `Here's a cost comparison for ${field} students:\n\n🏷️ **Most Affordable Options**:\n\n| Country | Tuition | Living Cost |\n|---------|---------|-------------|\n| Germany | €0/year | €850/month |\n| Poland | €3,200/year | €600/month |\n| Czech Republic | €5,000/year | €650/month |\n| Austria | €726/year | €900/month |\n\n💡 With your €${budget}/month budget, **Germany** and **Poland** are your best fits!\n\nWant me to find programs that fit your budget?`;
-    }
-
-    if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey')) {
-      return `Hey there! 👋 I'm your Campus AI assistant. I can help you with:\n\n🎓 University recommendations\n💰 Scholarship information\n📋 Application requirements\n🌍 Country comparisons\n💶 Cost of living details\n📄 Visa guidance\n\nI know your profile — ${field} ${profile?.degreeLevel || 'student'}, GPA ${gpa}, budget €${budget}/month. What would you like to know?`;
-    }
-
-    return `That's a great question! Based on your profile (${field}, GPA: ${gpa}/4.0):\n\nI can help you with:\n• 🎓 Finding matching universities\n• 💰 Scholarship opportunities\n• 📋 Application requirements & deadlines\n• 🌍 Country comparisons (costs, visas)\n• 📄 Document preparation tips\n\nTry asking something specific like:\n• "What scholarships can I get?"\n• "Tell me about studying in Germany"\n• "What are the cheapest countries?"\n• "When are the deadlines?"\n\nI'm here to help! 😊`;
-  };
-
-  const handleSend = () => {
-    if (!input.trim()) return;
+  const handleSend = async () => {
+    if (!input.trim() || isTyping) return;
 
     const userMsg: ChatMessage = {
       id: `msg-${Date.now()}`,
@@ -68,20 +35,105 @@ export default function AIAssistant() {
       timestamp: new Date().toISOString(),
     };
     addChatMessage(userMsg);
+    const userInput = input.trim();
     setInput('');
     setIsTyping(true);
 
-    setTimeout(() => {
-      const response = generateResponse(userMsg.content);
+    // Build conversation history from existing messages
+    const conversationHistory = chatMessages.map((m) => ({
+      role: m.role,
+      content: m.content,
+    }));
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: userInput,
+          conversationHistory,
+        }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ error: 'Failed to get response' }));
+        throw new Error(err.error || `HTTP ${res.status}`);
+      }
+
+      // Stream the response
+      const reader = res.body?.getReader();
+      if (!reader) throw new Error('No response stream');
+
+      const decoder = new TextDecoder();
+      let assistantContent = '';
+      const botMsgId = `msg-${Date.now()}`;
+      let sources: string[] = [];
+
+      // Add initial empty bot message to stream into
       const botMsg: ChatMessage = {
-        id: `msg-${Date.now()}`,
+        id: botMsgId,
         role: 'assistant',
-        content: response,
+        content: '',
         timestamp: new Date().toISOString(),
       };
       addChatMessage(botMsg);
       setIsTyping(false);
-    }, 1000 + Math.random() * 1500);
+
+      let buffer = '';
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed.startsWith('data: ')) continue;
+
+          const data = trimmed.slice(6);
+          if (data === '[DONE]') continue;
+
+          try {
+            const parsed = JSON.parse(data);
+            if (parsed.type === 'text' && parsed.content) {
+              assistantContent += parsed.content;
+              // Update the bot message in the store
+              useInternalStoreRef.current.setState((state) => ({
+                chatMessages: state.chatMessages.map((m) =>
+                  m.id === botMsgId ? { ...m, content: assistantContent } : m
+                ),
+              }));
+            } else if (parsed.type === 'sources') {
+              sources = parsed.sources || [];
+            }
+          } catch {
+            // skip malformed JSON
+          }
+        }
+      }
+
+      // Final update with sources
+      if (sources.length > 0) {
+        useInternalStoreRef.current.setState((state) => ({
+          chatMessages: state.chatMessages.map((m) =>
+            m.id === botMsgId ? { ...m, sources } : m
+          ),
+        }));
+      }
+    } catch (err) {
+      setIsTyping(false);
+      const errorMsg: ChatMessage = {
+        id: `msg-${Date.now()}`,
+        role: 'assistant',
+        content: err instanceof Error
+          ? `Sorry, I encountered an error: ${err.message}. Please try again.`
+          : 'Sorry, something went wrong. Please try again.',
+        timestamp: new Date().toISOString(),
+      };
+      addChatMessage(errorMsg);
+    }
   };
 
   if (!isAuthenticated) return null;

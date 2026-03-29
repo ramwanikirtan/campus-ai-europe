@@ -1,0 +1,7076 @@
+[
+  {
+    "name": "Campus Fryslân",
+    "country": "Netherlands",
+    "city": "Leeuwarden",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q73152048",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Utrecht",
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "websiteUrl": "http://www.ktu.nl/",
+    "foundedYear": 1967,
+    "wikidataId": "Q2725923",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Delft University of Technology",
+    "country": "Netherlands",
+    "city": "Delft",
+    "websiteUrl": "https://www.tudelft.nl/",
+    "foundedYear": 1842,
+    "wikidataId": "Q752663",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Eindhoven University of Technology",
+    "country": "Netherlands",
+    "city": "Eindhoven",
+    "websiteUrl": "http://www.tue.nl",
+    "foundedYear": 1956,
+    "wikidataId": "Q280824",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Erasmus University College",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "http://www.eur.nl/euc/",
+    "foundedYear": 2013,
+    "wikidataId": "Q18712206",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Erasmus University Rotterdam",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "websiteUrl": "http://www.eur.nl/",
+    "foundedYear": 1913,
+    "wikidataId": "Q633529",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Islamic University of Rotterdam",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "websiteUrl": "http://www.islamicuniversity.nl",
+    "foundedYear": 1997,
+    "wikidataId": "Q2210297",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Katholieke Theologische Universiteit Amsterdam",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q61693369",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Leiden University",
+    "country": "Netherlands",
+    "city": "Leiden",
+    "websiteUrl": "https://www.universiteitleiden.nl/",
+    "foundedYear": 1575,
+    "wikidataId": "Q156598",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Maastricht School of Translation and Interpreting",
+    "country": "Netherlands",
+    "city": "Maastricht",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q18698369",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Maastricht University",
+    "country": "Netherlands",
+    "city": "Maastricht",
+    "websiteUrl": "https://www.maastrichtuniversity.nl/",
+    "foundedYear": 1976,
+    "wikidataId": "Q1137652",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National Horticulture Winter School in Aalsmeer",
+    "country": "Netherlands",
+    "city": "Aalsmeer",
+    "websiteUrl": "",
+    "foundedYear": 1897,
+    "wikidataId": "Q107138157",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nederlandsche Economische Hoogeschool",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "websiteUrl": "",
+    "foundedYear": 1939,
+    "wikidataId": "Q125458709",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nederlandsche Handels-Hoogeschool",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "websiteUrl": "",
+    "foundedYear": 1913,
+    "wikidataId": "Q125458636",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nyenrode Business University",
+    "country": "Netherlands",
+    "city": "Stichtse Vecht",
+    "websiteUrl": "https://www.nyenrode.nl/",
+    "foundedYear": 1946,
+    "wikidataId": "Q1516779",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Open University of the Netherlands",
+    "country": "Netherlands",
+    "city": "Heerlen",
+    "websiteUrl": "https://www.ou.nl/",
+    "foundedYear": 1984,
+    "wikidataId": "Q1407397",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnical School in Delft",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1864,
+    "wikidataId": "Q56587288",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Protestant Theological University",
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "websiteUrl": "http://www.pthu.nl/",
+    "foundedYear": 1854,
+    "wikidataId": "Q1960654",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Protestantse Theologische Universiteit vestiging Kampen",
+    "country": "Netherlands",
+    "city": "Kampen",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q131300438",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Radboud University",
+    "country": "Netherlands",
+    "city": "Nijmegen",
+    "websiteUrl": "https://www.ru.nl/",
+    "foundedYear": 1923,
+    "wikidataId": "Q632004",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Netherlands Naval College",
+    "country": "Netherlands",
+    "city": "Den Helder",
+    "websiteUrl": "http://www.kim.nl/",
+    "foundedYear": 1829,
+    "wikidataId": "Q2329924",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Saba University School of Medicine",
+    "country": "Netherlands",
+    "city": "Saba",
+    "websiteUrl": "http://www.saba.edu",
+    "foundedYear": 1986,
+    "wikidataId": "Q2105549",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Sioo",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "https://sioo.nl/",
+    "foundedYear": null,
+    "wikidataId": "Q1921348",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Temporary Academy",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q1915550",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Theological University of the Reformed Churches",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "https://tuu.nl/",
+    "foundedYear": 1854,
+    "wikidataId": "Q2347687",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tilburg University",
+    "country": "Netherlands",
+    "city": "Tilburg",
+    "websiteUrl": "https://www.tilburguniversity.edu/",
+    "foundedYear": 1927,
+    "wikidataId": "Q595668",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Amsterdam",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "websiteUrl": "https://www.uva.nl/",
+    "foundedYear": 1632,
+    "wikidataId": "Q214341",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Franeker",
+    "country": "Netherlands",
+    "city": "Franekeradeel",
+    "websiteUrl": "",
+    "foundedYear": 1585,
+    "wikidataId": "Q1293929",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Groningen",
+    "country": "Netherlands",
+    "city": "Groningen",
+    "websiteUrl": "https://www.rug.nl/",
+    "foundedYear": 1614,
+    "wikidataId": "Q850730",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Harderwijk",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1648,
+    "wikidataId": "Q1816221",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Humanistic Studies",
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "websiteUrl": "http://www.uvh.nl/english",
+    "foundedYear": 1989,
+    "wikidataId": "Q1711630",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Nijmegen",
+    "country": "Netherlands",
+    "city": "Nijmegen",
+    "websiteUrl": "",
+    "foundedYear": 1655,
+    "wikidataId": "Q2291320",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Twente",
+    "country": "Netherlands",
+    "city": "Enschede",
+    "websiteUrl": "https://www.utwente.nl",
+    "foundedYear": 1961,
+    "wikidataId": "Q1547084",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Utrecht University",
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "websiteUrl": "https://www.uu.nl/",
+    "foundedYear": 1636,
+    "wikidataId": "Q221653",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "websiteUrl": "https://vu.nl",
+    "foundedYear": 1880,
+    "wikidataId": "Q1065414",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "https://www.wur.nl/",
+    "foundedYear": 1876,
+    "wikidataId": "Q422208",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Webster Leiden",
+    "country": "Netherlands",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q7978936",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Webster University Leiden",
+    "country": "Netherlands",
+    "city": "Leiden",
+    "websiteUrl": "https://www.webster.nl/",
+    "foundedYear": 2012,
+    "wikidataId": "Q125130023",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Fine Arts Vienna",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "https://www.akbild.ac.at/",
+    "foundedYear": 1692,
+    "wikidataId": "Q414219",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alma Mater Europaea",
+    "country": "Austria",
+    "city": "Maribor City Municipality",
+    "websiteUrl": "https://almamater.at/",
+    "foundedYear": 2010,
+    "wikidataId": "Q14594755",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Anton Bruckner Private University",
+    "country": "Austria",
+    "city": "Linz",
+    "websiteUrl": "https://www.bruckneruni.at/",
+    "foundedYear": 1823,
+    "wikidataId": "Q461551",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Arenberg Castle, Salzburg",
+    "country": "Austria",
+    "city": "Salzburg",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q2240079",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bischöfliches Seminar Melk",
+    "country": "Austria",
+    "city": "Melk",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q866260",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bogenhofen Seminary",
+    "country": "Austria",
+    "city": "Sankt Peter am Hart",
+    "websiteUrl": "http://www.bogenhofen.at/",
+    "foundedYear": 1949,
+    "wikidataId": "Q2269169",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Caesareum Societatis Jesu Collegium Viennense",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q116710545",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic Private University Linz",
+    "country": "Austria",
+    "city": "Linz",
+    "websiteUrl": "http://www.ku-linz.at",
+    "foundedYear": 1672,
+    "wikidataId": "Q179640",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Central European University",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "https://www.ceu.edu",
+    "foundedYear": 1991,
+    "wikidataId": "Q757391",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Collegium Canisianum",
+    "country": "Austria",
+    "city": "Innsbruck",
+    "websiteUrl": "",
+    "foundedYear": 1910,
+    "wikidataId": "Q686153",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Danube Private University",
+    "country": "Austria",
+    "city": "Krems",
+    "websiteUrl": "http://www.danube-private-university.at/",
+    "foundedYear": 2009,
+    "wikidataId": "Q1165104",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "European Peace University",
+    "country": "Austria",
+    "city": "Stadtschlaining",
+    "websiteUrl": "http://www.epu.ac.at/epu/",
+    "foundedYear": 1988,
+    "wikidataId": "Q875466",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Catholic Theology, University of Vienna",
+    "country": "Austria",
+    "city": "",
+    "websiteUrl": "http://ktfw.univie.ac.at",
+    "foundedYear": 1384,
+    "wikidataId": "Q1736314",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Law of the University of Graz",
+    "country": "Austria",
+    "city": "Graz",
+    "websiteUrl": "https://rewi.uni-graz.at/",
+    "foundedYear": 1778,
+    "wikidataId": "Q71147627",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Gaming Charterhouse",
+    "country": "Austria",
+    "city": "Gaming",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q668023",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Graz University of Technology",
+    "country": "Austria",
+    "city": "Graz",
+    "websiteUrl": "https://www.tugraz.at/",
+    "foundedYear": 1811,
+    "wikidataId": "Q689775",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Heiligenkreuz Abbey",
+    "country": "Austria",
+    "city": "Heiligenkreuz",
+    "websiteUrl": "",
+    "foundedYear": 1101,
+    "wikidataId": "Q697221",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Higher Scientific Institute for Diocesan Priests at St. Augustine's",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "",
+    "foundedYear": 1816,
+    "wikidataId": "Q447216",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ITU – Interdisciplinary Transformation University Austria",
+    "country": "Austria",
+    "city": "Linz",
+    "websiteUrl": "https://it-u.at/",
+    "foundedYear": 2022,
+    "wikidataId": "Q115669377",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Imadec Executive Education",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "http://www.imadec.eu/",
+    "foundedYear": 1991,
+    "wikidataId": "Q1654084",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Imperial and Royal Naval Academy",
+    "country": "Austria",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1866,
+    "wikidataId": "Q833084",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Johannes Kepler University Linz",
+    "country": "Austria",
+    "city": "Linz",
+    "websiteUrl": "https://www.jku.at/",
+    "foundedYear": 1966,
+    "wikidataId": "Q682739",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Joseph Haydn Konservatorium, Eisenstadt",
+    "country": "Austria",
+    "city": "Eisenstadt",
+    "websiteUrl": "http://www.haydnkons.at",
+    "foundedYear": 1971,
+    "wikidataId": "Q1706345",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Karl Landsteiner University of Health Sciences",
+    "country": "Austria",
+    "city": "Krems",
+    "websiteUrl": "http://www.kl.ac.at/",
+    "foundedYear": 2013,
+    "wikidataId": "Q16511227",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kriegsschule",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "",
+    "foundedYear": 1852,
+    "wikidataId": "Q1621721",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Graz",
+    "country": "Austria",
+    "city": "Styria",
+    "websiteUrl": "http://www.medunigraz.at",
+    "foundedYear": 2004,
+    "wikidataId": "Q872543",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Innsbruck",
+    "country": "Austria",
+    "city": "Innsbruck",
+    "websiteUrl": "https://www.i-med.ac.at/",
+    "foundedYear": 2004,
+    "wikidataId": "Q686772",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Vienna",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "https://www.meduniwien.ac.at/",
+    "foundedYear": 2004,
+    "wikidataId": "Q700731",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Modul University Vienna",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "https://www.modul.ac.at/",
+    "foundedYear": 2007,
+    "wikidataId": "Q872071",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mozarteum University Salzburg",
+    "country": "Austria",
+    "city": "Salzburg",
+    "websiteUrl": "http://www.uni-mozarteum.at/",
+    "foundedYear": 1841,
+    "wikidataId": "Q871369",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Music and Arts University of the City of Vienna",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "https://muk.ac.at",
+    "foundedYear": 1938,
+    "wikidataId": "Q876640",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "New Design University St. Pölten",
+    "country": "Austria",
+    "city": "St. Pölten",
+    "websiteUrl": "http://www.ndu.ac.at/",
+    "foundedYear": 2004,
+    "wikidataId": "Q1448536",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Philosophisch-Theologische Hochschule Heiligenkreuz",
+    "country": "Austria",
+    "city": "Heiligenkreuz",
+    "websiteUrl": "http://www.hochschule-heiligenkreuz.at/",
+    "foundedYear": 2007,
+    "wikidataId": "Q2088264",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Philosophisch-Theologische Hochschule St. Pölten",
+    "country": "Austria",
+    "city": "St. Pölten",
+    "websiteUrl": "http://www.pth-stpoelten.at/",
+    "foundedYear": 1971,
+    "wikidataId": "Q2088274",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Priesterseminar Leopoldinum",
+    "country": "Austria",
+    "city": "Heiligenkreuz",
+    "websiteUrl": "",
+    "foundedYear": 1976,
+    "wikidataId": "Q2109607",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pázmáneum",
+    "country": "Austria",
+    "city": "Vienna",
+    "websiteUrl": "",
+    "foundedYear": 1623,
+    "wikidataId": "Q639417",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"Horthy Miklós\" Air Force Academy",
+    "country": "Hungary",
+    "city": "Košice",
+    "websiteUrl": "",
+    "foundedYear": 1939,
+    "wikidataId": "Q137383782",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Albert Szent-Györgyi University of Medicine",
+    "country": "Hungary",
+    "city": "Szeged",
+    "websiteUrl": "",
+    "foundedYear": 1951,
+    "wikidataId": "Q61052428",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Andrássy University Budapest",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://www.andrassyuni.eu/",
+    "foundedYear": 2002,
+    "wikidataId": "Q281572",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aquincum Institute of Technology",
+    "country": "Hungary",
+    "city": "Budapest District III",
+    "websiteUrl": "http://www.ait-budapest.com/",
+    "foundedYear": 2011,
+    "wikidataId": "Q4783001",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Baptist Theological Seminary",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://www.bta.hu/",
+    "foundedYear": null,
+    "wikidataId": "Q790104",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Budapest Business University",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://uni-bge.hu/",
+    "foundedYear": 1857,
+    "wikidataId": "Q573061",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Budapest Metropolitan University",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://www.metropolitan.hu/",
+    "foundedYear": 2001,
+    "wikidataId": "Q851175",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Budapest Semesters in Mathematics",
+    "country": "Hungary",
+    "city": "Budapest District VII",
+    "websiteUrl": "http://www.bsmath.hu/",
+    "foundedYear": 1985,
+    "wikidataId": "Q850996",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Budapest University of Jewish Studies",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://or-zse.hu/",
+    "foundedYear": 1877,
+    "wikidataId": "Q285382",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Budapest University of Technology and Economics",
+    "country": "Hungary",
+    "city": "Budapest District XI",
+    "websiteUrl": "https://bme.hu",
+    "foundedYear": 1782,
+    "wikidataId": "Q1186843",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Corvinus University of Budapest",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://uni-corvinus.hu/",
+    "foundedYear": 1920,
+    "wikidataId": "Q851164",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Debrecen Reformed Theological University",
+    "country": "Hungary",
+    "city": "Debrecen",
+    "websiteUrl": "http://drhe.hu/index.php?lang=en",
+    "foundedYear": 1538,
+    "wikidataId": "Q693351",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Debrecen University of Agrarian Sciences",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1970,
+    "wikidataId": "Q59386645",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Edutus University",
+    "country": "Hungary",
+    "city": "Tatabánya",
+    "websiteUrl": "http://www.edutus.hu/",
+    "foundedYear": 1990,
+    "wikidataId": "Q987722",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Eszterházy Károly Catholic University",
+    "country": "Hungary",
+    "city": "Eger",
+    "websiteUrl": "https://uni-eszterhazy.hu/",
+    "foundedYear": 1774,
+    "wikidataId": "Q991872",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Eötvös Loránd University",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://www.elte.hu/",
+    "foundedYear": 1635,
+    "wikidataId": "Q390287",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Agricultural and Food Sciences, Széchenyi István University",
+    "country": "Hungary",
+    "city": "Mosonmagyaróvár",
+    "websiteUrl": "https://ovarikar.sze.hu/",
+    "foundedYear": 1818,
+    "wikidataId": "Q25457344",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Franz Liszt Academy of Music",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://www.zeneakademia.hu/",
+    "foundedYear": 1875,
+    "wikidataId": "Q847099",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Gál Ferenc University",
+    "country": "Hungary",
+    "city": "Szeged",
+    "websiteUrl": "",
+    "foundedYear": 1930,
+    "wikidataId": "Q27994491",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Gödöllő University of Agricultural Sciences",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "http://www.gau.hu",
+    "foundedYear": 1948,
+    "wikidataId": "Q1031477",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Haynal Imre University of Health Sciences",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1956,
+    "wikidataId": "Q59773310",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hungarian Dance Academy",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://mte.eu/",
+    "foundedYear": 1950,
+    "wikidataId": "Q15148601",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hungarian University of Agriculture and Life Sciences",
+    "country": "Hungary",
+    "city": "Gödöllő",
+    "websiteUrl": "https://www.uni-mate.hu/",
+    "foundedYear": 2000,
+    "wikidataId": "Q1296434",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hungarian University of Fine Arts",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "https://www.mke.hu/",
+    "foundedYear": 1871,
+    "wikidataId": "Q844153",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hungarian University of Sports Science",
+    "country": "Hungary",
+    "city": "Budapest District XII",
+    "websiteUrl": "https://tf.hu/",
+    "foundedYear": 1925,
+    "wikidataId": "Q1287034",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "John von Neumann University",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "http://www.uni-neumann.hu",
+    "foundedYear": 2000,
+    "wikidataId": "Q1105954",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kalazantinum",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://kal.piar.hu/",
+    "foundedYear": 1894,
+    "wikidataId": "Q1103425",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Keszthely Agricultural University",
+    "country": "Hungary",
+    "city": "Keszthely",
+    "websiteUrl": "",
+    "foundedYear": 1962,
+    "wikidataId": "Q61943560",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kodolányi János University",
+    "country": "Hungary",
+    "city": "Székesfehérvár",
+    "websiteUrl": "http://www.kodolanyi.hu/",
+    "foundedYear": 1992,
+    "wikidataId": "Q1114851",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Károli Gáspár University of the Reformed Church in Hungary",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://www.kre.hu/english/",
+    "foundedYear": 1855,
+    "wikidataId": "Q1123379",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ludovica Military Academy",
+    "country": "Hungary",
+    "city": "Budapest District VIII",
+    "websiteUrl": "",
+    "foundedYear": 1808,
+    "wikidataId": "Q592537",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lutheran Theological University",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://uni.lutheran.hu",
+    "foundedYear": 1557,
+    "wikidataId": "Q240041",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "McDaniel College Budapest",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "http://mcdaniel.hu",
+    "foundedYear": 1993,
+    "wikidataId": "Q20439228",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Debrecen",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1951,
+    "wikidataId": "Q61268750",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Pécs",
+    "country": "Hungary",
+    "city": "Pécs",
+    "websiteUrl": "",
+    "foundedYear": 1951,
+    "wikidataId": "Q61187321",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Milton Friedman University",
+    "country": "Hungary",
+    "city": "Budapest District III",
+    "websiteUrl": "https://uni-milton.hu/",
+    "foundedYear": 2001,
+    "wikidataId": "Q27915871",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Moholy-Nagy University of Art and Design",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://mome.hu/",
+    "foundedYear": 1870,
+    "wikidataId": "Q718311",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National University of Public Service",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://www.uni-nke.hu/",
+    "foundedYear": 2012,
+    "wikidataId": "Q12815487",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pentecostal Theological College",
+    "country": "Hungary",
+    "city": "",
+    "websiteUrl": "https://ptf.hu/",
+    "foundedYear": 1991,
+    "wikidataId": "Q55454278",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Police College",
+    "country": "Hungary",
+    "city": "Budapest District XII",
+    "websiteUrl": "",
+    "foundedYear": 1971,
+    "wikidataId": "Q60535053",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pázmány Péter Catholic University",
+    "country": "Hungary",
+    "city": "Budapest",
+    "websiteUrl": "https://ppke.hu/",
+    "foundedYear": 1635,
+    "wikidataId": "Q255285",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pázmány Péter Catholic University Faculty of Theology",
+    "country": "Hungary",
+    "city": "Trnava",
+    "websiteUrl": "https://htk.ppke.hu/",
+    "foundedYear": 1635,
+    "wikidataId": "Q1242703",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ARCHIP",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "http://www.archip.eu",
+    "foundedYear": 2010,
+    "wikidataId": "Q4653605",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Performing Arts",
+    "country": "Czech Republic",
+    "city": "Malá Strana",
+    "websiteUrl": "http://www.amu.cz/",
+    "foundedYear": 1945,
+    "wikidataId": "Q414221",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ambis University",
+    "country": "Czech Republic",
+    "city": "",
+    "websiteUrl": "https://www.ambis.cz",
+    "foundedYear": 1994,
+    "wikidataId": "Q11046731",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Anglo-American University",
+    "country": "Czech Republic",
+    "city": "",
+    "websiteUrl": "https://www.aauni.edu/",
+    "foundedYear": 2000,
+    "wikidataId": "Q4763585",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Brno University of Technology",
+    "country": "Czech Republic",
+    "city": "Veveří",
+    "websiteUrl": "https://www.vut.cz/",
+    "foundedYear": 1899,
+    "wikidataId": "Q1122171",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic Theological Faculty of Charles University",
+    "country": "Czech Republic",
+    "city": "Dejvice",
+    "websiteUrl": "http://www.ktf.cuni.cz/",
+    "foundedYear": null,
+    "wikidataId": "Q12028998",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Charles University",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "https://cuni.cz",
+    "foundedYear": 1348,
+    "wikidataId": "Q31519",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Cyrilometodějská teologická fakulta Univerzity Palackého",
+    "country": "Czech Republic",
+    "city": "Olomouc",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q38040441",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Czech College",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "",
+    "foundedYear": 2013,
+    "wikidataId": "Q18150319",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Czech Technical University in Prague",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "https://www.cvut.cz/",
+    "foundedYear": 1707,
+    "wikidataId": "Q1329478",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Czech University of Life Sciences Prague",
+    "country": "Czech Republic",
+    "city": "",
+    "websiteUrl": "http://www.czu.cz/en/",
+    "foundedYear": 1952,
+    "wikidataId": "Q1460141",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "German University in Prague",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "",
+    "foundedYear": 1882,
+    "wikidataId": "Q1729754",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Horní 152 (Český Krumlov)",
+    "country": "Czech Republic",
+    "city": "Vnitřní Město",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q31205175",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jan Evangelista Purkyně University in Ústí nad Labem",
+    "country": "Czech Republic",
+    "city": "Ústí nad Labem",
+    "websiteUrl": "http://www.ujep.cz",
+    "foundedYear": 1991,
+    "wikidataId": "Q637099",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Janáček Academy of Music and Performing Arts",
+    "country": "Czech Republic",
+    "city": "Brno",
+    "websiteUrl": "https://www.jamu.cz",
+    "foundedYear": 1947,
+    "wikidataId": "Q1683103",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit College (Telč)",
+    "country": "Czech Republic",
+    "city": "Vnitřní Město",
+    "websiteUrl": "",
+    "foundedYear": 1651,
+    "wikidataId": "Q24877538",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit College and Church of Saint Ignatius",
+    "country": "Czech Republic",
+    "city": "Chomutov",
+    "websiteUrl": "",
+    "foundedYear": 1589,
+    "wikidataId": "Q12024650",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit College in Kutná Hora",
+    "country": "Czech Republic",
+    "city": "Kutná Hora-Vnitřní Město",
+    "websiteUrl": "",
+    "foundedYear": 2000,
+    "wikidataId": "Q6731222",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit college building in Olomouc",
+    "country": "Czech Republic",
+    "city": "Olomouc",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q12024652",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit college in Brno",
+    "country": "Czech Republic",
+    "city": "Brno-město",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q99979178",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit college in Jičín",
+    "country": "Czech Republic",
+    "city": "Jičín",
+    "websiteUrl": "",
+    "foundedYear": 1628,
+    "wikidataId": "Q87293493",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit college in Litoměřice",
+    "country": "Czech Republic",
+    "city": "Litoměřice",
+    "websiteUrl": "",
+    "foundedYear": 1001,
+    "wikidataId": "Q12024653",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit college in Český Krumlov",
+    "country": "Czech Republic",
+    "city": "Vnitřní Město",
+    "websiteUrl": "",
+    "foundedYear": 1586,
+    "wikidataId": "Q36861808",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit collegium",
+    "country": "Czech Republic",
+    "city": "Jihlava",
+    "websiteUrl": "",
+    "foundedYear": 1625,
+    "wikidataId": "Q93434634",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jesuit seminary in Telč",
+    "country": "Czech Republic",
+    "city": "Vnitřní Město",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q38147459",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jezuitská kolej Karlovo náměstí",
+    "country": "Czech Republic",
+    "city": "New Town",
+    "websiteUrl": "",
+    "foundedYear": 1658,
+    "wikidataId": "Q48621698",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Masaryk University",
+    "country": "Czech Republic",
+    "city": "Brno-město",
+    "websiteUrl": "https://www.muni.cz",
+    "foundedYear": 1919,
+    "wikidataId": "Q763586",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mendel University in Brno",
+    "country": "Czech Republic",
+    "city": "",
+    "websiteUrl": "https://mendelu.cz",
+    "foundedYear": 1919,
+    "wikidataId": "Q1783765",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Metropolitan University Prague",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "http://www.mup.cz/",
+    "foundedYear": 2001,
+    "wikidataId": "Q1814883",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military University of the Ground Forces in Vyškov",
+    "country": "Czech Republic",
+    "city": "Vyškov",
+    "websiteUrl": "",
+    "foundedYear": 1972,
+    "wikidataId": "Q51884711",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Neisse University",
+    "country": "Czech Republic",
+    "city": "Liberec",
+    "websiteUrl": "http://www.neisse-uni.org/",
+    "foundedYear": 2001,
+    "wikidataId": "Q368271",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Palacký University Olomouc",
+    "country": "Czech Republic",
+    "city": "Olomouc",
+    "websiteUrl": "http://www.upol.cz/en/",
+    "foundedYear": 1573,
+    "wikidataId": "Q1637611",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Police Academy of the Czech Republic",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "websiteUrl": "http://www.polac.cz/",
+    "foundedYear": 1993,
+    "wikidataId": "Q2101681",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Prague University of Economics and Business",
+    "country": "Czech Republic",
+    "city": "Žižkov",
+    "websiteUrl": "https://www.vse.cz/",
+    "foundedYear": 1919,
+    "wikidataId": "Q1063665",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Saints Cyril and Methodius Faculty of Theology of Palacký University, Olomouc",
+    "country": "Czech Republic",
+    "city": "Olomouc",
+    "websiteUrl": "http://www.cmtf.upol.cz/",
+    "foundedYear": null,
+    "wikidataId": "Q13221599",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Silesian University in Opava",
+    "country": "Czech Republic",
+    "city": "Opava",
+    "websiteUrl": "http://www.slu.cz/",
+    "foundedYear": 1991,
+    "wikidataId": "Q354333",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Liberec",
+    "country": "Czech Republic",
+    "city": "Liberec",
+    "websiteUrl": "http://www.tul.cz/",
+    "foundedYear": 1953,
+    "wikidataId": "Q1291752",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tomas Baťa University in Zlín",
+    "country": "Czech Republic",
+    "city": "Zlín",
+    "websiteUrl": "http://web.utb.cz/",
+    "foundedYear": 2001,
+    "wikidataId": "Q1267725",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "AGH University of Science and Technology",
+    "country": "Poland",
+    "city": "Kraków",
+    "websiteUrl": "https://www.agh.edu.pl/",
+    "foundedYear": 1913,
+    "wikidataId": "Q414245",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Economics in Białystok",
+    "country": "Poland",
+    "city": "Białystok",
+    "websiteUrl": "https://www.wse.edu.pl/",
+    "foundedYear": 1996,
+    "wikidataId": "Q4671449",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Fine Arts In Łódź",
+    "country": "Poland",
+    "city": "Bałuty-Doły",
+    "websiteUrl": "http://www.asp.lodz.pl/",
+    "foundedYear": 1945,
+    "wikidataId": "Q2822382",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Management and Administration in Opole",
+    "country": "Poland",
+    "city": "Opole",
+    "websiteUrl": "https://www.wszia.opole.pl/",
+    "foundedYear": 1996,
+    "wikidataId": "Q9380867",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Sport Education",
+    "country": "Poland",
+    "city": "Warsaw",
+    "websiteUrl": "https://www.ews.edu.pl",
+    "foundedYear": 2002,
+    "wikidataId": "Q9380730",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Tourism and Hotel Management in Gdansk",
+    "country": "Poland",
+    "city": "Gdańsk",
+    "websiteUrl": "http://wstih.pl/",
+    "foundedYear": 1996,
+    "wikidataId": "Q9380855",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Adam Mickiewicz University in Poznań",
+    "country": "Poland",
+    "city": "Poznań",
+    "websiteUrl": "http://www.amu.edu.pl/",
+    "foundedYear": 1919,
+    "wikidataId": "Q348402",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural University of Kraków",
+    "country": "Poland",
+    "city": "Kraków",
+    "websiteUrl": "https://urk.edu.pl/",
+    "foundedYear": 1953,
+    "wikidataId": "Q1804769",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural University of Szczecin",
+    "country": "Poland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1954,
+    "wikidataId": "Q2822281",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Akademia Lospuma Training Institute",
+    "country": "Poland",
+    "city": "Jaworzno",
+    "websiteUrl": "http://www.alp.edu.pl/",
+    "foundedYear": 2012,
+    "wikidataId": "Q19870575",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Akademia Podlaska w Białymstoku – Akademia Nauk Stosowanych",
+    "country": "Poland",
+    "city": "Białystok",
+    "websiteUrl": "https://apwb.pl/",
+    "foundedYear": 1996,
+    "wikidataId": "Q7031784",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alcide De Gasperi University of Euroregional Economy in Józefów",
+    "country": "Poland",
+    "city": "Józefów",
+    "websiteUrl": "https://wsge.edu.pl/",
+    "foundedYear": 2002,
+    "wikidataId": "Q30257236",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Almamer University",
+    "country": "Poland",
+    "city": "Warsaw",
+    "websiteUrl": "",
+    "foundedYear": 1994,
+    "wikidataId": "Q9137142",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Saumur",
+    "country": "France",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1599,
+    "wikidataId": "Q1215328",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Académie de Die",
+    "country": "France",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1604,
+    "wikidataId": "Q2822296",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Académie militaire de la Gendarmerie nationale",
+    "country": "France",
+    "city": "Melun",
+    "websiteUrl": "https://www.gendarmerie.interieur.gouv.fr/eogn/",
+    "foundedYear": 1918,
+    "wikidataId": "Q8077979",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Adventist University of France – Collonges",
+    "country": "France",
+    "city": "Collonges-sous-Salève",
+    "websiteUrl": "https://www.campusadventiste.edu/",
+    "foundedYear": 1921,
+    "wikidataId": "Q2935621",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "AgroParisTech, Paris-Saclay University",
+    "country": "France",
+    "city": "",
+    "websiteUrl": "http://www.agroparistech.fr/",
+    "foundedYear": 2007,
+    "wikidataId": "Q1637105",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aix University",
+    "country": "France",
+    "city": "Aix-en-Provence",
+    "websiteUrl": "",
+    "foundedYear": 1409,
+    "wikidataId": "Q26857409",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aix-Marseille University",
+    "country": "France",
+    "city": "",
+    "websiteUrl": "https://www.univ-amu.fr/",
+    "foundedYear": 2012,
+    "wikidataId": "Q2302586",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aix-Marseille University (1896-1971)",
+    "country": "France",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1896,
+    "wikidataId": "Q21592577",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aix-Marseille University Faculty of Sciences",
+    "country": "France",
+    "city": "Marseille",
+    "websiteUrl": "http://sciences.univ-amu.fr",
+    "foundedYear": 2012,
+    "wikidataId": "Q3064322",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ALTIS – Postgraduate School Business & Society",
+    "country": "Italy",
+    "city": "Milan",
+    "websiteUrl": "http://altis.unicatt.it/",
+    "foundedYear": 2005,
+    "wikidataId": "Q4652448",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Fine Arts, Verona",
+    "country": "Italy",
+    "city": "Verona",
+    "websiteUrl": "http://www.accademiabelleartiverona.it/",
+    "foundedYear": 1764,
+    "wikidataId": "Q4671475",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia Aeronautica",
+    "country": "Italy",
+    "city": "Caserta",
+    "websiteUrl": "http://www.aeronautica.difesa.it/organizzazione/AccademiaScuoleIstitutiFormazione/Pagine/AccademiaAeronautica.aspx",
+    "foundedYear": 1923,
+    "wikidataId": "Q1875913",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia Albertina",
+    "country": "Italy",
+    "city": "Turin",
+    "websiteUrl": "https://albertina-academy.it/",
+    "foundedYear": 1678,
+    "wikidataId": "Q1168859",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia Nazionale d'Arte Drammatica Silvio D'Amico",
+    "country": "Italy",
+    "city": "Rome",
+    "websiteUrl": "http://www.accademiasilviodamico.it/",
+    "foundedYear": 1936,
+    "wikidataId": "Q2822439",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia di Belle Arti di Perugia",
+    "country": "Italy",
+    "city": "Perugia",
+    "websiteUrl": "http://www.abaperugia.org",
+    "foundedYear": 1573,
+    "wikidataId": "Q3604024",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia di Belle Arti di Venezia",
+    "country": "Italy",
+    "city": "Venice",
+    "websiteUrl": "http://www.accademiavenezia.it",
+    "foundedYear": 1750,
+    "wikidataId": "Q338505",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia di belle arti europea dei media",
+    "country": "Italy",
+    "city": "Milan",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q3604040",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia italiana",
+    "country": "Italy",
+    "city": "Florence",
+    "websiteUrl": "http://www.accademiaitaliana.com/italian-school.php",
+    "foundedYear": 1984,
+    "wikidataId": "Q14539971",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Accademia italiana della marina mercantile",
+    "country": "Italy",
+    "city": "Genoa",
+    "websiteUrl": "https://accademiamarinamercantile.it/",
+    "foundedYear": null,
+    "wikidataId": "Q3604049",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Almo Collegio Capranica",
+    "country": "Italy",
+    "city": "Rome",
+    "websiteUrl": "",
+    "foundedYear": 1457,
+    "wikidataId": "Q528019",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alta Scuola Politecnica",
+    "country": "Italy",
+    "city": "",
+    "websiteUrl": "https://www.asp-poli.it/",
+    "foundedYear": null,
+    "wikidataId": "Q3613070",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American University of Rome",
+    "country": "Italy",
+    "city": "Rome",
+    "websiteUrl": "http://www.aur.edu/",
+    "foundedYear": 1969,
+    "wikidataId": "Q469446",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aosta Valley University",
+    "country": "Italy",
+    "city": "Aosta",
+    "websiteUrl": "https://www.univda.it",
+    "foundedYear": 2000,
+    "wikidataId": "Q2319621",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Archiepiscopal Major Seminary of Florence",
+    "country": "Italy",
+    "city": "Florence",
+    "websiteUrl": "http://www.seminariofirenze.it",
+    "foundedYear": null,
+    "wikidataId": "Q3955034",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Archiepiscopal seminary of Milan",
+    "country": "Italy",
+    "city": "Venegono Inferiore",
+    "websiteUrl": "https://www.seminario.milano.it/",
+    "foundedYear": null,
+    "wikidataId": "Q1470949",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Belgian Pontifical College",
+    "country": "Italy",
+    "city": "Rome",
+    "websiteUrl": "",
+    "foundedYear": 1884,
+    "wikidataId": "Q763499",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Betar Naval Academy",
+    "country": "Italy",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1934,
+    "wikidataId": "Q4897364",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bocconi University",
+    "country": "Italy",
+    "city": "Milan",
+    "websiteUrl": "https://www.unibocconi.it",
+    "foundedYear": 1902,
+    "wikidataId": "Q959524",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CUOA Foundation",
+    "country": "Italy",
+    "city": "Altavilla Vicentina",
+    "websiteUrl": "http://www.cuoa.it",
+    "foundedYear": 1957,
+    "wikidataId": "Q3747151",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ca' Foscari University of Venice",
+    "country": "Italy",
+    "city": "Venice",
+    "websiteUrl": "https://www.unive.it",
+    "foundedYear": 1868,
+    "wikidataId": "Q1546906",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Campus Bio Medico University of Rome",
+    "country": "Italy",
+    "city": "Rome",
+    "websiteUrl": "https://www.unicampus.it",
+    "foundedYear": 1991,
+    "wikidataId": "Q1440288",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Caserma della Scuola allievi ufficiali dei Carabinieri",
+    "country": "Italy",
+    "city": "Florence",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q3953237",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of the Sacred Heart",
+    "country": "Italy",
+    "city": "Milan",
+    "websiteUrl": "http://www.unicatt.it/ucsc.asp",
+    "foundedYear": 1921,
+    "wikidataId": "Q229022",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centre for Studies on Federalism",
+    "country": "Italy",
+    "city": "Turin",
+    "websiteUrl": "http://www.csfederalismo.it/index.php/en",
+    "foundedYear": 2000,
+    "wikidataId": "Q1054341",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro di studi teologici Germano Pattaro",
+    "country": "Italy",
+    "city": "Venice",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q118833432",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro socio-pastorale Cardinal Ferrari",
+    "country": "Italy",
+    "city": "Como",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q3955043",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Cignaroli Academy and Brenzoni School of Painting and Sculpture",
+    "country": "Italy",
+    "city": "Verona",
+    "websiteUrl": "",
+    "foundedYear": 1764,
+    "wikidataId": "Q125459962",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Civica Accademia d'arte drammatica Nico Pepe",
+    "country": "Italy",
+    "city": "Udine",
+    "websiteUrl": "https://www.nicopepe.it/",
+    "foundedYear": 1981,
+    "wikidataId": "Q137995366",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Claudiana",
+    "country": "Italy",
+    "city": "Bolzano",
+    "websiteUrl": "http://www.claudiana.bz.it",
+    "foundedYear": 1993,
+    "wikidataId": "Q3679899",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Collegio Alberoni",
+    "country": "Italy",
+    "city": "Piacenza",
+    "websiteUrl": "http://www.collegioalberoni.it",
+    "foundedYear": 1750,
+    "wikidataId": "Q200736",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Collegio Apostolico Leoniano",
+    "country": "Italy",
+    "city": "Anagni",
+    "websiteUrl": "http://www.leoniano.it",
+    "foundedYear": 1897,
+    "wikidataId": "Q3908286",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Collegio Carlo Alberto",
+    "country": "Italy",
+    "city": "Turin",
+    "websiteUrl": "http://www.carloalberto.org/",
+    "foundedYear": 2004,
+    "wikidataId": "Q3682946",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Collegio Gallio",
+    "country": "Italy",
+    "city": "Como",
+    "websiteUrl": "https://www.collegiogallio.it",
+    "foundedYear": null,
+    "wikidataId": "Q3908284",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Abat Oliba CEU University",
+    "country": "Spain",
+    "city": "Sant Gervasi-la Bonanova",
+    "websiteUrl": "https://www.uaoceu.es/ca",
+    "foundedYear": 1973,
+    "wikidataId": "Q3326342",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia Básica del Aire y del Espacio",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q5655609",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia General del Aire",
+    "country": "Spain",
+    "city": "San Javier",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q5655641",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia Militar de Sevilla",
+    "country": "Spain",
+    "city": "Seville Province",
+    "websiteUrl": "",
+    "foundedYear": 1809,
+    "wikidataId": "Q5655690",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia Militar de Ávila",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1875,
+    "wikidataId": "Q28503068",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia de Artillería de Alcalá de Henares",
+    "country": "Spain",
+    "city": "Alcalá de Henares",
+    "websiteUrl": "",
+    "foundedYear": 1830,
+    "wikidataId": "Q114216127",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia de Caballería de Valladolid",
+    "country": "Spain",
+    "city": "Valladolid",
+    "websiteUrl": "http://www.ejercito.mde.es/unidades/Valladolid/acab/",
+    "foundedYear": 1852,
+    "wikidataId": "Q5655783",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia de Mandos Legionarios",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1981,
+    "wikidataId": "Q110372079",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Military Engineering of Alcalá de Henares",
+    "country": "Spain",
+    "city": "Alcalá de Henares",
+    "websiteUrl": "",
+    "foundedYear": 1803,
+    "wikidataId": "Q113936825",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Military Engineering of Guadalajara",
+    "country": "Spain",
+    "city": "Guadalajara Province",
+    "websiteUrl": "",
+    "foundedYear": 1833,
+    "wikidataId": "Q5655821",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Military Engineers of Hoyo de Manzanares",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1986,
+    "wikidataId": "Q2883298",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Asidonia-Jerez Seminary",
+    "country": "Spain",
+    "city": "Jerez de la Frontera",
+    "websiteUrl": "",
+    "foundedYear": 1985,
+    "wikidataId": "Q4806885",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Autonomous University of Barcelona",
+    "country": "Spain",
+    "city": "Cerdanyola del Vallès",
+    "websiteUrl": "https://www.uab.cat",
+    "foundedYear": 1968,
+    "wikidataId": "Q43452",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Autonomous University of Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "websiteUrl": "https://www.uam.es",
+    "foundedYear": 1968,
+    "wikidataId": "Q788091",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Basic Academy of NCOs Officers",
+    "country": "Spain",
+    "city": "Talarn",
+    "websiteUrl": "http://www.ejercito.mde.es/unidades/Lerida/agbs/",
+    "foundedYear": 1974,
+    "wikidataId": "Q27929063",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bidasoa International Seminar",
+    "country": "Spain",
+    "city": "Cizur Menor",
+    "websiteUrl": "https://seminariobidasoa.org/",
+    "foundedYear": 1988,
+    "wikidataId": "Q122459386",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bilbao University",
+    "country": "Spain",
+    "city": "Biscay",
+    "websiteUrl": "",
+    "foundedYear": 1968,
+    "wikidataId": "Q50692822",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bircham International University",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "https://www.bircham.edu",
+    "foundedYear": 1992,
+    "wikidataId": "Q3301403",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CBRN Defense Military School",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q20014883",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CEFAMET",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "https://ejercito.defensa.gob.es/unidades/Madrid/acaviet/",
+    "foundedYear": null,
+    "wikidataId": "Q19949787",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CES Cardenal Cisneros",
+    "country": "Spain",
+    "city": "Madrid",
+    "websiteUrl": "https://www.cescisneros.es/",
+    "foundedYear": null,
+    "wikidataId": "Q53719627",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CETpD",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "http://www.upc.edu/cetpd",
+    "foundedYear": 2003,
+    "wikidataId": "Q5010383",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CEU Fernando III University",
+    "country": "Spain",
+    "city": "Andalusia",
+    "websiteUrl": "https://uf3ceu.es/",
+    "foundedYear": 2003,
+    "wikidataId": "Q6156459",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CEU San Pablo University",
+    "country": "Spain",
+    "city": "Madrid",
+    "websiteUrl": "https://www.uspceu.com",
+    "foundedYear": 1993,
+    "wikidataId": "Q32821",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CRE-UCLM",
+    "country": "Spain",
+    "city": "Castile–La Mancha",
+    "websiteUrl": "http://blog.uclm.es/creuclm/",
+    "foundedYear": 1995,
+    "wikidataId": "Q97460961",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CUNEF Universidad",
+    "country": "Spain",
+    "city": "Madrid",
+    "websiteUrl": "https://www.cunef.edu/",
+    "foundedYear": 1973,
+    "wikidataId": "Q25409994",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Campus Universitario de Tafira",
+    "country": "Spain",
+    "city": "Las Palmas de Gran Canaria",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q24021177",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Ávila",
+    "country": "Spain",
+    "city": "Ávila",
+    "websiteUrl": "https://www.ucavila.es/",
+    "foundedYear": 1996,
+    "wikidataId": "Q176866",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro Universitario CESINE",
+    "country": "Spain",
+    "city": "Santander",
+    "websiteUrl": "http://www.cesine.com/inicio",
+    "foundedYear": 1993,
+    "wikidataId": "Q5644120",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro Universitario Villanueva",
+    "country": "Spain",
+    "city": "Madrid",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q7894257",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro Universitario de la Defensa Madrid",
+    "country": "Spain",
+    "city": "",
+    "websiteUrl": "https://cud.uah.es/",
+    "foundedYear": null,
+    "wikidataId": "Q59822621",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centro Universitario de la Defensa Vigo",
+    "country": "Spain",
+    "city": "Vigo",
+    "websiteUrl": "https://cud.uvigo.es/",
+    "foundedYear": null,
+    "wikidataId": "Q59822618",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Artillery and Engineering College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1878,
+    "wikidataId": "Q10418858",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Chalmers University of Technology",
+    "country": "Sweden",
+    "city": "Gothenburg Municipality",
+    "websiteUrl": "http://www.chalmers.se/",
+    "foundedYear": 1829,
+    "wikidataId": "Q836805",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "IIIEE",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "http://www.iiiee.lu.se",
+    "foundedYear": 1994,
+    "wikidataId": "Q5971267",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Karlstad University",
+    "country": "Sweden",
+    "city": "Karlstad Municipality",
+    "websiteUrl": "https://www.kau.se",
+    "foundedYear": 1977,
+    "wikidataId": "Q1858061",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Karolinska Institutet",
+    "country": "Sweden",
+    "city": "Solna Municipality",
+    "websiteUrl": "https://ki.se",
+    "foundedYear": 1810,
+    "wikidataId": "Q219564",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Konstfack",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "websiteUrl": "http://www.konstfack.se",
+    "foundedYear": 1844,
+    "wikidataId": "Q1782926",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Linköping University",
+    "country": "Sweden",
+    "city": "Linköping Municipality",
+    "websiteUrl": "https://liu.se",
+    "foundedYear": 1975,
+    "wikidataId": "Q782600",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Linnaeus University",
+    "country": "Sweden",
+    "city": "Växjö Municipality",
+    "websiteUrl": "http://lnu.se",
+    "foundedYear": 2010,
+    "wikidataId": "Q1751928",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Luftvärnets officershögskola och tekniska skola",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1962,
+    "wikidataId": "Q79744874",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Luleå University of Technology",
+    "country": "Sweden",
+    "city": "Luleå Municipality",
+    "websiteUrl": "https://www.ltu.se",
+    "foundedYear": 1971,
+    "wikidataId": "Q1972721",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lund University",
+    "country": "Sweden",
+    "city": "Lund Municipality",
+    "websiteUrl": "https://www.lu.se",
+    "foundedYear": 1666,
+    "wikidataId": "Q218506",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Malmö University",
+    "country": "Sweden",
+    "city": "Malmö Municipality",
+    "websiteUrl": "https://www.mau.se",
+    "foundedYear": 1998,
+    "wikidataId": "Q977781",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mid Sweden University",
+    "country": "Sweden",
+    "city": "Jämtland County",
+    "websiteUrl": "https://www.miun.se/",
+    "foundedYear": 1993,
+    "wikidataId": "Q1940803",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military Academy Halmstad",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "https://www.forsvarsmakten.se/en/about/organisation/training-units-schools-and-centres/military-academy-halmstad/",
+    "foundedYear": 1999,
+    "wikidataId": "Q10585332",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military Academy Karlberg",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "http://www.forsvarsmakten.se/en/about/organisation/training-units-schools-and-centres/military-academy-karlberg/",
+    "foundedYear": 1792,
+    "wikidataId": "Q2467768",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military Academy in Östersund",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1999,
+    "wikidataId": "Q10585331",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nordic Summer University",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1950,
+    "wikidataId": "Q376331",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Institute of Technology",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "websiteUrl": "https://www.kth.se",
+    "foundedYear": 1827,
+    "wikidataId": "Q854280",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Swedish Air Force War College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1939,
+    "wikidataId": "Q10497078",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Swedish Army Staff College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1866,
+    "wikidataId": "Q10548703",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Stockholm University",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "websiteUrl": "https://su.se",
+    "foundedYear": 1878,
+    "wikidataId": "Q221645",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish Air Force Officers Academy",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1981,
+    "wikidataId": "Q31887941",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish Armed Forces Management College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1942,
+    "wikidataId": "Q41530195",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish Defence University",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "http://www.fhs.se",
+    "foundedYear": 1997,
+    "wikidataId": "Q7654779",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish Infantry Officers’ College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1915,
+    "wikidataId": "Q49095391",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish National Military College",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1961,
+    "wikidataId": "Q10585330",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish Navy Officers' Academy",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1981,
+    "wikidataId": "Q31883566",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Swedish University of Agricultural Sciences",
+    "country": "Sweden",
+    "city": "Uppsala Municipality",
+    "websiteUrl": "https://www.slu.se",
+    "foundedYear": 1977,
+    "wikidataId": "Q1312762",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Train Corps Officers Academy",
+    "country": "Sweden",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1902,
+    "wikidataId": "Q65195834",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Umeå University",
+    "country": "Sweden",
+    "city": "Umeå Municipality",
+    "websiteUrl": "https://www.umu.se",
+    "foundedYear": 1965,
+    "wikidataId": "Q1144565",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Gothenburg",
+    "country": "Sweden",
+    "city": "Gothenburg Municipality",
+    "websiteUrl": "https://www.gu.se",
+    "foundedYear": 1954,
+    "wikidataId": "Q371522",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Uppsala University",
+    "country": "Sweden",
+    "city": "Uppsala Municipality",
+    "websiteUrl": "https://www.uu.se",
+    "foundedYear": 1477,
+    "wikidataId": "Q185246",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Växjö University",
+    "country": "Sweden",
+    "city": "Växjö Municipality",
+    "websiteUrl": "http://www.vxu.se/",
+    "foundedYear": 1977,
+    "wikidataId": "Q3279424",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "World Maritime University",
+    "country": "Sweden",
+    "city": "Malmö Municipality",
+    "websiteUrl": "http://www.wmu.se/",
+    "foundedYear": 1983,
+    "wikidataId": "Q1630459",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Örebro University",
+    "country": "Sweden",
+    "city": "Örebro Municipality",
+    "websiteUrl": "http://www.oru.se/",
+    "foundedYear": 1977,
+    "wikidataId": "Q2002420",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalto University",
+    "country": "Finland",
+    "city": "Espoo",
+    "websiteUrl": "https://www.aalto.fi/",
+    "foundedYear": 2010,
+    "wikidataId": "Q300980",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalto University School of Arts, Design and Architecture",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "http://arts.aalto.fi/en/",
+    "foundedYear": 1871,
+    "wikidataId": "Q2591673",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalto University School of Engineering",
+    "country": "Finland",
+    "city": "Espoo",
+    "websiteUrl": "http://eng.aalto.fi/en/",
+    "foundedYear": 2011,
+    "wikidataId": "Q4661412",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Air Force Academy",
+    "country": "Finland",
+    "city": "Jyväskylä",
+    "websiteUrl": "https://ilmavoimat.fi/en/air-force-academy",
+    "foundedYear": 1941,
+    "wikidataId": "Q4697882",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Army Academy",
+    "country": "Finland",
+    "city": "Lappeenranta",
+    "websiteUrl": "https://maavoimat.fi/en/army-academy",
+    "foundedYear": 2001,
+    "wikidataId": "Q10577606",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Artillery School",
+    "country": "Finland",
+    "city": "Kankaanpää",
+    "websiteUrl": "",
+    "foundedYear": 1918,
+    "wikidataId": "Q18662510",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Border and Coast Guard Academy",
+    "country": "Finland",
+    "city": "",
+    "websiteUrl": "https://raja.fi/raja-ja-merivartiokoulu",
+    "foundedYear": 1997,
+    "wikidataId": "Q4356042",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Cadet School",
+    "country": "Finland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1919,
+    "wikidataId": "Q78560132",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hanken School of Economics",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "https://www.hanken.fi",
+    "foundedYear": 1909,
+    "wikidataId": "Q1558586",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Helsinki Polytechnic",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "",
+    "foundedYear": 1881,
+    "wikidataId": "Q131755283",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Helsinki University of Technology",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "http://www.hut.fi",
+    "foundedYear": null,
+    "wikidataId": "Q1646874",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Infantry School",
+    "country": "Finland",
+    "city": "Lappeenranta",
+    "websiteUrl": "",
+    "foundedYear": 2015,
+    "wikidataId": "Q19310252",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lappeenranta-Lahti University of Technology LUT",
+    "country": "Finland",
+    "city": "Lahti",
+    "websiteUrl": "https://www.lut.fi/",
+    "foundedYear": 1969,
+    "wikidataId": "Q1809949",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Maanpuolustusopisto",
+    "country": "Finland",
+    "city": "Lappeenranta",
+    "websiteUrl": "",
+    "foundedYear": 1993,
+    "wikidataId": "Q5396734",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National Defence University",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "https://maanpuolustuskorkeakoulu.fi/",
+    "foundedYear": 1993,
+    "wikidataId": "Q3041652",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Naval Academy",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "https://merivoimat.fi/merisotakoulu",
+    "foundedYear": 1930,
+    "wikidataId": "Q10669455",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Academy of Turku",
+    "country": "Finland",
+    "city": "Turku",
+    "websiteUrl": "",
+    "foundedYear": 1640,
+    "wikidataId": "Q414481",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Sibelius Academy",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "http://www.uniarts.fi/siba",
+    "foundedYear": 1882,
+    "wikidataId": "Q518851",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Summer University of North Karelia",
+    "country": "Finland",
+    "city": "Joensuu",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q18661384",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tampere College",
+    "country": "Finland",
+    "city": "Tampere",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q7681760",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tampere University",
+    "country": "Finland",
+    "city": "Tampere",
+    "websiteUrl": "https://www.tuni.fi",
+    "foundedYear": 2019,
+    "wikidataId": "Q56403399",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tampere University of Technology",
+    "country": "Finland",
+    "city": "Tampere",
+    "websiteUrl": "http://www.tut.fi/en/",
+    "foundedYear": 1972,
+    "wikidataId": "Q277664",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Training Air Wing",
+    "country": "Finland",
+    "city": "Kauhava",
+    "websiteUrl": "",
+    "foundedYear": 1918,
+    "wikidataId": "Q7832936",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Eastern Finland",
+    "country": "Finland",
+    "city": "Kuopio",
+    "websiteUrl": "http://www.uef.fi",
+    "foundedYear": 2010,
+    "wikidataId": "Q2093139",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Helsinki",
+    "country": "Finland",
+    "city": "Helsinki",
+    "websiteUrl": "https://www.helsinki.fi/en",
+    "foundedYear": 1640,
+    "wikidataId": "Q28695",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Joensuu",
+    "country": "Finland",
+    "city": "Joensuu",
+    "websiteUrl": "http://www.joensuu.fi/joyindex.html",
+    "foundedYear": 1969,
+    "wikidataId": "Q3238666",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Jyväskylä",
+    "country": "Finland",
+    "city": "Jyväskylä",
+    "websiteUrl": "https://www.jyu.fi/",
+    "foundedYear": 1934,
+    "wikidataId": "Q578326",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Kuopio",
+    "country": "Finland",
+    "city": "Kuopio",
+    "websiteUrl": "https://www.uef.fi/fi",
+    "foundedYear": 1966,
+    "wikidataId": "Q9091642",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Lapland",
+    "country": "Finland",
+    "city": "Rovaniemi",
+    "websiteUrl": "https://www.ulapland.fi",
+    "foundedYear": 1979,
+    "wikidataId": "Q1742604",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Oulu",
+    "country": "Finland",
+    "city": "Oulu",
+    "websiteUrl": "http://www.oulu.fi",
+    "foundedYear": 1958,
+    "wikidataId": "Q1357517",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalborg Business College",
+    "country": "Denmark",
+    "city": "Aalborg Municipality",
+    "websiteUrl": "http://www.ah.dk",
+    "foundedYear": null,
+    "wikidataId": "Q4661370",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalborg University",
+    "country": "Denmark",
+    "city": "Aalborg Municipality",
+    "websiteUrl": "https://www.aau.dk",
+    "foundedYear": 1974,
+    "wikidataId": "Q601956",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aalborg University Copenhagen",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "",
+    "foundedYear": 2005,
+    "wikidataId": "Q12300291",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aarhus University",
+    "country": "Denmark",
+    "city": "Aarhus Municipality",
+    "websiteUrl": "https://www.au.dk/",
+    "foundedYear": 1928,
+    "wikidataId": "Q924265",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural School of Zealand",
+    "country": "Denmark",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q12323638",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Business Academy Copenhagen North",
+    "country": "Denmark",
+    "city": "Lyngby-Taarbæk Municipality",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q12310239",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Copenhagen Business Academy",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://www.cphbusiness.dk/",
+    "foundedYear": 2009,
+    "wikidataId": "Q12310238",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Copenhagen Business School",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://www.cbs.dk/",
+    "foundedYear": 1917,
+    "wikidataId": "Q703620",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Copenhagen School of Design and Technology",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "",
+    "foundedYear": 2009,
+    "wikidataId": "Q12323381",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Danish Design School",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://kadk.dk/",
+    "foundedYear": 1875,
+    "wikidataId": "Q3359362",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Danish Technological Institute",
+    "country": "Denmark",
+    "city": "Høje-Taastrup Municipality",
+    "websiteUrl": "http://www.teknologisk.dk/",
+    "foundedYear": 1906,
+    "wikidataId": "Q12338885",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Den Polytekniske Læreanstalt",
+    "country": "Denmark",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1829,
+    "wikidataId": "Q114702522",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Department of Information Studies",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://informationstudies.ku.dk/",
+    "foundedYear": 1956,
+    "wikidataId": "Q4583570",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Design School Kolding",
+    "country": "Denmark",
+    "city": "Kolding Municipality",
+    "websiteUrl": "https://www.designskolenkolding.dk/",
+    "foundedYear": 1967,
+    "wikidataId": "Q5264458",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "European Cross Media Academy",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "http://eucroma.dk/",
+    "foundedYear": 2012,
+    "wikidataId": "Q5412483",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Folkeuniversitetet",
+    "country": "Denmark",
+    "city": "Aarhus Municipality",
+    "websiteUrl": "",
+    "foundedYear": 1898,
+    "wikidataId": "Q11969398",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "IKE Group",
+    "country": "Denmark",
+    "city": "Aalborg Municipality",
+    "websiteUrl": "http://www.business.aau.dk/ike",
+    "foundedYear": null,
+    "wikidataId": "Q5971576",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "IT University of Copenhagen",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://en.itu.dk",
+    "foundedYear": 1999,
+    "wikidataId": "Q124882",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kunstakademiets Arkitektskole",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "http://www.karch.dk",
+    "foundedYear": 1754,
+    "wikidataId": "Q4563603",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National Film School of Denmark",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "http://www.filmskolen.dk",
+    "foundedYear": 1966,
+    "wikidataId": "Q936354",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Odense University",
+    "country": "Denmark",
+    "city": "Odense Municipality",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q3436286",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Roskilde University",
+    "country": "Denmark",
+    "city": "Roskilde Municipality",
+    "websiteUrl": "https://ruc.dk/",
+    "foundedYear": 1972,
+    "wikidataId": "Q1542386",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Danish Air Force Officers School",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "http://www.forsvaret.dk/flos",
+    "foundedYear": 1951,
+    "wikidataId": "Q3378324",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Danish Army Officers Academy",
+    "country": "Denmark",
+    "city": "Frederiksberg Municipality",
+    "websiteUrl": "http://www.forsvaret.dk/ho",
+    "foundedYear": null,
+    "wikidataId": "Q3378377",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Danish Naval Academy",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "http://www.forsvaret.dk/SOS",
+    "foundedYear": null,
+    "wikidataId": "Q3378559",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "SDU Kolding",
+    "country": "Denmark",
+    "city": "Kolding Municipality",
+    "websiteUrl": "",
+    "foundedYear": 2014,
+    "wikidataId": "Q18085282",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Selandia - Center for Business Education",
+    "country": "Denmark",
+    "city": "Slagelse Municipality",
+    "websiteUrl": "http://www.sceu.dk/",
+    "foundedYear": null,
+    "wikidataId": "Q2267483",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Southern University",
+    "country": "Denmark",
+    "city": "Esbjerg Municipality",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q116136207",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Denmark",
+    "country": "Denmark",
+    "city": "",
+    "websiteUrl": "http://www.dtu.dk",
+    "foundedYear": 1829,
+    "wikidataId": "Q1269766",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "UC South",
+    "country": "Denmark",
+    "city": "Esbjerg Municipality",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q116135516",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University College Absalon",
+    "country": "Denmark",
+    "city": "Slagelse Municipality",
+    "websiteUrl": "https://en.phabsalon.dk",
+    "foundedYear": 2007,
+    "wikidataId": "Q7894635",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University College Capital",
+    "country": "Denmark",
+    "city": "Hillerød Municipality",
+    "websiteUrl": "http://ucc.dk",
+    "foundedYear": 2008,
+    "wikidataId": "Q7894617",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University College Lillebaelt",
+    "country": "Denmark",
+    "city": "Odense Municipality",
+    "websiteUrl": "http://www.ucl.dk",
+    "foundedYear": 2008,
+    "wikidataId": "Q7894627",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University College South Denmark",
+    "country": "Denmark",
+    "city": "Esbjerg Municipality",
+    "websiteUrl": "https://www.ucsyd.dk",
+    "foundedYear": 2011,
+    "wikidataId": "Q7894638",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University College of Northern Denmark",
+    "country": "Denmark",
+    "city": "Aalborg Municipality",
+    "websiteUrl": "http://www.ucn.dk/",
+    "foundedYear": 2008,
+    "wikidataId": "Q7894659",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Copenhagen",
+    "country": "Denmark",
+    "city": "Copenhagen Municipality",
+    "websiteUrl": "https://www.ku.dk/",
+    "foundedYear": 1479,
+    "wikidataId": "Q186285",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Southern Denmark",
+    "country": "Denmark",
+    "city": "",
+    "websiteUrl": "https://www.sdu.dk/",
+    "foundedYear": 1998,
+    "wikidataId": "Q2166335",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "West Jutland University College",
+    "country": "Denmark",
+    "city": "Esbjerg Municipality",
+    "websiteUrl": "http://www.ucvest.dk",
+    "foundedYear": 2008,
+    "wikidataId": "Q7985594",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Campus Helgeland",
+    "country": "Norway",
+    "city": "Mo i Rana",
+    "websiteUrl": "https://campushelgeland.no",
+    "foundedYear": 2013,
+    "wikidataId": "Q19372218",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centre of Marine Resource Management",
+    "country": "Norway",
+    "city": "Tromsø Municipality",
+    "websiteUrl": "http://www.maremacentre.com",
+    "foundedYear": 2004,
+    "wikidataId": "Q5062658",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Fjellheim bible school",
+    "country": "Norway",
+    "city": "Tromsø Municipality",
+    "websiteUrl": "https://fhbs.no",
+    "foundedYear": 1980,
+    "wikidataId": "Q17772587",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Folkeuniversitet",
+    "country": "Norway",
+    "city": "Oslo Municipality",
+    "websiteUrl": "https://www.folkeuniversitetet.no/",
+    "foundedYear": 1864,
+    "wikidataId": "Q55924975",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Folkeuniversitetet Innlandet",
+    "country": "Norway",
+    "city": "Hamar Municipality",
+    "websiteUrl": "",
+    "foundedYear": 1893,
+    "wikidataId": "Q73631590",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Forsvarets høgskole",
+    "country": "Norway",
+    "city": "",
+    "websiteUrl": "https://www.forsvaret.no/en/organisation/nduc",
+    "foundedYear": 1955,
+    "wikidataId": "Q12362688",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "MF Norwegian School of Theology",
+    "country": "Norway",
+    "city": "Oslo Municipality",
+    "websiteUrl": "https://mf.no/en",
+    "foundedYear": 1907,
+    "wikidataId": "Q6516648",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nord University",
+    "country": "Norway",
+    "city": "Bodø Municipality",
+    "websiteUrl": "https://www.nord.no/",
+    "foundedYear": 2016,
+    "wikidataId": "Q21079372",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian Film School",
+    "country": "Norway",
+    "city": "Lillehammer",
+    "websiteUrl": "http://www.hil.no/",
+    "foundedYear": 1971,
+    "wikidataId": "Q3172737",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian Institute of Technology",
+    "country": "Norway",
+    "city": "Trondheim municipality",
+    "websiteUrl": "http://www.ntnu.edu/",
+    "foundedYear": 1910,
+    "wikidataId": "Q1416348",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian Military Academy",
+    "country": "Norway",
+    "city": "Oslo Municipality",
+    "websiteUrl": "https://www.forsvaret.no/forskning/forskning-utvikling-ved-forsvarets-hogskole/krigsskolen#Krigsskolen",
+    "foundedYear": 1750,
+    "wikidataId": "Q1506510",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian Military College",
+    "country": "Norway",
+    "city": "Oslo",
+    "websiteUrl": "",
+    "foundedYear": 1817,
+    "wikidataId": "Q3439895",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian School of Sport Sciences",
+    "country": "Norway",
+    "city": "Oslo Municipality",
+    "websiteUrl": "http://www.nih.no",
+    "foundedYear": 1870,
+    "wikidataId": "Q1769401",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian University of Life Sciences",
+    "country": "Norway",
+    "city": "Ås Municipality",
+    "websiteUrl": "http://www.nmbu.no/",
+    "foundedYear": 1859,
+    "wikidataId": "Q1725075",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Norwegian University of Science and Technology",
+    "country": "Norway",
+    "city": "Ålesund Municipality",
+    "websiteUrl": "https://ntnu.no",
+    "foundedYear": 1996,
+    "wikidataId": "Q314536",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Oslo Metropolitan University",
+    "country": "Norway",
+    "city": "Akershus",
+    "websiteUrl": "http://www.oslomet.no",
+    "foundedYear": 2018,
+    "wikidataId": "Q47249304",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Norwegian Air Force Academy",
+    "country": "Norway",
+    "city": "Trondheim municipality",
+    "websiteUrl": "",
+    "foundedYear": 1949,
+    "wikidataId": "Q4573106",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Royal Norwegian Naval Academy",
+    "country": "Norway",
+    "city": "Bergen",
+    "websiteUrl": "https://www.forsvaret.no/en/research/research-at-the-nduc/royal-norwegian-naval-academy",
+    "foundedYear": 1817,
+    "wikidataId": "Q2590772",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Rudolf Steiner University College",
+    "country": "Norway",
+    "city": "Oslo Municipality",
+    "websiteUrl": "http://www.steinerhoyskolen.no",
+    "foundedYear": 1981,
+    "wikidataId": "Q7377341",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "The Outreach Centre",
+    "country": "Norway",
+    "city": "",
+    "websiteUrl": "https://gus.no",
+    "foundedYear": null,
+    "wikidataId": "Q11973484",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University Centre in Svalbard",
+    "country": "Norway",
+    "city": "Longyearbyen",
+    "websiteUrl": "http://www.unis.no",
+    "foundedYear": 1993,
+    "wikidataId": "Q1543126",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Agder",
+    "country": "Norway",
+    "city": "Kristiansand",
+    "websiteUrl": "http://www.uia.no",
+    "foundedYear": 1994,
+    "wikidataId": "Q1470769",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Bergen",
+    "country": "Norway",
+    "city": "Bergen Municipality",
+    "websiteUrl": "https://uib.no",
+    "foundedYear": 1946,
+    "wikidataId": "Q204457",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Inland Norway",
+    "country": "Norway",
+    "city": "Hedmark",
+    "websiteUrl": "http://www.inn.no/",
+    "foundedYear": 2024,
+    "wikidataId": "Q27050380",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Nordland",
+    "country": "Norway",
+    "city": "Bodø Municipality",
+    "websiteUrl": "http://uin.no/english/Pages/default.aspx",
+    "foundedYear": 1994,
+    "wikidataId": "Q1779468",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Oslo",
+    "country": "Norway",
+    "city": "Oslo",
+    "websiteUrl": "https://www.uio.no",
+    "foundedYear": 1811,
+    "wikidataId": "Q486156",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of South-Eastern Norway",
+    "country": "Norway",
+    "city": "",
+    "websiteUrl": "https://www.usn.no/",
+    "foundedYear": 2018,
+    "wikidataId": "Q20112014",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Stavanger",
+    "country": "Norway",
+    "city": "Stavanger",
+    "websiteUrl": "https://www.uis.no/",
+    "foundedYear": 2005,
+    "wikidataId": "Q498401",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Tromsø – The Arctic University of Norway",
+    "country": "Norway",
+    "city": "Tromsø Municipality",
+    "websiteUrl": "https://en.uit.no/startsida",
+    "foundedYear": 1968,
+    "wikidataId": "Q279724",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Trondheim",
+    "country": "Norway",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1968,
+    "wikidataId": "Q47473770",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Académie Louvain",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "http://www.academielouvain.be/",
+    "foundedYear": 2004,
+    "wikidataId": "Q337461",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American College of the Immaculate Conception",
+    "country": "Belgium",
+    "city": "Leuven",
+    "websiteUrl": "",
+    "foundedYear": 1857,
+    "wikidataId": "Q2005895",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Arras College, Leuven",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q123232301",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Berthoutinstituut Klein Seminarie",
+    "country": "Belgium",
+    "city": "Mechelen",
+    "websiteUrl": "http://www.bimsem.be",
+    "foundedYear": 1830,
+    "wikidataId": "Q2237527",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Brussels Bible Institute",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "http://www.institutbiblique.be/",
+    "foundedYear": 1919,
+    "wikidataId": "Q56300624",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Brussels School of International Studies",
+    "country": "Belgium",
+    "city": "Brussels",
+    "websiteUrl": "http://www.kent.ac.uk/brussels/BSIS",
+    "foundedYear": 1998,
+    "wikidataId": "Q4979801",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Leuven",
+    "country": "Belgium",
+    "city": "Leuven",
+    "websiteUrl": "",
+    "foundedYear": 1834,
+    "wikidataId": "Q644789",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Mechlin",
+    "country": "Belgium",
+    "city": "Mechelen",
+    "websiteUrl": "",
+    "foundedYear": 1834,
+    "wikidataId": "Q111212051",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic university of Mons",
+    "country": "Belgium",
+    "city": "Mons",
+    "websiteUrl": "",
+    "foundedYear": 1965,
+    "wikidataId": "Q32956933",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CeReFiM",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q15208187",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centre Européen de Recherches Internationales et Stratégiques",
+    "country": "Belgium",
+    "city": "Brussels-Capital Region",
+    "websiteUrl": "",
+    "foundedYear": 1985,
+    "wikidataId": "Q5062259",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Continental Theological Seminary",
+    "country": "Belgium",
+    "city": "Sint-Pieters-Leeuw",
+    "websiteUrl": "http://fr.ctsem.edu/",
+    "foundedYear": 1959,
+    "wikidataId": "Q55596474",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Evangelical Theological Faculty",
+    "country": "Belgium",
+    "city": "Leuven",
+    "websiteUrl": "http://www.etf.edu",
+    "foundedYear": 1919,
+    "wikidataId": "Q842911",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculteit voor Protestantse Godgeleerdheid",
+    "country": "Belgium",
+    "city": "Brussels",
+    "websiteUrl": "http://futp.be",
+    "foundedYear": 1950,
+    "wikidataId": "Q1393841",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Theology, Catholic University of Louvain",
+    "country": "Belgium",
+    "city": "Leuven",
+    "websiteUrl": "",
+    "foundedYear": 1834,
+    "wikidataId": "Q2647947",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Theology, UCLouvain",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "http://uclouvain.be/teco",
+    "foundedYear": 1968,
+    "wikidataId": "Q65622039",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculté polytechnique de Mons",
+    "country": "Belgium",
+    "city": "Mons",
+    "websiteUrl": "http://portail.umons.ac.be/FR/universite/facultes/fpms",
+    "foundedYear": 1920,
+    "wikidataId": "Q65043",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Free University of Brussels",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1834,
+    "wikidataId": "Q20754971",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ghent University",
+    "country": "Belgium",
+    "city": "Ghent",
+    "websiteUrl": "https://www.ugent.be/",
+    "foundedYear": 1817,
+    "wikidataId": "Q1137665",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Grand Seminary Mechelen",
+    "country": "Belgium",
+    "city": "Mechelen",
+    "websiteUrl": "",
+    "foundedYear": 1595,
+    "wikidataId": "Q49425918",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "HEC Management School – University of Liège",
+    "country": "Belgium",
+    "city": "Liège",
+    "websiteUrl": "http://www.hec.uliege.be",
+    "foundedYear": 1898,
+    "wikidataId": "Q3124820",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hasselt University",
+    "country": "Belgium",
+    "city": "Hasselt",
+    "websiteUrl": "http://www.uhasselt.be/",
+    "foundedYear": 1971,
+    "wikidataId": "Q1781858",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Haute Ecole de la Province de Namur",
+    "country": "Belgium",
+    "city": "Namur",
+    "websiteUrl": "http://www.hepn.be/",
+    "foundedYear": null,
+    "wikidataId": "Q29642358",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Haute École de la Province de Liège",
+    "country": "Belgium",
+    "city": "Liège",
+    "websiteUrl": "https://www.hepl.be/fr",
+    "foundedYear": 2007,
+    "wikidataId": "Q3128589",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institut Sainte Trinité",
+    "country": "Belgium",
+    "city": "",
+    "websiteUrl": "https://ecolesaintetrinitecardinalmercier1.be/",
+    "foundedYear": 1896,
+    "wikidataId": "Q97178945",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Katholieke Hogeschool Brugge-Oostende",
+    "country": "Belgium",
+    "city": "Bruges",
+    "websiteUrl": "http://www.khbo.be/",
+    "foundedYear": 1990,
+    "wikidataId": "Q1976507",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Katholieke Universiteit Brussel",
+    "country": "Belgium",
+    "city": "Brussels-Capital Region",
+    "websiteUrl": "http://www.kubrussel.ac.be",
+    "foundedYear": 1969,
+    "wikidataId": "Q644787",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural college (1913)",
+    "country": "Switzerland",
+    "city": "Münsingen",
+    "websiteUrl": "",
+    "foundedYear": 1913,
+    "wikidataId": "Q6485296",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American College of Switzerland",
+    "country": "Switzerland",
+    "city": "",
+    "websiteUrl": "http://www.american-college.com/front_content.php",
+    "foundedYear": null,
+    "wikidataId": "Q4743480",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American University in Switzerland",
+    "country": "Switzerland",
+    "city": "La Tour-de-Peilz",
+    "websiteUrl": "http://www.auis.ch",
+    "foundedYear": 1991,
+    "wikidataId": "Q16826177",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Basel School of Business",
+    "country": "Switzerland",
+    "city": "Basel",
+    "websiteUrl": "http://www.bsob.ch",
+    "foundedYear": 2012,
+    "wikidataId": "Q17005112",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Benedict International Education Group",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "websiteUrl": "http://www.benedict.ch/",
+    "foundedYear": 1928,
+    "wikidataId": "Q258286",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Benedict Schools",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "websiteUrl": "http://www.benedict.ch/",
+    "foundedYear": 1928,
+    "wikidataId": "Q16251206",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Biozentrum University of Basel",
+    "country": "Switzerland",
+    "city": "Canton of Basel-Stadt",
+    "websiteUrl": "http://www.biozentrum.unibas.ch",
+    "foundedYear": 1971,
+    "wikidataId": "Q864916",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Carolinum Zürich",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "websiteUrl": "",
+    "foundedYear": 1849,
+    "wikidataId": "Q16061290",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Centre européen de calcul atomique et moléculaire",
+    "country": "Switzerland",
+    "city": "Ecublens",
+    "websiteUrl": "http://www.cecam.org/",
+    "foundedYear": 1969,
+    "wikidataId": "Q5062345",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "César Ritz Colleges",
+    "country": "Switzerland",
+    "city": "Brig-Glis",
+    "websiteUrl": "https://www.cesarritzcolleges.edu/",
+    "foundedYear": 1982,
+    "wikidataId": "Q5065463",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ESM - Ecole de Management et de Communication",
+    "country": "Switzerland",
+    "city": "",
+    "websiteUrl": "https://www.esm.ch/",
+    "foundedYear": null,
+    "wikidataId": "Q98037226",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ETH Department of Biosystems Science and Engineering",
+    "country": "Switzerland",
+    "city": "Basel",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q22444273",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ETH Zurich",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "websiteUrl": "https://www.ethz.ch/",
+    "foundedYear": 1855,
+    "wikidataId": "Q11942",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ETH Zurich Faculty of Architecture",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "websiteUrl": "http://www.arch.ethz.ch/",
+    "foundedYear": 1854,
+    "wikidataId": "Q5324466",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "EU Business School",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "https://www.euruni.edu",
+    "foundedYear": 1973,
+    "wikidataId": "Q5413406",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "FHNW School of Social Work",
+    "country": "Switzerland",
+    "city": "Olten",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q15815730",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Geneva Business School",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "http://www.gbs-ge.ch",
+    "foundedYear": 2001,
+    "wikidataId": "Q2605456",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Geneva Graduate Institute",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "https://www.graduateinstitute.ch/",
+    "foundedYear": 2007,
+    "wikidataId": "Q691686",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Geneva Institute for Democracy and Development",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "http://gidd.eu.org",
+    "foundedYear": 2004,
+    "wikidataId": "Q17076683",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Geneva School of Diplomacy and International Relations",
+    "country": "Switzerland",
+    "city": "Le Grand-Saconnex",
+    "websiteUrl": "http://www.genevadiplomacy.com",
+    "foundedYear": 2003,
+    "wikidataId": "Q1250291",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Glion Institute of Higher Education",
+    "country": "Switzerland",
+    "city": "Montreux",
+    "websiteUrl": "http://www.glion.edu/",
+    "foundedYear": 1962,
+    "wikidataId": "Q949406",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Graduate Institute of International Studies",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "",
+    "foundedYear": 1927,
+    "wikidataId": "Q1502191",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "HTMi",
+    "country": "Switzerland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1999,
+    "wikidataId": "Q5636114",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Haute école de musique de Genève",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "http://www.hemge.ch/",
+    "foundedYear": 1835,
+    "wikidataId": "Q3128596",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Human systems engineering",
+    "country": "Switzerland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q5938602",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institut biblique de Genève",
+    "country": "Switzerland",
+    "city": "Vandœuvres",
+    "websiteUrl": "https://www.ibg.cc/",
+    "foundedYear": 1928,
+    "wikidataId": "Q56300625",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International Institute for Management Development",
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "websiteUrl": "https://www.imd.org/",
+    "foundedYear": 1990,
+    "wikidataId": "Q667972",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International School of Business Management",
+    "country": "Switzerland",
+    "city": "Lucerne",
+    "websiteUrl": "http://www.isbm-school.com/",
+    "foundedYear": 2005,
+    "wikidataId": "Q12185337",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International Seminary of Saint Pius X",
+    "country": "Switzerland",
+    "city": "Canton of Valais",
+    "websiteUrl": "http://www.seminaire-econe.ch/",
+    "foundedYear": 1971,
+    "wikidataId": "Q608936",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International University in Geneva",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "websiteUrl": "http://www.iug.ch/",
+    "foundedYear": 1997,
+    "wikidataId": "Q1304512",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "LRG University of Applied Sciences",
+    "country": "Switzerland",
+    "city": "Bulle",
+    "websiteUrl": "http://www.lrguas.ch/les_roches_gruyere/en/en-en/index.cfm?",
+    "foundedYear": 2008,
+    "wikidataId": "Q4475849",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American College, Dublin",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.amcd.ie",
+    "foundedYear": 1993,
+    "wikidataId": "Q7713453",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Athlone Institute of Technology",
+    "country": "Ireland",
+    "city": "Athlone",
+    "websiteUrl": "https://www.ait.ie",
+    "foundedYear": 1970,
+    "wikidataId": "Q14328110",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Atlantic Technological University",
+    "country": "Ireland",
+    "city": "Sligo",
+    "websiteUrl": "https://www.atu.ie/",
+    "foundedYear": 2022,
+    "wikidataId": "Q58310020",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Burren College of Art",
+    "country": "Ireland",
+    "city": "Ballyvaughan",
+    "websiteUrl": "http://www.burrencollege.ie",
+    "foundedYear": 1993,
+    "wikidataId": "Q5000415",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CBS Kilkenny",
+    "country": "Ireland",
+    "city": "Kilkenny",
+    "websiteUrl": "http://www.cbskilkenny.ie",
+    "foundedYear": null,
+    "wikidataId": "Q5009245",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Carmelite Institute of Britain and Ireland",
+    "country": "Ireland",
+    "city": "Dún Laoghaire–Rathdown",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q104847967",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "",
+    "foundedYear": 1854,
+    "wikidataId": "Q1518472",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Church of Ireland Theological Institute",
+    "country": "Ireland",
+    "city": "",
+    "websiteUrl": "https://www.theologicalinstitute.ie/",
+    "foundedYear": 2007,
+    "wikidataId": "Q5116911",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Coláiste na hÉireann/Gaelchultúr",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.gaelchultur.com",
+    "foundedYear": 2004,
+    "wikidataId": "Q55165238",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Cork Institute of Technology",
+    "country": "Ireland",
+    "city": "Cork",
+    "websiteUrl": "https://www.cit.ie/",
+    "foundedYear": 1973,
+    "wikidataId": "Q3778182",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Cork School of Architecture",
+    "country": "Ireland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q17007846",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Digital Skills Academy",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.digitalskillsacademy.com",
+    "foundedYear": 2008,
+    "wikidataId": "Q16835261",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dominican Biblical Institute",
+    "country": "Ireland",
+    "city": "Limerick",
+    "websiteUrl": "",
+    "foundedYear": 2000,
+    "wikidataId": "Q5290728",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dublin City University",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.dcu.ie/",
+    "foundedYear": 1975,
+    "wikidataId": "Q1202897",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dublin Institute of Design",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.dublindesign.ie",
+    "foundedYear": 1991,
+    "wikidataId": "Q17101590",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dublin Institute of Technology",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.tudublin.ie/",
+    "foundedYear": 1937,
+    "wikidataId": "Q3098071",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dundalk Institute of Technology",
+    "country": "Ireland",
+    "city": "Dundalk",
+    "websiteUrl": "http://www.dkit.ie",
+    "foundedYear": 1970,
+    "wikidataId": "Q5314731",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dungarvan College",
+    "country": "Ireland",
+    "city": "County Waterford",
+    "websiteUrl": "https://dungarvancollege.ie/",
+    "foundedYear": 2002,
+    "wikidataId": "Q5141880",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dún Laoghaire Institute of Art, Design and Technology",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.iadt.ie/",
+    "foundedYear": 1997,
+    "wikidataId": "Q5320428",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Free University of Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.saor-ollscoil.ie/",
+    "foundedYear": 1986,
+    "wikidataId": "Q5500134",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Galway-Mayo Institute of Technology",
+    "country": "Ireland",
+    "city": "Galway",
+    "websiteUrl": "http://www.gmit.ie/",
+    "foundedYear": 1972,
+    "wikidataId": "Q5519456",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Griffith College Limerick",
+    "country": "Ireland",
+    "city": "Limerick",
+    "websiteUrl": "http://www.griffith.ie",
+    "foundedYear": 1974,
+    "wikidataId": "Q285706",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hibernia College",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.hiberniacollege.com/",
+    "foundedYear": 2000,
+    "wikidataId": "Q5750711",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Holy Cross College",
+    "country": "Ireland",
+    "city": "Drumcondra",
+    "websiteUrl": "",
+    "foundedYear": 1854,
+    "wikidataId": "Q5885177",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Technology, Blanchardstown",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.itb.ie/",
+    "foundedYear": 1999,
+    "wikidataId": "Q6040908",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Technology, Carlow",
+    "country": "Ireland",
+    "city": "Carlow",
+    "websiteUrl": "http://www.itcarlow.ie",
+    "foundedYear": 1970,
+    "wikidataId": "Q6040911",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Technology, Sligo",
+    "country": "Ireland",
+    "city": "",
+    "websiteUrl": "http://itsligo.ie",
+    "foundedYear": 1970,
+    "wikidataId": "Q11042094",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Technology, Tallaght",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.ittdublin.ie/",
+    "foundedYear": 1992,
+    "wikidataId": "Q6040919",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Technology, Tralee",
+    "country": "Ireland",
+    "city": "Tralee",
+    "websiteUrl": "http://www.ittralee.ie",
+    "foundedYear": 1977,
+    "wikidataId": "Q6040921",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Irish College of Ophthalmologists",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.eyedoctors.ie",
+    "foundedYear": 1991,
+    "wikidataId": "Q6070633",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "LIT Tipperary",
+    "country": "Ireland",
+    "city": "",
+    "websiteUrl": "http://www.lit.ie",
+    "foundedYear": 1998,
+    "wikidataId": "Q6458839",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Leinster School of Music & Drama",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.griffith.ie/faculties/leinster-school-music-drama",
+    "foundedYear": 1904,
+    "wikidataId": "Q6520006",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Letterkenny Institute of Technology",
+    "country": "Ireland",
+    "city": "Letterkenny",
+    "websiteUrl": "http://www.lyit.ie/",
+    "foundedYear": 1971,
+    "wikidataId": "Q3713543",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Limerick Institute of Technology",
+    "country": "Ireland",
+    "city": "Limerick",
+    "websiteUrl": "https://lit.ie",
+    "foundedYear": 1975,
+    "wikidataId": "Q6549261",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Loyola Institute for Catholic Theology at Trinity College",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.tcd.ie/loyola-institute/",
+    "foundedYear": null,
+    "wikidataId": "Q121590662",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mallow College of Further Education",
+    "country": "Ireland",
+    "city": "",
+    "websiteUrl": "http://mallowcollege.ie",
+    "foundedYear": 2016,
+    "wikidataId": "Q18351936",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mary Immaculate College",
+    "country": "Ireland",
+    "city": "Limerick",
+    "websiteUrl": "",
+    "foundedYear": 1898,
+    "wikidataId": "Q6779823",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Maynooth University",
+    "country": "Ireland",
+    "city": "Maynooth",
+    "websiteUrl": "https://www.maynoothuniversity.ie",
+    "foundedYear": 1997,
+    "wikidataId": "Q2601879",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Munster Technological University",
+    "country": "Ireland",
+    "city": "County Cork",
+    "websiteUrl": "https://www.mtu.ie/",
+    "foundedYear": 2021,
+    "wikidataId": "Q58307972",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National University of Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "https://www.nui.ie/",
+    "foundedYear": 1908,
+    "wikidataId": "Q1860208",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Naval College",
+    "country": "Ireland",
+    "city": "Haulbowline",
+    "websiteUrl": "http://www.military.ie/education-hq/naval-college/",
+    "foundedYear": null,
+    "wikidataId": "Q19707655",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Priory Institute",
+    "country": "Ireland",
+    "city": "Dublin",
+    "websiteUrl": "http://www.prioryinstitute.com/",
+    "foundedYear": null,
+    "wikidataId": "Q7758368",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Rockwell College",
+    "country": "Ireland",
+    "city": "County Tipperary",
+    "websiteUrl": "http://www.rockwell-college.ie/",
+    "foundedYear": 1863,
+    "wikidataId": "Q7355662",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia Politécnica e Escola Medico Cirúrgica (Porto)",
+    "country": "Portugal",
+    "city": "Porto",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q130242675",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academia Polytechnica do Porto",
+    "country": "Portugal",
+    "city": "Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+    "websiteUrl": "",
+    "foundedYear": 1837,
+    "wikidataId": "Q604131",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Portugal",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "https://www.ucp.pt",
+    "foundedYear": 1971,
+    "wikidataId": "Q970751",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Coimbra Academic Association",
+    "country": "Portugal",
+    "city": "Coimbra",
+    "websiteUrl": "http://www.academica.pt",
+    "foundedYear": 1887,
+    "wikidataId": "Q2879311",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Colégio de Santo Antão",
+    "country": "Portugal",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q9820983",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Colégio dos Jesuítas do Funchal",
+    "country": "Portugal",
+    "city": "São Pedro",
+    "websiteUrl": "",
+    "foundedYear": 1570,
+    "wikidataId": "Q14541205",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "English College, Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q5378213",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Escola Superior de Enfermagem São Francisco das Misericórdias",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "https://esesfm.pt/",
+    "foundedYear": 1950,
+    "wikidataId": "Q30253878",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "European University of Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "https://www.europeia.pt/",
+    "foundedYear": 2011,
+    "wikidataId": "Q18374505",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Fernando Pessoa University",
+    "country": "Portugal",
+    "city": "Ponte de Lima",
+    "websiteUrl": "http://www.ufp.pt/",
+    "foundedYear": 1996,
+    "wikidataId": "Q634834",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ISPA – University Institute",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "http://www.ispa.pt/",
+    "foundedYear": 1962,
+    "wikidataId": "Q10299478",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Independente University",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "",
+    "foundedYear": 1994,
+    "wikidataId": "Q2492346",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Higher Studies of Fafe",
+    "country": "Portugal",
+    "city": "Fafe",
+    "websiteUrl": "http://www.iesfafe.pt/",
+    "foundedYear": 1985,
+    "wikidataId": "Q13847486",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior Autónomo de Estudos Politécnicos",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "http://www.ipa.univ.pt/",
+    "foundedYear": 1990,
+    "wikidataId": "Q10302676",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior Politécnico Gaya",
+    "country": "Portugal",
+    "city": "Vila Nova de Gaia",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q10299479",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior Técnico",
+    "country": "Portugal",
+    "city": "Areeiro",
+    "websiteUrl": "https://tecnico.ulisboa.pt/",
+    "foundedYear": 1911,
+    "wikidataId": "Q1636837",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior de Administração e Línguas da Madeira",
+    "country": "Portugal",
+    "city": "Santa Luzia",
+    "websiteUrl": "https://isal.pt/",
+    "foundedYear": 1980,
+    "wikidataId": "Q48879632",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior de Ciências Policiais e Segurança Interna",
+    "country": "Portugal",
+    "city": "Alcântara",
+    "websiteUrl": "http://www.iscpsi.pt/",
+    "foundedYear": 1988,
+    "wikidataId": "Q6041513",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Instituto Superior de Engenharia de Coimbra",
+    "country": "Portugal",
+    "city": "Coimbra",
+    "websiteUrl": "http://www.isec.pt/",
+    "foundedYear": 1921,
+    "wikidataId": "Q10302699",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Internacional University",
+    "country": "Portugal",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1984,
+    "wikidataId": "Q6047620",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Irish College at Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "",
+    "foundedYear": 1634,
+    "wikidataId": "Q16848570",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lusíada University",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "http://www.ulusiada.pt/",
+    "foundedYear": 1986,
+    "wikidataId": "Q635878",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lusíada University of Porto",
+    "country": "Portugal",
+    "city": "Porto",
+    "websiteUrl": "http://www.por.ulusiada.pt/",
+    "foundedYear": 1991,
+    "wikidataId": "Q2478211",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Moderna University",
+    "country": "Portugal",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1994,
+    "wikidataId": "Q6889102",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "NOVA University Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "https://www.unl.pt/",
+    "foundedYear": 1973,
+    "wikidataId": "Q1979891",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Oporto Global University",
+    "country": "Portugal",
+    "city": "Freguesia de Paranhos",
+    "websiteUrl": "https://www.upt.pt/",
+    "foundedYear": 1986,
+    "wikidataId": "Q10387859",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Parachute Troops School",
+    "country": "Portugal",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q7133939",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Beja",
+    "country": "Portugal",
+    "city": "Beja",
+    "websiteUrl": "https://www.ipbeja.pt/en/Pages/default.aspx",
+    "foundedYear": 1979,
+    "wikidataId": "Q7227028",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Bragança",
+    "country": "Portugal",
+    "city": "Bragança",
+    "websiteUrl": "http://www.ipb.pt/",
+    "foundedYear": 1983,
+    "wikidataId": "Q10302635",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Castelo Branco",
+    "country": "Portugal",
+    "city": "Castelo Branco",
+    "websiteUrl": "http://www.ipcb.pt/en/",
+    "foundedYear": 1982,
+    "wikidataId": "Q7227029",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Castelo Branco",
+    "country": "Portugal",
+    "city": "Castelo Branco",
+    "websiteUrl": "http://www.ipcb.pt/",
+    "foundedYear": 1982,
+    "wikidataId": "Q10302637",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Coimbra",
+    "country": "Portugal",
+    "city": "Coimbra",
+    "websiteUrl": "http://internationalrelations.ipc.pt/EN/index.html",
+    "foundedYear": 1988,
+    "wikidataId": "Q2103165",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Cávado and Ave",
+    "country": "Portugal",
+    "city": "Barcelos",
+    "websiteUrl": "http://www.ipca.pt/",
+    "foundedYear": 1994,
+    "wikidataId": "Q10302640",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Leiria",
+    "country": "Portugal",
+    "city": "Leiria",
+    "websiteUrl": "http://www.ipleiria.pt",
+    "foundedYear": 1980,
+    "wikidataId": "Q7227031",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "websiteUrl": "http://www.ipl.pt/en",
+    "foundedYear": null,
+    "wikidataId": "Q1363371",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Institute of Portalegre",
+    "country": "Portugal",
+    "city": "Portalegre",
+    "websiteUrl": "http://www.ipportalegre.pt/",
+    "foundedYear": null,
+    "wikidataId": "Q29522510",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural University of Athens",
+    "country": "Greece",
+    "city": "Athens Municipality",
+    "websiteUrl": "http://www.aua.gr/",
+    "foundedYear": 1920,
+    "wikidataId": "Q1804771",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Aristotle University of Thessaloniki",
+    "country": "Greece",
+    "city": "Thessaloniki Municipality",
+    "websiteUrl": "https://www.auth.gr/",
+    "foundedYear": 1925,
+    "wikidataId": "Q667568",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Athenian Technology Association",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "https://akto.gr/",
+    "foundedYear": 1971,
+    "wikidataId": "Q65554683",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Athens University of Economics and Business",
+    "country": "Greece",
+    "city": "Athens",
+    "websiteUrl": "http://www.aueb.gr/",
+    "foundedYear": 1920,
+    "wikidataId": "Q1474656",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "CITY College, University of York Europe Campus",
+    "country": "Greece",
+    "city": "Thessaloniki Municipality",
+    "websiteUrl": "http://www.city.academic.gr",
+    "foundedYear": 1989,
+    "wikidataId": "Q5011929",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Democritus University of Thrace",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "http://www.duth.gr/",
+    "foundedYear": 1973,
+    "wikidataId": "Q1121584",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Democritus University of Thrace Alexandroupolis Campus",
+    "country": "Greece",
+    "city": "Alexandroupolis",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q38910026",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "European Law and Governance School",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "https://www.elgs.eu/",
+    "foundedYear": 2008,
+    "wikidataId": "Q119789656",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Harokopio University of Athens",
+    "country": "Greece",
+    "city": "Athens",
+    "websiteUrl": "http://www.hua.gr/",
+    "foundedYear": 1990,
+    "wikidataId": "Q1067642",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hellenic Air Force Academy",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "https://hafa.haf.gr/",
+    "foundedYear": 1919,
+    "wikidataId": "Q3566957",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hellenic Mediterranean University",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "https://hmu.gr/",
+    "foundedYear": 2019,
+    "wikidataId": "Q63479721",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hellenic Military Academy",
+    "country": "Greece",
+    "city": "Voula",
+    "websiteUrl": "http://sse.army.gr/",
+    "foundedYear": 1828,
+    "wikidataId": "Q3564659",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hellenic Naval Academy",
+    "country": "Greece",
+    "city": "Piraeus Municipality",
+    "websiteUrl": "https://www.hna.gr/en",
+    "foundedYear": 1845,
+    "wikidataId": "Q5707269",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hellenic Open University",
+    "country": "Greece",
+    "city": "Patras",
+    "websiteUrl": "https://www.eap.gr/",
+    "foundedYear": 1992,
+    "wikidataId": "Q3035299",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International Hellenic University",
+    "country": "Greece",
+    "city": "Thermi Municipality",
+    "websiteUrl": "http://www.ihu.edu.gr/",
+    "foundedYear": 2005,
+    "wikidataId": "Q6050910",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ionian University",
+    "country": "Greece",
+    "city": "Corfu Municipality",
+    "websiteUrl": "http://www.ionio.gr/",
+    "foundedYear": 1984,
+    "wikidataId": "Q1672093",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ionian University of Smyrna",
+    "country": "Greece",
+    "city": "Smyrna",
+    "websiteUrl": "",
+    "foundedYear": 1920,
+    "wikidataId": "Q6063652",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mediterranean Agronomic Institute of Chania",
+    "country": "Greece",
+    "city": "Chania",
+    "websiteUrl": "http://www.maich.gr/",
+    "foundedYear": null,
+    "wikidataId": "Q6807032",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National Technical University of Athens",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "http://www.ntua.gr/",
+    "foundedYear": 1837,
+    "wikidataId": "Q1640726",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "National and Kapodistrian University of Athens",
+    "country": "Greece",
+    "city": "Dirfys-Messapia Municipality",
+    "websiteUrl": "https://www.uoa.gr",
+    "foundedYear": 1837,
+    "wikidataId": "Q547867",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Panteion University",
+    "country": "Greece",
+    "city": "Athens",
+    "websiteUrl": "http://www.panteion.gr/",
+    "foundedYear": 1927,
+    "wikidataId": "Q953421",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Salonica Law School",
+    "country": "Greece",
+    "city": "Thessaloniki Municipality",
+    "websiteUrl": "",
+    "foundedYear": 1908,
+    "wikidataId": "Q19612448",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "School of Pedagogical and Technological Education",
+    "country": "Greece",
+    "city": "Marousi",
+    "websiteUrl": "http://www.aspete.gr",
+    "foundedYear": 2002,
+    "wikidataId": "Q7432540",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "TEI Of Heraklion",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q25164272",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Crete",
+    "country": "Greece",
+    "city": "Chania",
+    "websiteUrl": "http://www.tuc.gr",
+    "foundedYear": 1984,
+    "wikidataId": "Q1974562",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technological Educational Institute of Messolonghi",
+    "country": "Greece",
+    "city": "Aetolia-Acarnania Regional Unit",
+    "websiteUrl": "http://www.teimes.gr",
+    "foundedYear": 1981,
+    "wikidataId": "Q7692472",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technological Educational Institute of Peloponnese",
+    "country": "Greece",
+    "city": "Kalamata",
+    "websiteUrl": "http://www.teikal.gr",
+    "foundedYear": 1988,
+    "wikidataId": "Q7692469",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Athens",
+    "country": "Greece",
+    "city": "Athens Municipality",
+    "websiteUrl": "",
+    "foundedYear": 1864,
+    "wikidataId": "Q38284481",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Central Greece",
+    "country": "Greece",
+    "city": "Lamia",
+    "websiteUrl": "http://www.ucg.gr/",
+    "foundedYear": 2003,
+    "wikidataId": "Q2629102",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Crete",
+    "country": "Greece",
+    "city": "Rethymno",
+    "websiteUrl": "https://www.uoc.gr/",
+    "foundedYear": 1973,
+    "wikidataId": "Q2302473",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Ioannina",
+    "country": "Greece",
+    "city": "Ioannina Municipality",
+    "websiteUrl": "http://www.uoi.gr/",
+    "foundedYear": 1970,
+    "wikidataId": "Q1229924",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Macedonia",
+    "country": "Greece",
+    "city": "Thessaloniki",
+    "websiteUrl": "http://www.uom.gr/",
+    "foundedYear": 1948,
+    "wikidataId": "Q1637117",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Patras",
+    "country": "Greece",
+    "city": "Patras",
+    "websiteUrl": "https://www.upatras.gr/",
+    "foundedYear": 1964,
+    "wikidataId": "Q1462246",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Peloponnese",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "https://www.uop.gr/",
+    "foundedYear": 2002,
+    "wikidataId": "Q3551766",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Piraeus",
+    "country": "Greece",
+    "city": "Piraeus",
+    "websiteUrl": "http://www.unipi.gr/",
+    "foundedYear": 1938,
+    "wikidataId": "Q550263",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Thessaly",
+    "country": "Greece",
+    "city": "Volos",
+    "websiteUrl": "http://www.uth.gr",
+    "foundedYear": 1984,
+    "wikidataId": "Q1471684",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of West Attica",
+    "country": "Greece",
+    "city": "Aegaleo Municipality",
+    "websiteUrl": "http://www.uniwa.gr/",
+    "foundedYear": 2018,
+    "wikidataId": "Q50359480",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Western Greece",
+    "country": "Greece",
+    "city": "Agrinio municipality",
+    "websiteUrl": "http://www.uwg.gr/",
+    "foundedYear": 2009,
+    "wikidataId": "Q7896610",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Western Macedonia",
+    "country": "Greece",
+    "city": "",
+    "websiteUrl": "http://uowm.gr/",
+    "foundedYear": 2003,
+    "wikidataId": "Q2665063",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of the Aegean",
+    "country": "Greece",
+    "city": "Mytilene Municipality",
+    "websiteUrl": "https://www.aegean.edu/",
+    "foundedYear": 1984,
+    "wikidataId": "Q593556",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"Aurel Vlaicu\" University of Arad",
+    "country": "Romania",
+    "city": "Arad",
+    "websiteUrl": "http://www.uav.ro/",
+    "foundedYear": 1972,
+    "wikidataId": "Q4822213",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"Drăgan\" European University of Lugoj",
+    "country": "Romania",
+    "city": "Lugoj",
+    "websiteUrl": "http://www.universitateaeuropeanadragan.ro",
+    "foundedYear": 1992,
+    "wikidataId": "Q12742867",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"King Ferdinand I\" University",
+    "country": "Romania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1919,
+    "wikidataId": "Q18548907",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "1 Decembrie 1918 University, Alba Iulia",
+    "country": "Romania",
+    "city": "Alba Iulia",
+    "websiteUrl": "http://www.uab.ro",
+    "foundedYear": 1991,
+    "wikidataId": "Q2053266",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agora University",
+    "country": "Romania",
+    "city": "Oradea",
+    "websiteUrl": "http://univagora.ro/",
+    "foundedYear": 2000,
+    "wikidataId": "Q4693576",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alexandru Ioan Cuza Police Academy",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.academiadepolitie.ro",
+    "foundedYear": null,
+    "wikidataId": "Q18537214",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alexandru Ioan Cuza University",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://www.uaic.ro/",
+    "foundedYear": 1860,
+    "wikidataId": "Q1523902",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Andrei Saguna University",
+    "country": "Romania",
+    "city": "Constanța",
+    "websiteUrl": "http://www.andreisaguna.ro/",
+    "foundedYear": null,
+    "wikidataId": "Q12742873",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Apollonia University",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://univapollonia.ro/",
+    "foundedYear": 1991,
+    "wikidataId": "Q16821658",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Art and Design University of Cluj-Napoca",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "http://www.uad.ro/",
+    "foundedYear": 1926,
+    "wikidataId": "Q835079",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Artifex University",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.artifex.org.ro",
+    "foundedYear": 1992,
+    "wikidataId": "Q18162308",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Babeș-Bolyai University",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "https://www.ubbcluj.ro/ro/",
+    "foundedYear": 1776,
+    "wikidataId": "Q538452",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bioterra University",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.bioterra.ro",
+    "foundedYear": 2002,
+    "wikidataId": "Q3551380",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bogdan Voda University",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "http://www.ubv.ro/",
+    "foundedYear": null,
+    "wikidataId": "Q28726216",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bolyai University",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "",
+    "foundedYear": 1945,
+    "wikidataId": "Q834219",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bucharest National University of Arts",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.unarte.ro",
+    "foundedYear": 1864,
+    "wikidataId": "Q1474930",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bucharest University of Economic Studies",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "https://ase.ro",
+    "foundedYear": 1913,
+    "wikidataId": "Q1167563",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Carol Davila University of Medicine and Pharmacy",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "https://umfcd.ro/",
+    "foundedYear": 1857,
+    "wikidataId": "Q1916637",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Carol I National Defence University",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.unap.ro/",
+    "foundedYear": 1889,
+    "wikidataId": "Q5044391",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Carol II University",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q114019985",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Commercial Academy of Satu Mare",
+    "country": "Romania",
+    "city": "Satu Mare",
+    "websiteUrl": "http://www.academiacomerciala.ro/",
+    "foundedYear": 1997,
+    "wikidataId": "Q5152449",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Constantin Brâncoveanu University",
+    "country": "Romania",
+    "city": "Pitești",
+    "websiteUrl": "http://www.univcb.ro",
+    "foundedYear": 1991,
+    "wikidataId": "Q3551390",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Constantin Brâncuși University",
+    "country": "Romania",
+    "city": "Târgu Jiu",
+    "websiteUrl": "http://www.utgjiu.ro",
+    "foundedYear": 1990,
+    "wikidataId": "Q3551393",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dimitrie Cantemir Christian University",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.ucdc.ro",
+    "foundedYear": 1990,
+    "wikidataId": "Q3551535",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ecological University of Bucharest",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.ueb.ro/",
+    "foundedYear": 1990,
+    "wikidataId": "Q18539937",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Eftimie Murgu University of Resita",
+    "country": "Romania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q52636297",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Greek Catholic Theology of Babeș-Bolyai University",
+    "country": "Romania",
+    "city": "Cluj County",
+    "websiteUrl": "http://gct.ubbcluj.ro/",
+    "foundedYear": null,
+    "wikidataId": "Q97924191",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Roman Catholic Theology in Babeș-Bolyai University",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "http://rocateo.ubbcluj.ro/",
+    "foundedYear": 1996,
+    "wikidataId": "Q787865",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Roman Catholic Theology of Babeș-Bolyai University",
+    "country": "Romania",
+    "city": "Cluj County",
+    "websiteUrl": "https://rocateo.ubbcluj.ro/ro",
+    "foundedYear": null,
+    "wikidataId": "Q97924202",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "George Bacovia University",
+    "country": "Romania",
+    "city": "Bacău",
+    "websiteUrl": "http://www.ugb.ro",
+    "foundedYear": 2002,
+    "wikidataId": "Q2496038",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "George Enescu University of Arts",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://www.arteiasi.ro/",
+    "foundedYear": 1860,
+    "wikidataId": "Q3551731",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Gheorghe Asachi Technical University of Iași",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://www.tuiasi.ro",
+    "foundedYear": 1937,
+    "wikidataId": "Q458666",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Gheorghe Zane University",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://www.universitateazane.ro/",
+    "foundedYear": 1996,
+    "wikidataId": "Q5556427",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Grigore T. Popa University of Medicine and Pharmacy",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "http://www.umfiasi.ro",
+    "foundedYear": 1879,
+    "wikidataId": "Q2779762",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Henri Coanda Air Force Academy",
+    "country": "Romania",
+    "city": "Brașov",
+    "websiteUrl": "http://www.afahc.ro/",
+    "foundedYear": null,
+    "wikidataId": "Q18537216",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Hyperion University of Bucharest",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "http://www.hyperion.ro",
+    "foundedYear": 2002,
+    "wikidataId": "Q3551414",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "I. L. Caragiale National University of Theatre and Film",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "https://www.unatc.ro",
+    "foundedYear": 1954,
+    "wikidataId": "Q195081",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Iași University of Life Sciences",
+    "country": "Romania",
+    "city": "Iași",
+    "websiteUrl": "https://iuls.ro/",
+    "foundedYear": 1912,
+    "wikidataId": "Q287299",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ion Mincu University of Architecture and Urban Planning",
+    "country": "Romania",
+    "city": "Bucharest",
+    "websiteUrl": "https://www.uauim.ro",
+    "foundedYear": 1892,
+    "wikidataId": "Q976926",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Iuliu Hațieganu University of Medicine and Pharmacy",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "websiteUrl": "http://www.umfcluj.ro/",
+    "foundedYear": 1919,
+    "wikidataId": "Q1141880",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Business School PAR",
+    "country": "Croatia",
+    "city": "Rijeka",
+    "websiteUrl": "http://www.par.hr",
+    "foundedYear": 2007,
+    "wikidataId": "Q12644730",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic Faculty of Theology",
+    "country": "Croatia",
+    "city": "Gornji Grad–Medveščak",
+    "websiteUrl": "https://www.kbf.hr/",
+    "foundedYear": 1671,
+    "wikidataId": "Q11112158",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic Faculty of Theology in Đakovo",
+    "country": "Croatia",
+    "city": "Osijek-Baranja County",
+    "websiteUrl": "https://www.djkbf.unios.hr/hr/",
+    "foundedYear": 1806,
+    "wikidataId": "Q25496509",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic Faculty of Theology Đakovo",
+    "country": "Croatia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q52660802",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University of Croatia",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "websiteUrl": "http://www.unicath.hr/eng",
+    "foundedYear": 2006,
+    "wikidataId": "Q12632683",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic faculty of Theology, University of Split",
+    "country": "Croatia",
+    "city": "Split",
+    "websiteUrl": "https://www.kbf.unist.hr/en/",
+    "foundedYear": 1995,
+    "wikidataId": "Q11058998",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic faculty of theology Split",
+    "country": "Croatia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q52663114",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Croatian Military Academy Dr. Franjo Tuđman",
+    "country": "Croatia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1991,
+    "wikidataId": "Q16113966",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dubrovnik International University",
+    "country": "Croatia",
+    "city": "Dubrovnik",
+    "websiteUrl": "http://uni.libertas.hr/eng/",
+    "foundedYear": 2008,
+    "wikidataId": "Q5311141",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Civil Engineering, University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.gfos.unios.hr/",
+    "foundedYear": 1976,
+    "wikidataId": "Q5428923",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Food Technology, University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.ptfos.hr/",
+    "foundedYear": 1976,
+    "wikidataId": "Q5428967",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Law, University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.pravos.unios.hr/",
+    "foundedYear": 1975,
+    "wikidataId": "Q5429003",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Teacher Education, University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.ufos.unios.hr/",
+    "foundedYear": null,
+    "wikidataId": "Q5429077",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Greek Catholic Seminary in Zagreb",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "websiteUrl": "",
+    "foundedYear": 1681,
+    "wikidataId": "Q112194207",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of Philosophy and Theology of the Society of Jesus",
+    "country": "Croatia",
+    "city": "Grad Zagreb",
+    "websiteUrl": "https://www.ftidi.hr/",
+    "foundedYear": 1937,
+    "wikidataId": "Q97228827",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Istrian Polytechnic",
+    "country": "Croatia",
+    "city": "Pula",
+    "websiteUrl": "https://www.iv.hr/",
+    "foundedYear": null,
+    "wikidataId": "Q135410023",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Petar Zrinski Military Academy",
+    "country": "Croatia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q18601864",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polytechnic Lavoslav Ružička Vukovar",
+    "country": "Croatia",
+    "city": "Vukovar",
+    "websiteUrl": "http://www.vevu.hr/index.php",
+    "foundedYear": 2005,
+    "wikidataId": "Q7227034",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Professional Business School of Higher Education LIBERTAS",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "websiteUrl": "http://www.vps-libertas.hr/eng/start_news.aspx",
+    "foundedYear": 2004,
+    "wikidataId": "Q7247938",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "School of Medicine, University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.mefos.unios.hr/",
+    "foundedYear": 1998,
+    "wikidataId": "Q17097740",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University North",
+    "country": "Croatia",
+    "city": "Varaždin",
+    "websiteUrl": "https://www.unin.hr/",
+    "foundedYear": 2015,
+    "wikidataId": "Q57978195",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Dubrovnik",
+    "country": "Croatia",
+    "city": "Dubrovnik",
+    "websiteUrl": "http://www.unidu.hr/",
+    "foundedYear": 2003,
+    "wikidataId": "Q2496046",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Osijek",
+    "country": "Croatia",
+    "city": "Osijek",
+    "websiteUrl": "http://www.unios.hr/",
+    "foundedYear": 1975,
+    "wikidataId": "Q1708709",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Pula",
+    "country": "Croatia",
+    "city": "Pula",
+    "websiteUrl": "https://www.unipu.hr/",
+    "foundedYear": 2006,
+    "wikidataId": "Q633782",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Rijeka",
+    "country": "Croatia",
+    "city": "Rijeka",
+    "websiteUrl": "http://www.uniri.hr/",
+    "foundedYear": 1973,
+    "wikidataId": "Q787388",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Split",
+    "country": "Croatia",
+    "city": "Split",
+    "websiteUrl": "https://www.unist.hr/",
+    "foundedYear": 1974,
+    "wikidataId": "Q609301",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Zadar",
+    "country": "Croatia",
+    "city": "Zadar",
+    "websiteUrl": "http://www.unizd.hr/",
+    "foundedYear": 1396,
+    "wikidataId": "Q2496233",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Zagreb",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "websiteUrl": "http://www.unizg.hr/",
+    "foundedYear": 1669,
+    "wikidataId": "Q675848",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Zagreb School of Economics and Management",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "websiteUrl": "http://www.zsem.hr/",
+    "foundedYear": 2002,
+    "wikidataId": "Q3514601",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "General Jonas Žemaitis Military Academy of Lithuania",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.lka.lt/",
+    "foundedYear": 1992,
+    "wikidataId": "Q1501626",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ISM University of Management and Economics",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.ism.lt/",
+    "foundedYear": 1999,
+    "wikidataId": "Q1626754",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kaunas Priest Seminary",
+    "country": "Lithuania",
+    "city": "",
+    "websiteUrl": "http://kks.lcn.lt/index.php",
+    "foundedYear": 1864,
+    "wikidataId": "Q1353563",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kaunas State Vytautas Magnus University",
+    "country": "Lithuania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1922,
+    "wikidataId": "Q132734684",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kaunas University of Technology",
+    "country": "Lithuania",
+    "city": "Kaunas City Municipality",
+    "websiteUrl": "https://ktu.edu/",
+    "foundedYear": 1950,
+    "wikidataId": "Q625158",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Kazimieras Simonavičius University",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.ksu.lt",
+    "foundedYear": 2003,
+    "wikidataId": "Q1737499",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Klaipėda Pedagogical Institute",
+    "country": "Lithuania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1935,
+    "wikidataId": "Q175686",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Klaipėda University",
+    "country": "Lithuania",
+    "city": "Klaipėda",
+    "websiteUrl": "http://www.ku.lt/",
+    "foundedYear": 1991,
+    "wikidataId": "Q178200",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "LCC International University",
+    "country": "Lithuania",
+    "city": "Klaipėda",
+    "websiteUrl": "http://www.lcc.lt/",
+    "foundedYear": 1991,
+    "wikidataId": "Q1667494",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lithuanian Academy of Music and Theatre",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://lmta.lt",
+    "foundedYear": 1919,
+    "wikidataId": "Q1787936",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lithuanian Sports University",
+    "country": "Lithuania",
+    "city": "Kaunas City Municipality",
+    "websiteUrl": "http://www.lsu.lt/",
+    "foundedYear": 1945,
+    "wikidataId": "Q826358",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lithuanian University of Educational Sciences",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.leu.lt/",
+    "foundedYear": 1935,
+    "wikidataId": "Q56860",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Lithuanian University of Health Sciences",
+    "country": "Lithuania",
+    "city": "Kaunas City Municipality",
+    "websiteUrl": "https://lsmu.lt/",
+    "foundedYear": 2010,
+    "wikidataId": "Q2092640",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mykolas Romeris University",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "https://www.mruni.eu/",
+    "foundedYear": 1978,
+    "wikidataId": "Q1247342",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Polish University in Vilnius",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.uspv.lt",
+    "foundedYear": 1998,
+    "wikidataId": "Q9366817",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Seinen Theological Seminary",
+    "country": "Lithuania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q46799521",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Telšiai Bishop Vincentas Borisevičius Priest Seminary",
+    "country": "Lithuania",
+    "city": "Telšiai",
+    "websiteUrl": "http://www.tks.lt/",
+    "foundedYear": 1927,
+    "wikidataId": "Q866107",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilkaviškis Seminary",
+    "country": "Lithuania",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q387583",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilnius Academy of Art",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.vda.lt/",
+    "foundedYear": 1793,
+    "wikidataId": "Q1476319",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilnius Gediminas Technical University",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "http://www.vgtu.lt/",
+    "foundedYear": 1956,
+    "wikidataId": "Q389852",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilnius St. Joseph Seminary",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "https://www.seminarija.lt/",
+    "foundedYear": 1582,
+    "wikidataId": "Q1355626",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilnius University",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "https://www.vu.lt/",
+    "foundedYear": 1579,
+    "wikidataId": "Q658192",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilnius University Business School",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "websiteUrl": "https://www.vm.vu.lt/en/",
+    "foundedYear": 1989,
+    "wikidataId": "Q12677592",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vytautas Magnus University",
+    "country": "Lithuania",
+    "city": "Kaunas City Municipality",
+    "websiteUrl": "https://www.vdu.lt",
+    "foundedYear": 1989,
+    "wikidataId": "Q1756541",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vytautas Magnus University Agriculture Academy",
+    "country": "Lithuania",
+    "city": "Kaunas District Municipality",
+    "websiteUrl": "http://www.asu.lt/",
+    "foundedYear": 1924,
+    "wikidataId": "Q1479914",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Šiauliai University",
+    "country": "Lithuania",
+    "city": "Šiauliai",
+    "websiteUrl": "http://www.su.lt/en",
+    "foundedYear": 1997,
+    "wikidataId": "Q1784353",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Baltic International Academy",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://bsa.edu.lv/",
+    "foundedYear": 1992,
+    "wikidataId": "Q4076909",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Daugavpils University",
+    "country": "Latvia",
+    "city": "Daugavpils",
+    "websiteUrl": "http://du.lv",
+    "foundedYear": 1921,
+    "wikidataId": "Q1854796",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "EKA University of Applied Sciences",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.eka.edu.lv",
+    "foundedYear": null,
+    "wikidataId": "Q16355880",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Higher School of Latvia",
+    "country": "Latvia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1919,
+    "wikidataId": "Q110319397",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Higher School of Social Technologies",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "",
+    "foundedYear": 1991,
+    "wikidataId": "Q28939308",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "ISMA University",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.isma.lv/",
+    "foundedYear": 1994,
+    "wikidataId": "Q23136317",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International Institute of Practical Psychology",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.sppa.lv/",
+    "foundedYear": null,
+    "wikidataId": "Q15649513",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Jāzeps Vītols Latvian Academy of Music",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.jvlma.lv/",
+    "foundedYear": 1991,
+    "wikidataId": "Q2570442",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Latvia University of Life Sciences and Technologies",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.llu.lv",
+    "foundedYear": 1938,
+    "wikidataId": "Q1342858",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Latvian Academy of Culture",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.lka.edu.lv/",
+    "foundedYear": 1990,
+    "wikidataId": "Q4254872",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Latvian College of Culture",
+    "country": "Latvia",
+    "city": "",
+    "websiteUrl": "https://kulturaskoledza.lv/",
+    "foundedYear": null,
+    "wikidataId": "Q124466691",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Latvian Maritime Academy",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.latja.lv/",
+    "foundedYear": 1993,
+    "wikidataId": "Q4254869",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "RISEBA University of Business, Arts and Technology",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.riseba.lv",
+    "foundedYear": 1992,
+    "wikidataId": "Q4394523",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Riga Civil Aviation Engineers Institute",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://rkiigarau.lv/",
+    "foundedYear": 1919,
+    "wikidataId": "Q4394548",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Riga Nakhimov Naval School",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "",
+    "foundedYear": 1839,
+    "wikidataId": "Q4394578",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Riga Pedagogical Institute",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "",
+    "foundedYear": 1940,
+    "wikidataId": "Q111036372",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Riga Stradiņš University",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "https://www.rsu.lv/",
+    "foundedYear": 1950,
+    "wikidataId": "Q2007643",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Riga Technical University",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "https://rtu.lv",
+    "foundedYear": 1958,
+    "wikidataId": "Q411895",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "State Police College",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "http://www.policijas.koledza.gov.lv/",
+    "foundedYear": null,
+    "wikidataId": "Q20579868",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Latvia",
+    "country": "Latvia",
+    "city": "Riga",
+    "websiteUrl": "https://www.lu.lv/",
+    "foundedYear": 1990,
+    "wikidataId": "Q498407",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Liepāja",
+    "country": "Latvia",
+    "city": "Liepāja",
+    "websiteUrl": "http://www.liepu.lv/en/",
+    "foundedYear": 1954,
+    "wikidataId": "Q3498695",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ventspils University of Applied Sciences",
+    "country": "Latvia",
+    "city": "Ventspils",
+    "websiteUrl": "http://venta.lv/",
+    "foundedYear": 1997,
+    "wikidataId": "Q11219959",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Vilis Olavs Riga City School of Commerce",
+    "country": "Latvia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1906,
+    "wikidataId": "Q136547868",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Baltic Defence College",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "http://www.baltdefcol.org",
+    "foundedYear": 1999,
+    "wikidataId": "Q805790",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Concordia International University Estonia",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1993,
+    "wikidataId": "Q5158965",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Estonian Academy of Arts",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "http://www.artun.ee",
+    "foundedYear": 1914,
+    "wikidataId": "Q1370318",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Estonian Academy of Music and Theatre",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://eamt.ee/",
+    "foundedYear": 1918,
+    "wikidataId": "Q1370342",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Estonian Business School",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://www.ebs.ee",
+    "foundedYear": 1988,
+    "wikidataId": "Q3741208",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Estonian Military Academy",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://www.kvak.ee/",
+    "foundedYear": 1919,
+    "wikidataId": "Q12366102",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Estonian University of Life Sciences",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "http://www.emu.ee/",
+    "foundedYear": 1951,
+    "wikidataId": "Q655542",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International University Audentes",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "http://www.audentes.eu",
+    "foundedYear": 2003,
+    "wikidataId": "Q1518505",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Muraste Border Guard School",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q61402461",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Neeme Border Guard Dogs' School",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q61402466",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Police and Border Guard College",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://www.sisekaitse.ee/politsei-ja-piirivalvekolledz",
+    "foundedYear": null,
+    "wikidataId": "Q12372630",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tallinn University",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://www.tlu.ee/",
+    "foundedYear": 2005,
+    "wikidataId": "Q1257946",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tallinn University of Technology",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://taltech.ee/",
+    "foundedYear": 1918,
+    "wikidataId": "Q604487",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University Nord",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1991,
+    "wikidataId": "Q105223200",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Tartu",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "https://ut.ee",
+    "foundedYear": 1918,
+    "wikidataId": "Q204181",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Veritas",
+    "country": "Estonia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q18625538",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alexander Dubcek University in Trencin",
+    "country": "Slovakia",
+    "city": "Trenčín",
+    "websiteUrl": "http://tnuni.sk/",
+    "foundedYear": null,
+    "wikidataId": "Q9366826",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Armed Forces Academy of General Milan Rastislav Štefánik",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q113987352",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Catholic University in Ružomberok",
+    "country": "Slovakia",
+    "city": "Ružomberok",
+    "websiteUrl": "http://www.ku.sk",
+    "foundedYear": 2000,
+    "wikidataId": "Q1736408",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Comenius University",
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "websiteUrl": "https://uniba.sk/",
+    "foundedYear": 1919,
+    "wikidataId": "Q31392",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Greek-Catholic Theology of the University of Prešov",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q108697561",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Roman Catholic Theology of Cyril and Methodius, Comenius University in Bratislava",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "http://www.frcth.uniba.sk/",
+    "foundedYear": 1919,
+    "wikidataId": "Q3497023",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Theology in Košice, Catholic University in Ružomberok",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "https://www.ku.sk/index.php/fakulty-a-pracoviska/teologicka-fakulta",
+    "foundedYear": 2003,
+    "wikidataId": "Q58806960",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Institute of physics of the University of Pavol Jozef Šafárik",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q6040989",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ján Vojtaššák Seminary",
+    "country": "Slovakia",
+    "city": "Spišské Podhradie",
+    "websiteUrl": "",
+    "foundedYear": 1647,
+    "wikidataId": "Q113129623",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Matej Bel University",
+    "country": "Slovakia",
+    "city": "Banská Bystrica",
+    "websiteUrl": "http://www.umb.sk",
+    "foundedYear": 1992,
+    "wikidataId": "Q1908174",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pan-European University",
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "websiteUrl": "https://www.paneurouni.com/",
+    "foundedYear": 2004,
+    "wikidataId": "Q547138",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Pavol Jozef Šafárik University in Košice",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "https://upjs.sk",
+    "foundedYear": 1959,
+    "wikidataId": "Q178333",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Roman Catholic Faculty of Theology in Bratislava",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q24969590",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Selye János University",
+    "country": "Slovakia",
+    "city": "Komárno",
+    "websiteUrl": "http://www.ujs.sk",
+    "foundedYear": 2003,
+    "wikidataId": "Q1093568",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Slovak Medical University",
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "websiteUrl": "http://www.szu.sk",
+    "foundedYear": 2002,
+    "wikidataId": "Q1466307",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Slovak University of Agriculture",
+    "country": "Slovakia",
+    "city": "Nitra",
+    "websiteUrl": "http://www.uniag.sk/",
+    "foundedYear": 1952,
+    "wikidataId": "Q1668416",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Slovak University of Technology in Bratislava",
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "websiteUrl": "http://www.stuba.sk",
+    "foundedYear": 1937,
+    "wikidataId": "Q1778355",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "St Charles Borromeo Seminary",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "http://www.kske.sk/",
+    "foundedYear": 1994,
+    "wikidataId": "Q17020725",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University in Zvolen",
+    "country": "Slovakia",
+    "city": "Zvolen",
+    "websiteUrl": "http://www.tuzvo.sk",
+    "foundedYear": 1952,
+    "wikidataId": "Q637084",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Košice",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "https://tuke.sk/",
+    "foundedYear": 1952,
+    "wikidataId": "Q1719038",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "The School of Management",
+    "country": "Slovakia",
+    "city": "Trenčín",
+    "websiteUrl": "http://www.vsm.sk/en/",
+    "foundedYear": null,
+    "wikidataId": "Q5123488",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Universitas Istropolitana",
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "websiteUrl": "",
+    "foundedYear": 1400,
+    "wikidataId": "Q481659",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Constantine the Philosopher",
+    "country": "Slovakia",
+    "city": "Nitra",
+    "websiteUrl": "https://www.ukf.sk/",
+    "foundedYear": 1959,
+    "wikidataId": "Q9366812",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Economics in Bratislava",
+    "country": "Slovakia",
+    "city": "",
+    "websiteUrl": "https://euba.sk/",
+    "foundedYear": 1940,
+    "wikidataId": "Q1466108",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Prešov",
+    "country": "Slovakia",
+    "city": "Prešov",
+    "websiteUrl": "http://www.unipo.sk",
+    "foundedYear": 1997,
+    "wikidataId": "Q963904",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Security Management in Košice",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "https://www.vsbm.sk/",
+    "foundedYear": 2006,
+    "wikidataId": "Q3578456",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Ss. Cyril and Methodius in Trnava",
+    "country": "Slovakia",
+    "city": "Trnava",
+    "websiteUrl": "http://www.ucm.sk/",
+    "foundedYear": 1997,
+    "wikidataId": "Q3072182",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Trnava",
+    "country": "Slovakia",
+    "city": "Trnava",
+    "websiteUrl": "https://www.truni.sk/",
+    "foundedYear": 1992,
+    "wikidataId": "Q2585282",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Veterinary Medicine and Pharmacy in Košice",
+    "country": "Slovakia",
+    "city": "Košice",
+    "websiteUrl": "https://www.uvlf.sk/",
+    "foundedYear": 1949,
+    "wikidataId": "Q1421868",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Žilina",
+    "country": "Slovakia",
+    "city": "Žilina",
+    "websiteUrl": "https://www.uniza.sk/",
+    "foundedYear": 1953,
+    "wikidataId": "Q2003858",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alma Mater Europaea",
+    "country": "Slovenia",
+    "city": "Maribor City Municipality",
+    "websiteUrl": "https://almamater.at/",
+    "foundedYear": 2010,
+    "wikidataId": "Q14594755",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Euro-Mediterranean University of Slovenia",
+    "country": "Slovenia",
+    "city": "Piran Municipality",
+    "websiteUrl": "https://emuni.si/",
+    "foundedYear": 2008,
+    "wikidataId": "Q5411497",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Faculty of Theology – University of Ljubljana",
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q12803990",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "International School for Business and Social Studies",
+    "country": "Slovenia",
+    "city": "Celje",
+    "websiteUrl": "http://mfdps.si/en",
+    "foundedYear": null,
+    "wikidataId": "Q12796287",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "New University",
+    "country": "Slovenia",
+    "city": "Nova Gorica",
+    "websiteUrl": "https://nova-uni.si/",
+    "foundedYear": 2017,
+    "wikidataId": "Q50224392",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University and Research Centre Novo Mesto",
+    "country": "Slovenia",
+    "city": "Novo Mesto",
+    "websiteUrl": "http://www.unm.si/",
+    "foundedYear": 2006,
+    "wikidataId": "Q19937506",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Ljubljana",
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "websiteUrl": "https://www.uni-lj.si/",
+    "foundedYear": 1919,
+    "wikidataId": "Q1377",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Maribor",
+    "country": "Slovenia",
+    "city": "Maribor",
+    "websiteUrl": "http://www.um.si",
+    "foundedYear": 1961,
+    "wikidataId": "Q1378",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Nova Gorica",
+    "country": "Slovenia",
+    "city": "Nova Gorica",
+    "websiteUrl": "http://www.ung.si",
+    "foundedYear": 2006,
+    "wikidataId": "Q656086",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Novo Mesto",
+    "country": "Slovenia",
+    "city": "Novo Mesto",
+    "websiteUrl": "https://uni-nm.si/",
+    "foundedYear": 2017,
+    "wikidataId": "Q47669666",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Primorska",
+    "country": "Slovenia",
+    "city": "Koper",
+    "websiteUrl": "http://www.upr.si",
+    "foundedYear": 2003,
+    "wikidataId": "Q1378123",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"Prof. Dr. Assen Zlatarov\" University",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "http://www.btu.bg/",
+    "foundedYear": 1963,
+    "wikidataId": "Q723646",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural Academy",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "http://www.agriacad.bg/",
+    "foundedYear": 1961,
+    "wikidataId": "Q92309223",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Agricultural University Plovdiv",
+    "country": "Bulgaria",
+    "city": "Plovdiv",
+    "websiteUrl": "https://www.au-plovdiv.bg/en/",
+    "foundedYear": 1945,
+    "wikidataId": "Q30257336",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "American University in Bulgaria",
+    "country": "Bulgaria",
+    "city": "Blagoevgrad",
+    "websiteUrl": "http://www.aubg.edu/",
+    "foundedYear": 1991,
+    "wikidataId": "Q469484",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Burgas Free University",
+    "country": "Bulgaria",
+    "city": "Burgas",
+    "websiteUrl": "http://www.bfu.bg/",
+    "foundedYear": 1991,
+    "wikidataId": "Q118038",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "College of Economics – Bourgas",
+    "country": "Bulgaria",
+    "city": "Burgas",
+    "websiteUrl": "http://www.ti-bs.org",
+    "foundedYear": 1905,
+    "wikidataId": "Q5146682",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "D. A. Tsenov Academy of Economics",
+    "country": "Bulgaria",
+    "city": "Svishtov",
+    "websiteUrl": "http://www.uni-svishtov.bg/",
+    "foundedYear": 1936,
+    "wikidataId": "Q12295453",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "European Polytechnical University",
+    "country": "Bulgaria",
+    "city": "Pernik",
+    "websiteUrl": "http://www.epu.bg",
+    "foundedYear": 2010,
+    "wikidataId": "Q12279431",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University Pleven",
+    "country": "Bulgaria",
+    "city": "Pleven",
+    "websiteUrl": "http://www.mu-pleven.bg/",
+    "foundedYear": 1974,
+    "wikidataId": "Q1916598",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Medical University of Varna",
+    "country": "Bulgaria",
+    "city": "Varna",
+    "websiteUrl": "https://www.mu-varna.bg",
+    "foundedYear": 1961,
+    "wikidataId": "Q648637",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military Medical Academy",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "http://www.vma.bg/indexen.php",
+    "foundedYear": 1891,
+    "wikidataId": "Q6852078",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "NVU",
+    "country": "Bulgaria",
+    "city": "Veliko Tarnovo",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q35326544",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "New Bulgarian University",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "https://nbu.bg/",
+    "foundedYear": 1991,
+    "wikidataId": "Q370968",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nikola Vaptsarov Naval Academy",
+    "country": "Bulgaria",
+    "city": "Varna",
+    "websiteUrl": "http://www.naval-acad.bg",
+    "foundedYear": 1881,
+    "wikidataId": "Q7035695",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Plovdiv Medical University",
+    "country": "Bulgaria",
+    "city": "Plovdiv",
+    "websiteUrl": "https://mu-plovdiv.bg/",
+    "foundedYear": 1945,
+    "wikidataId": "Q3557727",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Plovdiv University",
+    "country": "Bulgaria",
+    "city": "Plovdiv",
+    "websiteUrl": "http://www.uni-plovdiv.bg/",
+    "foundedYear": 1961,
+    "wikidataId": "Q7205171",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Shumen University",
+    "country": "Bulgaria",
+    "city": "Shumen",
+    "websiteUrl": "http://shu-bg.net/",
+    "foundedYear": 1971,
+    "wikidataId": "Q1782652",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Skopje State University \"Tsar Boris III – The Unifier\"",
+    "country": "Bulgaria",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": 1943,
+    "wikidataId": "Q25484589",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Sofia Medical University",
+    "country": "Bulgaria",
+    "city": "Triaditsa District",
+    "websiteUrl": "https://mu-sofia.bg/",
+    "foundedYear": 1917,
+    "wikidataId": "Q1485112",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Sofia University",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "https://uni-sofia.bg",
+    "foundedYear": 1888,
+    "wikidataId": "Q841581",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "South-West University \"Neofit Rilski\"",
+    "country": "Bulgaria",
+    "city": "Blagoevgrad",
+    "websiteUrl": "http://www.swu.bg/",
+    "foundedYear": 1983,
+    "wikidataId": "Q2380350",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "State Polytechnical School",
+    "country": "Bulgaria",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q12279303",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "State University of Library Studies and Information Technologies",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "http://www.unibit.bg/",
+    "foundedYear": 1950,
+    "wikidataId": "Q1622169",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Gabrovo",
+    "country": "Bulgaria",
+    "city": "Gabrovo",
+    "websiteUrl": "http://www.tugab.bg/",
+    "foundedYear": 1964,
+    "wikidataId": "Q2399293",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Sofia",
+    "country": "Bulgaria",
+    "city": "Studentski District",
+    "websiteUrl": "http://www.tu-sofia.bg/",
+    "foundedYear": 1945,
+    "wikidataId": "Q2303775",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Varna",
+    "country": "Bulgaria",
+    "city": "Varna",
+    "websiteUrl": "http://www.tu-varna.bg/",
+    "foundedYear": 1962,
+    "wikidataId": "Q2399361",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Todor Kableshkov Higher School of Transport",
+    "country": "Bulgaria",
+    "city": "",
+    "websiteUrl": "http://www.vtu.bg/",
+    "foundedYear": null,
+    "wikidataId": "Q12275343",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Trakia University",
+    "country": "Bulgaria",
+    "city": "Stara Zagora",
+    "websiteUrl": "http://www.uni-sz.bg/",
+    "foundedYear": 1995,
+    "wikidataId": "Q3658386",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Architecture, Civil Engineering and Geodesy",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "websiteUrl": "http://uacg.bg",
+    "foundedYear": 1942,
+    "wikidataId": "Q7895055",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Chemical Technology and Metallurgy",
+    "country": "Bulgaria",
+    "city": "Stolichna Municipality",
+    "websiteUrl": "https://uctm.edu/",
+    "foundedYear": 1953,
+    "wikidataId": "Q12298062",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "\"Alexandru cel Bun\" Military Academy",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "https://amfa.army.md/",
+    "foundedYear": 1993,
+    "wikidataId": "Q20261897",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Economic Studies of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.ase.md",
+    "foundedYear": 1991,
+    "wikidataId": "Q4671448",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Music, Theatre and Fine Arts of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.amtap.md",
+    "foundedYear": 1940,
+    "wikidataId": "Q20262483",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Academy of Public Administration of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.aap.gov.md",
+    "foundedYear": 1993,
+    "wikidataId": "Q20262311",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Alecu Russo State University of Bălți",
+    "country": "Moldova",
+    "city": "Bălți Municipality",
+    "websiteUrl": "https://usarb.md/",
+    "foundedYear": 1945,
+    "wikidataId": "Q2501849",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Bogdan Petriceicu Hasdeu State University",
+    "country": "Moldova",
+    "city": "Cahul",
+    "websiteUrl": "http://www.usch.md/",
+    "foundedYear": 1999,
+    "wikidataId": "Q3624015",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Comrat State University",
+    "country": "Moldova",
+    "city": "Comrat",
+    "websiteUrl": "http://www.kdu.md/",
+    "foundedYear": 1991,
+    "wikidataId": "Q2496010",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Dniester Institute of Economics and Law",
+    "country": "Moldova",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q4163281",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Free International University from Moldova ULIM",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://ulim.md/",
+    "foundedYear": null,
+    "wikidataId": "Q19709686",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Imi-Nova International Management Institute",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.imi-nova.md/",
+    "foundedYear": 2005,
+    "wikidataId": "Q6003961",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Ion Creangă Pedagogical State University",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.upsc.md/",
+    "foundedYear": 1940,
+    "wikidataId": "Q4146913",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Military Institute of the Ministry of Defence of the Transnistrian Moldovan Republic",
+    "country": "Moldova",
+    "city": "",
+    "websiteUrl": "http://militar.spsu.ru",
+    "foundedYear": 1993,
+    "wikidataId": "Q4114528",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Moldova State University",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.usm.md",
+    "foundedYear": 1946,
+    "wikidataId": "Q1097810",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Nicolae Testemițanu State University of Medicine and Pharmacy",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://usmf.md/",
+    "foundedYear": 1944,
+    "wikidataId": "Q4146986",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Shevchenko Transnistria State University",
+    "country": "Moldova",
+    "city": "Tiraspol",
+    "websiteUrl": "http://spsu.ru",
+    "foundedYear": 1930,
+    "wikidataId": "Q1282309",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Slavonic University of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://surm.md/",
+    "foundedYear": null,
+    "wikidataId": "Q20432790",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "State Agrarian University of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.uasm.md",
+    "foundedYear": 1933,
+    "wikidataId": "Q4693931",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "State University of Physical Education and Sport",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.usefs.md",
+    "foundedYear": 1991,
+    "wikidataId": "Q18091358",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "T. G. Shevchenko University",
+    "country": "Moldova",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q7668257",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Taraclia State University",
+    "country": "Moldova",
+    "city": "Taraclia",
+    "websiteUrl": "http://tdu-tar.md",
+    "foundedYear": 2004,
+    "wikidataId": "Q2650619",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technical University of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.utm.md/",
+    "foundedYear": 1964,
+    "wikidataId": "Q1098106",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Technikal University of Moldova",
+    "country": "Moldova",
+    "city": "",
+    "websiteUrl": "https://utm.md/ru/",
+    "foundedYear": null,
+    "wikidataId": "Q110011603",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Tiraspol State University",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.ust.md/",
+    "foundedYear": null,
+    "wikidataId": "Q20432785",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Trade Co-operative University of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "http://www.uccm.md/",
+    "foundedYear": null,
+    "wikidataId": "Q20432783",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Transnistrian Technical Engineering Institute",
+    "country": "Moldova",
+    "city": "",
+    "websiteUrl": "http://iti.spsu.ru/",
+    "foundedYear": 1990,
+    "wikidataId": "Q4378148",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of European Studies of Moldova",
+    "country": "Moldova",
+    "city": "Chișinău",
+    "websiteUrl": "",
+    "foundedYear": 1992,
+    "wikidataId": "Q20432787",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Besselfjord Station",
+    "country": "Greenland",
+    "city": "Northeast Greenland National Park",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q31863421",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "Mørkefjord Station",
+    "country": "Greenland",
+    "city": "",
+    "websiteUrl": "",
+    "foundedYear": null,
+    "wikidataId": "Q31845194",
+    "dataSource": "wikidata"
+  },
+  {
+    "name": "University of Greenland",
+    "country": "Greenland",
+    "city": "Sermersooq",
+    "websiteUrl": "https://www.uni.gl/",
+    "foundedYear": 1987,
+    "wikidataId": "Q1121983",
+    "dataSource": "wikidata"
+  }
+]

@@ -210,8 +210,73 @@ html {
 
 /* Grid pattern background */
 .grid-pattern {
-  background-image: 
+  background-image:
     linear-gradient(oklch(0.25 0.02 260 / 0.3) 1px, transparent 1px),
     linear-gradient(90deg, oklch(0.25 0.02 260 / 0.3) 1px, transparent 1px);
   background-size: 60px 60px;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 20px oklch(0.70 0.18 250 / 0.3),
+              0 0 40px oklch(0.70 0.18 250 / 0.1);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 30px oklch(0.70 0.18 250 / 0.4),
+              0 0 60px oklch(0.70 0.18 250 / 0.2);
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    oklch(0.25 0.02 260) 0%,
+    oklch(0.30 0.02 260) 50%,
+    oklch(0.25 0.02 260) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Input focus glow */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px oklch(0.70 0.18 250 / 0.2);
+}
+
+/* Button press effect */
+button:active {
+  transform: scale(0.98);
+}
+
+/* Smooth fade for page transitions */
+.page-transition {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

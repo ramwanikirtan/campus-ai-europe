@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useAppStore } from '@/lib/store';
 import { universities, scholarships } from '@/lib/seed-data';
 import { getScholarshipRecommendations } from '@/lib/matching';
-import { useMemo } from 'react';
+import { useMemo, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Heart, ExternalLink, Calendar, TrendingUp, ArrowLeft, CheckCircle, AlertTriangle, XCircle, Building2 } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -23,12 +23,21 @@ export default function ScholarshipDetailPage() {
   const { profile, isAuthenticated, toggleBookmark, isBookmarked } = useAppStore();
   const id = params.id as string;
 
+  const allRecs = useMemo(() => {
+    if (!profile) return [];
+    return getScholarshipRecommendations(profile, scholarships);
+  }, [profile]);
+
+  useEffect(() => {
+    if (!isAuthenticated || !profile) {
+      router.push('/auth/login');
+    }
+  }, [isAuthenticated, profile, router]);
+
   if (!isAuthenticated || !profile) {
-    if (typeof window !== 'undefined') router.push('/auth/login');
     return null;
   }
 
-  const allRecs = useMemo(() => getScholarshipRecommendations(profile, scholarships), [profile]);
   const sch = allRecs.find((s) => s.id === id) || scholarships.find((s) => s.id === id);
 
   if (!sch) return (

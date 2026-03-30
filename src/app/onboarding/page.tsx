@@ -140,25 +140,32 @@ export default function OnboardingPage() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
-      <div className="border-b border-border px-4 py-3 flex items-center gap-3">
-        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] flex items-center justify-center">
+      <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="border-b border-border/50 px-4 py-3 flex items-center gap-3 glass"
+      >
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] flex items-center justify-center shadow-lg shadow-primary/20">
           <GraduationCap className="w-5 h-5 text-white" />
         </div>
         <div>
           <span className="font-bold gradient-text">Campus AI Europe</span>
           <p className="text-xs text-muted-foreground">Profile Setup</p>
         </div>
-        <div className="ml-auto flex gap-1">
+        <div className="ml-auto flex gap-1.5">
           {[...Array(8)].map((_, i) => (
-            <div
+            <motion.div
               key={i}
-              className={`w-6 h-1.5 rounded-full transition-all ${
-                i <= step ? 'bg-primary' : 'bg-secondary'
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: i <= step ? 1 : 0.3 }}
+              transition={{ duration: 0.3 }}
+              className={`w-8 h-2 rounded-full transition-all ${
+                i <= step ? 'bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)]' : 'bg-secondary'
               }`}
             />
           ))}
         </div>
-      </div>
+      </motion.div>
 
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto p-4 max-w-2xl mx-auto w-full">
@@ -166,25 +173,33 @@ export default function OnboardingPage() {
           {messages.map((msg) => (
             <motion.div
               key={msg.id}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
               className={`flex mb-4 ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
-              <div className={`flex items-start gap-2 max-w-[85%] ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-                  msg.role === 'user'
-                    ? 'bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)]'
-                    : 'bg-secondary'
-                }`}>
+              <div className={`flex items-start gap-2.5 max-w-[85%] ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ${
+                    msg.role === 'user'
+                      ? 'bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)]'
+                      : 'bg-secondary'
+                  }`}
+                >
                   {msg.role === 'user' ? <User className="w-4 h-4 text-white" /> : <Bot className="w-4 h-4" />}
-                </div>
-                <div className={`rounded-2xl px-4 py-3 text-sm ${
-                  msg.role === 'user'
-                    ? 'bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] text-white'
-                    : 'bg-secondary'
-                }`}>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, x: msg.role === 'user' ? 20 : -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  className={`rounded-2xl px-4 py-3 text-sm shadow-lg ${
+                    msg.role === 'user'
+                      ? 'bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] text-white'
+                      : 'bg-secondary border border-border/50'
+                  }`}
+                >
                   {msg.content}
-                </div>
+                </motion.div>
               </div>
             </motion.div>
           ))}
@@ -285,7 +300,10 @@ export default function OnboardingPage() {
                 <span className="text-lg font-bold min-w-[80px] text-right">€{budget}</span>
               </div>
               <p className="text-xs text-muted-foreground text-center">Monthly budget including tuition + living costs</p>
-              <div className="flex justify-center">
+              <div className="flex justify-center gap-4">
+                <Button variant="outline" onClick={() => proceed('Skipped budget', 5)} className="rounded-xl px-6 border-border">
+                  Skip
+                </Button>
                 <Button onClick={() => proceed(`€${budget}/month`, 5)} className="bg-primary hover:bg-primary/90 rounded-xl px-8">
                   Next
                 </Button>
@@ -339,16 +357,14 @@ export default function OnboardingPage() {
                   Add
                 </Button>
               </div>
-              {userLangs.length > 0 && (
-                <div className="flex justify-center">
-                  <Button
-                    onClick={() => proceed(userLangs.map((l) => `${l.language} (${l.level})`).join(', '), 6)}
-                    className="bg-primary hover:bg-primary/90 rounded-xl px-8"
-                  >
-                    Next
-                  </Button>
-                </div>
-              )}
+              <div className="flex justify-center">
+                <Button
+                  onClick={() => proceed(userLangs.length > 0 ? userLangs.map((l) => `${l.language} (${l.level})`).join(', ') : 'English only', 6)}
+                  className="bg-primary hover:bg-primary/90 rounded-xl px-8"
+                >
+                  {userLangs.length > 0 ? 'Next' : 'Skip & Continue'}
+                </Button>
+              </div>
             </div>
           )}
 

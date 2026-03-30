@@ -16,6 +16,11 @@ export default function ScholarshipsBrowsePage() {
   const { profile, isAuthenticated, toggleBookmark, isBookmarked } = useAppStore();
   const [search, setSearch] = useState('');
 
+  const allRecs = useMemo(() => {
+    if (!profile) return [];
+    return getScholarshipRecommendations(profile, scholarships);
+  }, [profile]);
+
   useEffect(() => {
     if (!isAuthenticated || !profile) {
       router.push('/auth/login');
@@ -25,8 +30,6 @@ export default function ScholarshipsBrowsePage() {
   if (!isAuthenticated || !profile) {
     return null;
   }
-
-  const allRecs = useMemo(() => getScholarshipRecommendations(profile, scholarships), [profile]);
 
   const filtered = allRecs.filter((s) =>
     s.name.toLowerCase().includes(search.toLowerCase()) || s.provider.toLowerCase().includes(search.toLowerCase())

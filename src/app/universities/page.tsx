@@ -23,6 +23,11 @@ export default function UniversitiesBrowsePage() {
   const [search, setSearch] = useState('');
   const [countryFilter, setCountryFilter] = useState('');
 
+  const allRecs = useMemo(() => {
+    if (!profile) return [];
+    return getUniversityRecommendations(profile, universities);
+  }, [profile]);
+
   useEffect(() => {
     if (!isAuthenticated || !profile) {
       router.push('/auth/login');
@@ -32,8 +37,6 @@ export default function UniversitiesBrowsePage() {
   if (!isAuthenticated || !profile) {
     return null;
   }
-
-  const allRecs = useMemo(() => getUniversityRecommendations(profile, universities), [profile]);
 
   const filtered = allRecs.filter((u) => {
     const matchesSearch = u.name.toLowerCase().includes(search.toLowerCase()) || u.city.toLowerCase().includes(search.toLowerCase());

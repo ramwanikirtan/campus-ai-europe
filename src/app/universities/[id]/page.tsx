@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useAppStore } from '@/lib/store';
 import { universities, scholarships } from '@/lib/seed-data';
 import { getUniversityRecommendations, getScholarshipRecommendations } from '@/lib/matching';
-import { useMemo } from 'react';
+import { useMemo, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Heart, ExternalLink, MapPin, Calendar, TrendingUp, ChevronDown, ArrowLeft, Clock, BookOpen, DollarSign, CheckCircle, AlertTriangle, XCircle, Award } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -28,14 +28,29 @@ export default function UniversityDetailPage() {
   const { profile, isAuthenticated, toggleBookmark, isBookmarked } = useAppStore();
   const id = params.id as string;
 
-  if (!isAuthenticated || !profile) {
-    if (typeof window !== 'undefined') router.push('/auth/login');
-    return null;
-  }
+  const allRecs = useMemo(() => {
+    if (!profile) return [];
+    return getUniversityRecommendations(profile, universities);
+  }, [profile]);
 
-  const allRecs = useMemo(() => getUniversityRecommendations(profile, universities), [profile]);
   const uni = allRecs.find((u) => u.id === id) || universities.find((u) => u.id === id);
   const uniWithMatch = allRecs.find((u) => u.id === id);
+
+  const relatedScholarships = useMemo(() => {
+    if (!profile || !uni) return [];
+    const schRecs = getScholarshipRecommendations(profile, scholarships);
+    return schRecs.filter((s) => s.linkedUniversityIds.includes(uni.id));
+  }, [profile, uni]);
+
+  useEffect(() => {
+    if (!isAuthenticated || !profile) {
+      router.push('/auth/login');
+    }
+  }, [isAuthenticated, profile, router]);
+
+  if (!isAuthenticated || !profile) {
+    return null;
+  }
 
   if (!uni) return (
     <div className="min-h-screen flex items-center justify-center">
@@ -46,12 +61,6 @@ export default function UniversityDetailPage() {
   const matchScore = uniWithMatch?.matchScore;
   const relevantPrograms = uni.programs.filter((p) => p.degreeLevel === profile.degreeLevel);
   const otherPrograms = uni.programs.filter((p) => p.degreeLevel !== profile.degreeLevel);
-
-  // Find linked scholarships
-  const relatedScholarships = useMemo(() => {
-    const schRecs = getScholarshipRecommendations(profile, scholarships);
-    return schRecs.filter((s) => s.linkedUniversityIds.includes(uni.id));
-  }, [profile, uni.id]);
 
   const daysUntilDeadline = (date: string) => {
     const diff = new Date(date).getTime() - Date.now();

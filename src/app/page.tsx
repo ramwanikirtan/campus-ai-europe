@@ -10,8 +10,17 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.1, duration: 0.5 }
+    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" as const }
   })
+};
+
+const scaleIn = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.5 }
+  }
 };
 
 const features = [
@@ -66,12 +75,17 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 mb-8">
-              <Sparkles className="w-4 h-4 text-primary" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8 shadow-lg shadow-primary/10">
+              <motion.div
+                animate={{ rotate: [0, 10, -10, 0] }}
+                transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
+              >
+                <Sparkles className="w-4 h-4 text-primary" />
+              </motion.div>
               <span className="text-sm text-primary font-medium">AI-Powered Education Platform</span>
             </div>
           </motion.div>
@@ -106,14 +120,24 @@ export default function HomePage() {
             <Button
               asChild
               size="lg"
-              className="text-base px-8 py-6 bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 rounded-xl shadow-lg shadow-primary/25"
+              className="text-base px-8 py-6 bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 rounded-xl shadow-lg shadow-primary/25 transition-all hover:scale-105 active:scale-95"
             >
               <Link href="/auth/signup">
                 Get Started Free
-                <ArrowRight className="w-5 h-5 ml-2" />
+                <motion.span
+                  animate={{ x: [0, 5, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 2 }}
+                >
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </motion.span>
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="text-base px-8 py-6 rounded-xl border-border">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="text-base px-8 py-6 rounded-xl border-border/60 hover:bg-secondary/50 transition-all hover:scale-105 active:scale-95"
+            >
               <Link href="/auth/login">
                 Log In
                 <ChevronRight className="w-4 h-4 ml-1" />

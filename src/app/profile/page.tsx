@@ -22,7 +22,7 @@ export default function ProfilePage() {
           {/* User info */}
           <div className="glass-card rounded-2xl p-6 mb-6">
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] flex items-center justify-center text-2xl font-bold text-white">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-primary/90 flex items-center justify-center text-2xl font-bold text-white">
                 {user?.fullName?.charAt(0) || 'U'}
               </div>
               <div>
@@ -110,7 +110,7 @@ export default function ProfilePage() {
           ) : (
             <div className="glass-card rounded-2xl p-8 text-center">
               <p className="text-muted-foreground mb-4">You haven&apos;t completed your profile yet.</p>
-              <Button asChild className="rounded-xl bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0">
+              <Button asChild className="rounded-xl bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0">
                 <Link href="/onboarding">Complete Profile</Link>
               </Button>
             </div>

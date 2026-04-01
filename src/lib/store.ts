@@ -161,9 +161,12 @@ export function useAppStore() {
     await signOut({ redirectTo: '/' });
   }, []);
 
+  const isLoading = !mounted || status === 'loading';
+
   return {
     // Auth — sourced from NextAuth
     user,
+    isLoading,
     isAuthenticated: mounted && status === 'authenticated',
     login: (_user: User) => {}, // no-op; real auth is handled by NextAuth
     logout,

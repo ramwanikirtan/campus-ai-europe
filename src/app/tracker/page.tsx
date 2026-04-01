@@ -78,7 +78,7 @@ export default function TrackerPage() {
           className="mb-8"
         >
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[oklch(0.65_0.18_290)] to-[oklch(0.55_0.20_320)] flex items-center justify-center shadow-lg shadow-[oklch(0.65_0.18_290_/_0.25)]">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg shadow-[oklch(0.65_0.18_290_/_0.25)]">
               <KanbanSquare className="w-5 h-5 text-white" />
             </div>
             <h1 className="text-2xl sm:text-3xl font-bold">Application Tracker</h1>
@@ -95,7 +95,7 @@ export default function TrackerPage() {
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              className="w-24 h-24 rounded-2xl bg-gradient-to-br from-[oklch(0.70_0.18_250_/_0.15)] to-[oklch(0.65_0.18_290_/_0.15)] border border-primary/20 flex items-center justify-center mx-auto mb-6"
+              className="w-24 h-24 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 border border-primary/20 flex items-center justify-center mx-auto mb-6"
             >
               <GraduationCap className="w-12 h-12 text-muted-foreground" />
             </motion.div>
@@ -105,7 +105,7 @@ export default function TrackerPage() {
             </p>
             <Button
               asChild
-              className="rounded-xl bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 shadow-lg shadow-primary/25 transition-all hover:scale-105"
+              className="rounded-xl bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0 shadow-lg shadow-primary/25 transition-all hover:scale-105"
             >
               <Link href="/dashboard">
                 Go to Dashboard

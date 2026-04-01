@@ -113,21 +113,17 @@ export function getUniversityRecommendations(
   const results: UniversityWithMatch[] = [];
 
   for (const uni of universities) {
-    // Filter by country preference
-    if (
-      profile.countryPreferences.length > 0 &&
-      !profile.countryPreferences.includes('No preference') &&
-      !profile.countryPreferences.includes(uni.country)
-    ) {
-      continue;
-    }
+    // Check country preference — penalize score but don't filter out
+    const countryMatch =
+      profile.countryPreferences.length === 0 ||
+      profile.countryPreferences.includes('No preference') ||
+      profile.countryPreferences.includes(uni.country);
 
-    // Find relevant programs
+    // Find programs matching degree level first, fall back to all programs
     const relevantPrograms = uni.programs.filter(
       (p) => p.degreeLevel === profile.degreeLevel
     );
-
-    if (relevantPrograms.length === 0) continue;
+    const programsToScore = relevantPrograms.length > 0 ? relevantPrograms : uni.programs;
 
     // Compute match score using the best-matching program
     let bestScore: MatchScore = {
@@ -135,18 +131,23 @@ export function getUniversityRecommendations(
       gpa: 0, budget: 0, language: 0, nationality: 0
     };
 
-    for (const program of relevantPrograms) {
+    for (const program of programsToScore) {
       const score = computeProgramMatchScore(profile, program);
       if (score.overall > bestScore.overall) {
         bestScore = score;
       }
     }
 
-    if (bestScore.overall >= 30) {
+    // Reduce score for non-preferred countries
+    if (!countryMatch) {
+      bestScore = { ...bestScore, overall: Math.round(bestScore.overall * 0.7) };
+    }
+
+    if (bestScore.overall >= 20) {
       results.push({
         ...uni,
         matchScore: bestScore,
-        relevantPrograms,
+        relevantPrograms: relevantPrograms.length > 0 ? relevantPrograms : programsToScore,
       });
     }
   }

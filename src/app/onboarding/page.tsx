@@ -145,7 +145,7 @@ export default function OnboardingPage() {
         animate={{ opacity: 1, y: 0 }}
         className="border-b border-border/50 px-4 py-3 flex items-center gap-3 glass"
       >
-        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] flex items-center justify-center shadow-lg shadow-primary/20">
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary/90 flex items-center justify-center shadow-lg shadow-primary/20">
           <GraduationCap className="w-5 h-5 text-white" />
         </div>
         <div>
@@ -160,7 +160,7 @@ export default function OnboardingPage() {
               animate={{ scaleX: i <= step ? 1 : 0.3 }}
               transition={{ duration: 0.3 }}
               className={`w-8 h-2 rounded-full transition-all ${
-                i <= step ? 'bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)]' : 'bg-secondary'
+                i <= step ? 'bg-gradient-to-r from-primary to-primary/90' : 'bg-secondary'
               }`}
             />
           ))}
@@ -183,7 +183,7 @@ export default function OnboardingPage() {
                   animate={{ scale: 1 }}
                   className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ${
                     msg.role === 'user'
-                      ? 'bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)]'
+                      ? 'bg-gradient-to-br from-primary to-primary/90'
                       : 'bg-secondary'
                   }`}
                 >
@@ -194,7 +194,7 @@ export default function OnboardingPage() {
                   animate={{ opacity: 1, x: 0 }}
                   className={`rounded-2xl px-4 py-3 text-sm shadow-lg ${
                     msg.role === 'user'
-                      ? 'bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] text-white'
+                      ? 'bg-gradient-to-r from-primary to-primary/90 text-white'
                       : 'bg-secondary border border-border/50'
                   }`}
                 >
@@ -218,7 +218,7 @@ export default function OnboardingPage() {
             <div className="flex justify-center">
               <Button
                 onClick={() => proceed("Let's go! 🚀", 1)}
-                className="bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 rounded-xl px-8"
+                className="bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0 rounded-xl px-8"
               >
                 <Sparkles className="w-4 h-4 mr-2" />
                 Let&apos;s go!
@@ -465,7 +465,7 @@ export default function OnboardingPage() {
                 </Button>
                 <Button
                   onClick={handleSaveProfile}
-                  className="flex-1 bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 rounded-xl"
+                  className="flex-1 bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0 rounded-xl"
                 >
                   <Check className="w-4 h-4 mr-2" />
                   Save & Continue

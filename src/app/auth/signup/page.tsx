@@ -105,7 +105,7 @@ export default function SignupPage() {
             transition={{ duration: 0.3 }}
             className="inline-flex items-center gap-2 mb-6"
           >
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] flex items-center justify-center shadow-lg shadow-primary/25">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-primary/90 flex items-center justify-center shadow-lg shadow-primary/25">
               <GraduationCap className="w-6 h-6 text-white" />
             </div>
           </motion.div>
@@ -233,7 +233,7 @@ export default function SignupPage() {
               <Button
                 type="submit"
                 disabled={loading}
-                className="w-full py-5 bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0 rounded-xl text-base font-medium mt-2 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/25"
+                className="w-full py-5 bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0 rounded-xl text-base font-medium mt-2 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/25"
               >
                 {loading ? (
                   <span className="flex items-center gap-2">

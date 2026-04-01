@@ -20,7 +20,7 @@ function EligibilityIcon({ meets }: { meets: 'yes' | 'partial' | 'no' }) {
 export default function ScholarshipDetailPage() {
   const params = useParams();
   const router = useRouter();
-  const { profile, isAuthenticated, toggleBookmark, isBookmarked } = useAppStore();
+  const { profile, isAuthenticated, isLoading, toggleBookmark, isBookmarked } = useAppStore();
   const id = params.id as string;
 
   const allRecs = useMemo(() => {
@@ -29,13 +29,17 @@ export default function ScholarshipDetailPage() {
   }, [profile]);
 
   useEffect(() => {
-    if (!isAuthenticated || !profile) {
+    if (!isLoading && (!isAuthenticated || !profile)) {
       router.push('/auth/login');
     }
-  }, [isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, profile, router]);
 
-  if (!isAuthenticated || !profile) {
-    return null;
+  if (isLoading || !isAuthenticated || !profile) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
+      </div>
+    );
   }
 
   const sch = allRecs.find((s) => s.id === id) || scholarships.find((s) => s.id === id);
@@ -83,7 +87,7 @@ export default function ScholarshipDetailPage() {
                 <Heart className={`w-4 h-4 mr-2 ${isBookmarked(sch.id) ? 'fill-red-500 text-red-500' : ''}`} />
                 {isBookmarked(sch.id) ? 'Saved' : 'Save'}
               </Button>
-              <Button asChild className="rounded-xl bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0">
+              <Button asChild className="rounded-xl bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0">
                 <a href={sch.applicationUrl} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="w-4 h-4 mr-2" /> Apply Now
                 </a>

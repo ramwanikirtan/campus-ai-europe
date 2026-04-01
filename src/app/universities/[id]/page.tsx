@@ -25,7 +25,7 @@ function EligibilityIcon({ meets }: { meets: 'yes' | 'partial' | 'no' }) {
 export default function UniversityDetailPage() {
   const params = useParams();
   const router = useRouter();
-  const { profile, isAuthenticated, toggleBookmark, isBookmarked } = useAppStore();
+  const { profile, isAuthenticated, isLoading, toggleBookmark, isBookmarked } = useAppStore();
   const id = params.id as string;
 
   const allRecs = useMemo(() => {
@@ -43,13 +43,17 @@ export default function UniversityDetailPage() {
   }, [profile, uni]);
 
   useEffect(() => {
-    if (!isAuthenticated || !profile) {
+    if (!isLoading && (!isAuthenticated || !profile)) {
       router.push('/auth/login');
     }
-  }, [isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, profile, router]);
 
-  if (!isAuthenticated || !profile) {
-    return null;
+  if (isLoading || !isAuthenticated || !profile) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
+      </div>
+    );
   }
 
   if (!uni) return (
@@ -98,7 +102,7 @@ export default function UniversityDetailPage() {
                 <Heart className={`w-4 h-4 mr-2 ${isBookmarked(uni.id) ? 'fill-red-500 text-red-500' : ''}`} />
                 {isBookmarked(uni.id) ? 'Saved' : 'Save to Tracker'}
               </Button>
-              <Button asChild className="rounded-xl bg-gradient-to-r from-[oklch(0.70_0.18_250)] to-[oklch(0.65_0.18_290)] hover:opacity-90 border-0">
+              <Button asChild className="rounded-xl bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0">
                 <a href={uni.websiteUrl} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="w-4 h-4 mr-2" /> Visit Website
                 </a>

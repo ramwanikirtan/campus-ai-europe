@@ -29,12 +29,12 @@ export default function ScholarshipDetailPage() {
   }, [profile]);
 
   useEffect(() => {
-    if (!isLoading && (!isAuthenticated || !profile)) {
+    if (!isLoading && !isAuthenticated) {
       router.push('/auth/login');
     }
-  }, [isLoading, isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, router]);
 
-  if (isLoading || !isAuthenticated || !profile) {
+  if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
@@ -56,10 +56,10 @@ export default function ScholarshipDetailPage() {
   const daysLeft = Math.ceil((new Date(sch.applicationDeadline).getTime() - Date.now()) / (1000 * 60 * 60 * 24));
 
   // Eligibility checks
-  const natCheck = sch.eligibilityNationalities === 'all' || (sch.eligibilityNationalities as string[]).includes(profile.nationality);
-  const gpaCheck = profile.gpaNormalized >= sch.eligibilityMinGpa;
-  const fieldCheck = sch.eligibilityFields === 'all' || (sch.eligibilityFields as string[]).some(f => f.toLowerCase() === profile.fieldOfStudy.toLowerCase());
-  const degreeCheck = sch.eligibilityDegreeLevels.includes(profile.degreeLevel);
+  const natCheck = !profile ? null : sch.eligibilityNationalities === 'all' || (sch.eligibilityNationalities as string[]).includes(profile.nationality);
+  const gpaCheck = !profile ? null : profile.gpaNormalized >= sch.eligibilityMinGpa;
+  const fieldCheck = !profile ? null : sch.eligibilityFields === 'all' || (sch.eligibilityFields as string[]).some(f => f.toLowerCase() === profile.fieldOfStudy.toLowerCase());
+  const degreeCheck = !profile ? null : sch.eligibilityDegreeLevels.includes(profile.degreeLevel);
 
   const linkedUnis = universities.filter((u) => sch.linkedUniversityIds.includes(u.id));
 
@@ -130,19 +130,19 @@ export default function ScholarshipDetailPage() {
           <h2 className="text-lg font-bold mb-4">Eligibility Check</h2>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-sm">
-              <EligibilityIcon meets={natCheck ? 'yes' : 'no'} />
+              <EligibilityIcon meets={natCheck === null ? 'partial' : natCheck ? 'yes' : 'no'} />
               <span>Nationality: {sch.eligibilityNationalities === 'all' ? 'Open to all' : (sch.eligibilityNationalities as string[]).join(', ')}</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <EligibilityIcon meets={gpaCheck ? 'yes' : profile.gpaNormalized >= sch.eligibilityMinGpa - 0.3 ? 'partial' : 'no'} />
-              <span>Minimum GPA: {sch.eligibilityMinGpa}/4.0 (You: {profile.gpaNormalized}/4.0)</span>
+              <EligibilityIcon meets={gpaCheck === null ? 'partial' : gpaCheck ? 'yes' : (profile?.gpaNormalized ?? 0) >= sch.eligibilityMinGpa - 0.3 ? 'partial' : 'no'} />
+              <span>Minimum GPA: {sch.eligibilityMinGpa}/4.0{profile ? ` (You: ${profile.gpaNormalized}/4.0)` : ''}</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <EligibilityIcon meets={fieldCheck ? 'yes' : 'no'} />
+              <EligibilityIcon meets={fieldCheck === null ? 'partial' : fieldCheck ? 'yes' : 'no'} />
               <span>Field: {sch.eligibilityFields === 'all' ? 'All fields' : (sch.eligibilityFields as string[]).join(', ')}</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <EligibilityIcon meets={degreeCheck ? 'yes' : 'no'} />
+              <EligibilityIcon meets={degreeCheck === null ? 'partial' : degreeCheck ? 'yes' : 'no'} />
               <span>Degree: {sch.eligibilityDegreeLevels.join(', ')}</span>
             </div>
             {sch.eligibilityOther && (

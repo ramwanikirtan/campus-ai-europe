@@ -34,17 +34,22 @@ export default function ScholarshipsBrowsePage() {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   const allRecs = useMemo(() => {
-    if (!profile) return [];
+    if (!profile) {
+      return scholarships.map(s => ({
+        ...s,
+        matchScore: { overall: 0, fieldOfStudy: 0, degreeLevel: 0, gpa: 0, budget: 0, language: 0, nationality: 0 },
+      }));
+    }
     return getScholarshipRecommendations(profile, scholarships);
   }, [profile]);
 
   useEffect(() => {
-    if (!isLoading && (!isAuthenticated || !profile)) {
+    if (!isLoading && !isAuthenticated) {
       router.push('/auth/login');
     }
-  }, [isLoading, isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, router]);
 
-  if (isLoading || !isAuthenticated || !profile) {
+  if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
@@ -286,9 +291,11 @@ export default function ScholarshipsBrowsePage() {
                     <Link href={`/scholarships/${sch.id}`}>
                       <div className="glass-card rounded-2xl p-5 h-full group cursor-pointer border border-border/50 hover:border-[oklch(0.82_0.17_85_/_0.3)] transition-all">
                         <div className="flex items-start justify-between mb-3">
-                          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold border ${sch.matchScore.overall >= 85 ? 'match-high-bg match-high' : sch.matchScore.overall >= 70 ? 'match-medium-bg match-medium' : 'match-low-bg match-low'}`}>
-                            <TrendingUp className="w-3 h-3" /> {sch.matchScore.overall}%
-                          </span>
+                          {sch.matchScore.overall > 0 ? (
+                            <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold border ${sch.matchScore.overall >= 85 ? 'match-high-bg match-high' : sch.matchScore.overall >= 70 ? 'match-medium-bg match-medium' : 'match-low-bg match-low'}`}>
+                              <TrendingUp className="w-3 h-3" /> {sch.matchScore.overall}%
+                            </span>
+                          ) : <span />}
                           <button
                             onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleBookmark(sch.id, 'scholarship'); toast(isBookmarked(sch.id) ? 'Removed' : 'Saved!'); }}
                             className="p-1.5 rounded-full hover:bg-secondary"

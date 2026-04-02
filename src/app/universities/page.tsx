@@ -32,17 +32,24 @@ export default function UniversitiesBrowsePage() {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   const allRecs = useMemo(() => {
-    if (!profile) return [];
+    if (!profile) {
+      // Show all universities without match scores when no profile
+      return universities.map(u => ({
+        ...u,
+        matchScore: { overall: 0, fieldOfStudy: 0, degreeLevel: 0, gpa: 0, budget: 0, language: 0, nationality: 0 },
+        relevantPrograms: u.programs,
+      }));
+    }
     return getUniversityRecommendations(profile, universities);
   }, [profile]);
 
   useEffect(() => {
-    if (!isLoading && (!isAuthenticated || !profile)) {
+    if (!isLoading && !isAuthenticated) {
       router.push('/auth/login');
     }
-  }, [isLoading, isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, router]);
 
-  if (isLoading || !isAuthenticated || !profile) {
+  if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
@@ -308,9 +315,11 @@ export default function UniversitiesBrowsePage() {
                   <Link href={`/universities/${uni.id}`}>
                     <div className="glass-card rounded-2xl p-5 h-full group cursor-pointer border border-border/50 hover:border-primary/30 transition-all">
                       <div className="flex items-start justify-between mb-3">
-                        <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold border ${uni.matchScore.overall >= 85 ? 'match-high-bg match-high' : uni.matchScore.overall >= 70 ? 'match-medium-bg match-medium' : 'match-low-bg match-low'}`}>
-                          <TrendingUp className="w-3 h-3" /> {uni.matchScore.overall}%
-                        </span>
+                        {uni.matchScore.overall > 0 ? (
+                          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold border ${uni.matchScore.overall >= 85 ? 'match-high-bg match-high' : uni.matchScore.overall >= 70 ? 'match-medium-bg match-medium' : 'match-low-bg match-low'}`}>
+                            <TrendingUp className="w-3 h-3" /> {uni.matchScore.overall}%
+                          </span>
+                        ) : <span />}
                         <button
                           onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleBookmark(uni.id, 'university'); toast(isBookmarked(uni.id) ? 'Removed' : 'Saved!'); }}
                           className="p-1.5 rounded-full hover:bg-secondary"

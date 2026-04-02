@@ -43,12 +43,12 @@ export default function UniversityDetailPage() {
   }, [profile, uni]);
 
   useEffect(() => {
-    if (!isLoading && (!isAuthenticated || !profile)) {
+    if (!isLoading && !isAuthenticated) {
       router.push('/auth/login');
     }
-  }, [isLoading, isAuthenticated, profile, router]);
+  }, [isLoading, isAuthenticated, router]);
 
-  if (isLoading || !isAuthenticated || !profile) {
+  if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
@@ -63,8 +63,12 @@ export default function UniversityDetailPage() {
   );
 
   const matchScore = uniWithMatch?.matchScore;
-  const relevantPrograms = uni.programs.filter((p) => p.degreeLevel === profile.degreeLevel);
-  const otherPrograms = uni.programs.filter((p) => p.degreeLevel !== profile.degreeLevel);
+  const relevantPrograms = profile
+    ? uni.programs.filter((p) => p.degreeLevel === profile.degreeLevel)
+    : uni.programs;
+  const otherPrograms = profile
+    ? uni.programs.filter((p) => p.degreeLevel !== profile.degreeLevel)
+    : [];
 
   const daysUntilDeadline = (date: string) => {
     const diff = new Date(date).getTime() - Date.now();
@@ -161,11 +165,11 @@ export default function UniversityDetailPage() {
             <div className="space-y-4">
               {relevantPrograms.map((prog) => {
                 const days = daysUntilDeadline(prog.applicationDeadline);
-                const userGpa = profile.gpaNormalized;
-                const gpaStatus = userGpa >= prog.minGpaRequired ? 'yes' : userGpa >= prog.minGpaRequired - 0.3 ? 'partial' : 'no';
-                const userLang = profile.languages.find((l) => l.language.toLowerCase() === prog.requiredLanguage.toLowerCase());
+                const userGpa = profile?.gpaNormalized ?? 0;
+                const gpaStatus = !profile ? 'partial' : userGpa >= prog.minGpaRequired ? 'yes' : userGpa >= prog.minGpaRequired - 0.3 ? 'partial' : 'no';
+                const userLang = profile?.languages.find((l) => l.language.toLowerCase() === prog.requiredLanguage.toLowerCase());
                 const langLevels: Record<string, number> = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4, 'C1': 5, 'C2': 6, 'native': 7 };
-                const langStatus = userLang ? (langLevels[userLang.level] >= langLevels[prog.requiredLanguageLevel] ? 'yes' : 'partial') : 'no';
+                const langStatus = !profile ? 'partial' : userLang ? (langLevels[userLang.level] >= langLevels[prog.requiredLanguageLevel] ? 'yes' : 'partial') : 'no';
 
                 return (
                   <div key={prog.id} className="glass-card rounded-2xl p-5">

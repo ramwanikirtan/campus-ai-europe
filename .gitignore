@@ -42,3 +42,6 @@ next-env.d.ts
 
 # FAISS vector index (generated, not committed)
 /faiss_index
+
+.vercel
+.env*.local

@@ -4,7 +4,7 @@ import { useMemo, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useAppStore } from '@/lib/store';
-import { universities } from '@/lib/seed-data';
+import { universities, fieldsOfStudy } from '@/lib/seed-data';
 import { getUniversityRecommendations } from '@/lib/matching';
 import { Heart, MapPin, TrendingUp, Search, SlidersHorizontal, X, ChevronDown, GraduationCap, RotateCcw } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -13,7 +13,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'sonner';
 
 function getCountryFlag(c: string) {
-  const flags: Record<string, string> = { 'Germany': '🇩🇪', 'Netherlands': '🇳🇱', 'Sweden': '🇸🇪', 'Switzerland': '🇨🇭', 'Austria': '🇦🇹', 'Italy': '🇮🇹', 'Finland': '🇫🇮', 'Poland': '🇵🇱', 'Czech Republic': '🇨🇿' };
+  const flags: Record<string, string> = {
+    'Germany': '🇩🇪', 'Netherlands': '🇳🇱', 'Sweden': '🇸🇪', 'Switzerland': '🇨🇭',
+    'Austria': '🇦🇹', 'Italy': '🇮🇹', 'Finland': '🇫🇮', 'Poland': '🇵🇱',
+    'Czech Republic': '🇨🇿', 'France': '🇫🇷', 'Spain': '🇪🇸', 'Denmark': '🇩🇰',
+    'Norway': '🇳🇴', 'Belgium': '🇧🇪', 'Ireland': '🇮🇪', 'Portugal': '🇵🇹',
+    'Hungary': '🇭🇺', 'Romania': '🇷🇴', 'Croatia': '🇭🇷', 'Greece': '🇬🇷',
+    'Estonia': '🇪🇪', 'Lithuania': '🇱🇹', 'Latvia': '🇱🇻', 'Slovenia': '🇸🇮',
+    'Slovakia': '🇸🇰', 'Serbia': '🇷🇸', 'Bulgaria': '🇧🇬', 'Turkey': '🇹🇷',
+    'Iceland': '🇮🇸', 'Cyprus': '🇨🇾', 'Luxembourg': '🇱🇺', 'Malta': '🇲🇹',
+    'Bosnia': '🇧🇦', 'North Macedonia': '🇲🇰', 'Ukraine': '🇺🇦', 'Albania': '🇦🇱',
+    'Montenegro': '🇲🇪', 'Kosovo': '🇽🇰',
+  };
   return flags[c] || '🇪🇺';
 }
 
@@ -27,6 +38,9 @@ export default function UniversitiesBrowsePage() {
   const [tuitionRange, setTuitionRange] = useState<[number, number]>([0, 20000]);
   const [minMatch, setMinMatch] = useState(0);
   const [freeTuitionOnly, setFreeTuitionOnly] = useState(false);
+  const [selectedFields, setSelectedFields] = useState<string[]>([]);
+  const [selectedDegrees, setSelectedDegrees] = useState<string[]>([]);
+  const [maxLivingCost, setMaxLivingCost] = useState(3000);
   const [sortBy, setSortBy] = useState<SortOption>('match');
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
@@ -66,7 +80,10 @@ export default function UniversitiesBrowsePage() {
       const matchesMatch = u.matchScore.overall >= minMatch;
       const minTuition = Math.min(...u.relevantPrograms.map(p => p.tuitionPerYearEur), u.programs[0]?.tuitionPerYearEur ?? 0);
       const matchesTuition = freeTuitionOnly ? minTuition === 0 : minTuition >= tuitionRange[0] && minTuition <= tuitionRange[1];
-      return matchesSearch && matchesCountry && matchesMatch && matchesTuition;
+      const matchesField = selectedFields.length === 0 || u.programs.some(p => selectedFields.includes(p.fieldOfStudy));
+      const matchesDegree = selectedDegrees.length === 0 || u.programs.some(p => selectedDegrees.includes(p.degreeLevel));
+      const matchesLiving = u.estimatedMonthlyLivingCostEur <= maxLivingCost;
+      return matchesSearch && matchesCountry && matchesMatch && matchesTuition && matchesField && matchesDegree && matchesLiving;
     })
     .sort((a, b) => {
       switch (sortBy) {
@@ -86,15 +103,21 @@ export default function UniversitiesBrowsePage() {
     setSelectedCountries(prev => prev.includes(c) ? prev.filter(x => x !== c) : [...prev, c]);
   };
 
-  const activeFilterCount = (selectedCountries.length > 0 ? 1 : 0) + (minMatch > 0 ? 1 : 0) + (freeTuitionOnly ? 1 : 0);
+  const activeFilterCount = (selectedCountries.length > 0 ? 1 : 0) + (minMatch > 0 ? 1 : 0) + (freeTuitionOnly ? 1 : 0) + (selectedFields.length > 0 ? 1 : 0) + (selectedDegrees.length > 0 ? 1 : 0) + (maxLivingCost < 3000 ? 1 : 0);
 
   const clearFilters = () => {
     setSelectedCountries([]);
     setTuitionRange([0, 20000]);
     setMinMatch(0);
     setFreeTuitionOnly(false);
+    setSelectedFields([]);
+    setSelectedDegrees([]);
+    setMaxLivingCost(3000);
     setSearch('');
   };
+
+  const toggleField = (f: string) => setSelectedFields(prev => prev.includes(f) ? prev.filter(x => x !== f) : [...prev, f]);
+  const toggleDegree = (d: string) => setSelectedDegrees(prev => prev.includes(d) ? prev.filter(x => x !== d) : [...prev, d]);
 
   const FilterSidebar = ({ mobile = false }: { mobile?: boolean }) => (
     <div className={`${mobile ? '' : 'sticky top-24'} space-y-6`}>
@@ -187,6 +210,60 @@ export default function UniversitiesBrowsePage() {
             </div>
           </div>
         )}
+      </div>
+
+      {/* Field of Study */}
+      <div>
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Field of Study</p>
+        <div className="space-y-1.5 max-h-44 overflow-y-auto pr-1">
+          {fieldsOfStudy.map((f) => (
+            <label key={f} className="flex items-center gap-2.5 py-1.5 px-2 rounded-lg hover:bg-secondary/50 cursor-pointer transition-colors text-sm">
+              <input
+                type="checkbox"
+                checked={selectedFields.includes(f)}
+                onChange={() => toggleField(f)}
+                className="rounded border-border accent-primary w-3.5 h-3.5"
+              />
+              <span className="flex-1">{f}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Degree Level */}
+      <div>
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Degree Level</p>
+        <div className="flex gap-2 flex-wrap">
+          {(['bachelors', 'masters', 'phd'] as const).map((d) => (
+            <button
+              key={d}
+              onClick={() => toggleDegree(d)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-colors ${selectedDegrees.includes(d) ? 'bg-primary text-primary-foreground border-primary' : 'border-border hover:border-primary/50 text-muted-foreground hover:text-foreground'}`}
+            >
+              {d === 'bachelors' ? "Bachelor's" : d === 'masters' ? "Master's" : 'PhD'}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Monthly Living Cost */}
+      <div>
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Monthly Living Cost</p>
+        <div className="px-1">
+          <input
+            type="range"
+            min={400}
+            max={3000}
+            step={100}
+            value={maxLivingCost}
+            onChange={(e) => setMaxLivingCost(Number(e.target.value))}
+            className="w-full accent-primary"
+          />
+          <div className="flex justify-between text-xs text-muted-foreground mt-1">
+            <span>€400</span>
+            <span className="font-medium text-foreground">up to €{maxLivingCost.toLocaleString()}/mo</span>
+          </div>
+        </div>
       </div>
 
       {/* Sort */}
@@ -283,6 +360,21 @@ export default function UniversitiesBrowsePage() {
               >
                 Free tuition
                 <X className="w-3 h-3" />
+              </button>
+            )}
+            {selectedFields.map(f => (
+              <button key={f} onClick={() => toggleField(f)} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary hover:bg-primary/20 transition-colors">
+                {f}<X className="w-3 h-3" />
+              </button>
+            ))}
+            {selectedDegrees.map(d => (
+              <button key={d} onClick={() => toggleDegree(d)} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary hover:bg-primary/20 transition-colors">
+                {d === 'bachelors' ? "Bachelor's" : d === 'masters' ? "Master's" : 'PhD'}<X className="w-3 h-3" />
+              </button>
+            ))}
+            {maxLivingCost < 3000 && (
+              <button onClick={() => setMaxLivingCost(3000)} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary hover:bg-primary/20 transition-colors">
+                Living ≤ €{maxLivingCost}/mo<X className="w-3 h-3" />
               </button>
             )}
           </div>

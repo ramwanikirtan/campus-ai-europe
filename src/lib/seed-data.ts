@@ -2382,6 +2382,1507 @@ export const universities: University[] = [
       { id: 'p-466', universityId: 'uni-210', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unimib.it/apply' },
     ]
   },
+  // ── BATCH 2: uni-211 → uni-260 ─────────────────────────────────────
+  {
+    id: 'uni-211', name: 'Goethe University Frankfurt', country: 'Germany', city: 'Frankfurt',
+    websiteUrl: 'https://www.uni-frankfurt.de', logoUrl: '', rankingQs: 310, rankingThe: 280,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'One of Germany\'s largest universities, renowned for finance, economics, and social sciences, located in Europe\'s financial hub.',
+    programs: [
+      { id: 'p-467', universityId: 'uni-211', name: 'M.Sc. Finance', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uni-frankfurt.de/apply' },
+      { id: 'p-468', universityId: 'uni-211', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uni-frankfurt.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-212', name: 'Johannes Gutenberg University Mainz', country: 'Germany', city: 'Mainz',
+    websiteUrl: 'https://www.uni-mainz.de', logoUrl: '', rankingQs: 380, rankingThe: 350,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'Comprehensive university excelling in natural sciences, medicine, and humanities, home to the famous Gutenberg press heritage.',
+    programs: [
+      { id: 'p-469', universityId: 'uni-212', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-mainz.de/apply' },
+      { id: 'p-470', universityId: 'uni-212', name: 'M.Sc. Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'German', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'German', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-mainz.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-213', name: 'University of Marburg', country: 'Germany', city: 'Marburg',
+    websiteUrl: 'https://www.uni-marburg.de', logoUrl: '', rankingQs: 501, rankingThe: 480,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'Germany\'s oldest Protestant university with strong programs in pharmacy, medicine, and life sciences.',
+    programs: [
+      { id: 'p-471', universityId: 'uni-213', name: 'M.Sc. Pharmaceutical Sciences', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-marburg.de/apply' },
+      { id: 'p-472', universityId: 'uni-213', name: 'M.A. Social Sciences', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-marburg.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-214', name: 'Ruhr University Bochum', country: 'Germany', city: 'Bochum',
+    websiteUrl: 'https://www.ruhr-uni-bochum.de', logoUrl: '', rankingQs: 430, rankingThe: 400,
+    estimatedMonthlyLivingCostEur: 870,
+    description: 'One of Germany\'s largest universities in the Ruhr metropolitan area, strong in engineering and natural sciences.',
+    programs: [
+      { id: 'p-473', universityId: 'uni-214', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.ruhr-uni-bochum.de/apply' },
+      { id: 'p-474', universityId: 'uni-214', name: 'M.Sc. IT Security', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.ruhr-uni-bochum.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-215', name: 'Leibniz University Hannover', country: 'Germany', city: 'Hannover',
+    websiteUrl: 'https://www.uni-hannover.de', logoUrl: '', rankingQs: 470, rankingThe: 450,
+    estimatedMonthlyLivingCostEur: 870,
+    description: 'Leading research university with excellence in engineering, natural sciences, and architecture.',
+    programs: [
+      { id: 'p-475', universityId: 'uni-215', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uni-hannover.de/apply' },
+      { id: 'p-476', universityId: 'uni-215', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uni-hannover.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-216', name: 'University of Regensburg', country: 'Germany', city: 'Regensburg',
+    websiteUrl: 'https://www.uni-regensburg.de', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'A campus university with strengths in law, economics, and life sciences in the picturesque UNESCO city of Regensburg.',
+    programs: [
+      { id: 'p-477', universityId: 'uni-216', name: 'LL.M. European Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 2000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-regensburg.de/apply' },
+      { id: 'p-478', universityId: 'uni-216', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-regensburg.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-217', name: 'University of Augsburg', country: 'Germany', city: 'Augsburg',
+    websiteUrl: 'https://www.uni-augsburg.de', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 870,
+    description: 'Modern university with focus on economics, resource efficiency, and applied sciences in Bavaria.',
+    programs: [
+      { id: 'p-479', universityId: 'uni-217', name: 'M.Sc. Business Analytics', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-augsburg.de/apply' },
+      { id: 'p-480', universityId: 'uni-217', name: 'M.Sc. Applied Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-augsburg.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-218', name: 'University of Bayreuth', country: 'Germany', city: 'Bayreuth',
+    websiteUrl: 'https://www.uni-bayreuth.de', logoUrl: '', rankingQs: 551, rankingThe: 530,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Innovative campus university famous for African studies, polymer sciences, and business law.',
+    programs: [
+      { id: 'p-481', universityId: 'uni-218', name: 'M.Sc. Polymer Science', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uni-bayreuth.de/apply' },
+      { id: 'p-482', universityId: 'uni-218', name: 'M.Sc. Environmental Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uni-bayreuth.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-219', name: 'University of Potsdam', country: 'Germany', city: 'Potsdam',
+    websiteUrl: 'https://www.uni-potsdam.de', logoUrl: '', rankingQs: 501, rankingThe: 490,
+    estimatedMonthlyLivingCostEur: 950,
+    description: 'Berlin\'s neighboring research university with top programs in cognitive science, linguistics, and bioinformatics.',
+    programs: [
+      { id: 'p-483', universityId: 'uni-219', name: 'M.Sc. Cognitive Systems', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-potsdam.de/apply' },
+      { id: 'p-484', universityId: 'uni-219', name: 'M.A. Linguistics', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-potsdam.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-220', name: 'University of Ulm', country: 'Germany', city: 'Ulm',
+    websiteUrl: 'https://www.uni-ulm.de', logoUrl: '', rankingQs: 430, rankingThe: 410,
+    estimatedMonthlyLivingCostEur: 840,
+    description: 'Science-focused university known for mathematics, medicine, and quantum technology research.',
+    programs: [
+      { id: 'p-485', universityId: 'uni-220', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-ulm.de/apply' },
+      { id: 'p-486', universityId: 'uni-220', name: 'M.Sc. Medical Informatics', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-ulm.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-221', name: 'Saarland University', country: 'Germany', city: 'Saarbrücken',
+    websiteUrl: 'https://www.uni-saarland.de', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'Franco-German university with world-class computer science and computational linguistics research.',
+    programs: [
+      { id: 'p-487', universityId: 'uni-221', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uni-saarland.de/apply' },
+      { id: 'p-488', universityId: 'uni-221', name: 'M.Sc. Bioinformatics', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uni-saarland.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-222', name: 'University of Passau', country: 'Germany', city: 'Passau',
+    websiteUrl: 'https://www.uni-passau.de', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Boutique research university excelling in digital humanities, internet computing, and European law.',
+    programs: [
+      { id: 'p-489', universityId: 'uni-222', name: 'M.Sc. Internet Computing', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-passau.de/apply' },
+      { id: 'p-490', universityId: 'uni-222', name: 'M.A. European Studies', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-passau.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-223', name: 'University of Lille', country: 'France', city: 'Lille',
+    websiteUrl: 'https://www.univ-lille.fr', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'One of France\'s largest universities offering broad programs across sciences, humanities, and health.',
+    programs: [
+      { id: 'p-491', universityId: 'uni-223', name: 'M.Sc. Bioinformatics', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-lille.fr/apply' },
+      { id: 'p-492', universityId: 'uni-223', name: 'M.Sc. Data Science & AI', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-lille.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-224', name: 'University of Nantes', country: 'France', city: 'Nantes',
+    websiteUrl: 'https://www.univ-nantes.fr', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'Dynamic western France university known for medicine, engineering, and social sciences.',
+    programs: [
+      { id: 'p-493', universityId: 'uni-224', name: 'M.Sc. Renewable Energies', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.univ-nantes.fr/apply' },
+      { id: 'p-494', universityId: 'uni-224', name: 'M.A. International Business', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.univ-nantes.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-225', name: 'University of Rennes', country: 'France', city: 'Rennes',
+    websiteUrl: 'https://www.univ-rennes.fr', logoUrl: '', rankingQs: 651, rankingThe: 630,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'A major Breton university with leading research in mathematics, computer science, and law.',
+    programs: [
+      { id: 'p-495', universityId: 'uni-225', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-rennes.fr/apply' },
+      { id: 'p-496', universityId: 'uni-225', name: 'M.Sc. Mathematics', fieldOfStudy: 'Mathematics', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.2, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-rennes.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-226', name: 'University of Montpellier', country: 'France', city: 'Montpellier',
+    websiteUrl: 'https://www.umontpellier.fr', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 830,
+    description: 'One of Europe\'s oldest universities, with exceptional strengths in pharmacy, medicine, and ecology.',
+    programs: [
+      { id: 'p-497', universityId: 'uni-226', name: 'M.Sc. Ecology & Evolutionary Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.umontpellier.fr/apply' },
+      { id: 'p-498', universityId: 'uni-226', name: 'M.Sc. Bioinformatics', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.umontpellier.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-227', name: 'Université Côte d\'Azur', country: 'France', city: 'Nice',
+    websiteUrl: 'https://univ-cotedazur.eu', logoUrl: '', rankingQs: 451, rankingThe: 420,
+    estimatedMonthlyLivingCostEur: 1000,
+    description: 'A cluster of excellence on the French Riviera offering cutting-edge programs in computer science and mathematics.',
+    programs: [
+      { id: 'p-499', universityId: 'uni-227', name: 'M.Sc. Artificial Intelligence', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://univ-cotedazur.eu/apply' },
+      { id: 'p-500', universityId: 'uni-227', name: 'M.Sc. Mathematics', fieldOfStudy: 'Mathematics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://univ-cotedazur.eu/apply' },
+    ]
+  },
+  {
+    id: 'uni-228', name: 'CentraleSupélec', country: 'France', city: 'Paris',
+    websiteUrl: 'https://www.centralesupelec.fr', logoUrl: '', rankingQs: 258, rankingThe: 230,
+    estimatedMonthlyLivingCostEur: 1200,
+    description: 'Elite French grande école for engineering and science, consistently ranked among the world\'s top engineering schools.',
+    programs: [
+      { id: 'p-501', universityId: 'uni-228', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 9500, minGpaRequired: 3.5, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-03-15', applicationUrl: 'https://www.centralesupelec.fr/apply' },
+      { id: 'p-502', universityId: 'uni-228', name: 'M.Sc. Data Science & AI', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 9500, minGpaRequired: 3.5, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-03-15', applicationUrl: 'https://www.centralesupelec.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-229', name: 'INSA Lyon', country: 'France', city: 'Lyon',
+    websiteUrl: 'https://www.insa-lyon.fr', logoUrl: '', rankingQs: 651, rankingThe: 600,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'Leading engineering school part of the INSA network, known for applied sciences and international openness.',
+    programs: [
+      { id: 'p-503', universityId: 'uni-229', name: 'M.Sc. Civil Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.insa-lyon.fr/apply' },
+      { id: 'p-504', universityId: 'uni-229', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.insa-lyon.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-230', name: 'University of Genoa', country: 'Italy', city: 'Genoa',
+    websiteUrl: 'https://www.unige.it', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Historic Italian university in the coastal city of Genoa, strong in naval engineering and computer science.',
+    programs: [
+      { id: 'p-505', universityId: 'uni-230', name: 'M.Sc. Naval Architecture', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2600, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unige.it/apply' },
+      { id: 'p-506', universityId: 'uni-230', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2600, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unige.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-231', name: "Ca' Foscari University of Venice", country: 'Italy', city: 'Venice',
+    websiteUrl: 'https://www.unive.it', logoUrl: '', rankingQs: 501, rankingThe: 480,
+    estimatedMonthlyLivingCostEur: 1000,
+    description: 'Prestigious university in the unique city of Venice, excelling in economics, foreign languages, and sustainability.',
+    programs: [
+      { id: 'p-507', universityId: 'uni-231', name: 'M.Sc. Environmental Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.unive.it/apply' },
+      { id: 'p-508', universityId: 'uni-231', name: 'M.Sc. Economics & Finance', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.unive.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-232', name: 'University of Siena', country: 'Italy', city: 'Siena',
+    websiteUrl: 'https://www.unisi.it', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'One of Europe\'s oldest universities, set in a medieval Tuscan city with strengths in pharmacy and biomedical science.',
+    programs: [
+      { id: 'p-509', universityId: 'uni-232', name: 'M.Sc. Pharmaceutical Biotechnology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unisi.it/apply' },
+      { id: 'p-510', universityId: 'uni-232', name: 'M.A. Medieval History', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unisi.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-233', name: 'University of Ferrara', country: 'Italy', city: 'Ferrara',
+    websiteUrl: 'https://www.unife.it', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 720,
+    description: 'An ancient Italian university with a vibrant campus and strong programs in architecture and engineering.',
+    programs: [
+      { id: 'p-511', universityId: 'uni-233', name: 'M.Sc. Architecture', fieldOfStudy: 'Architecture', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unife.it/apply' },
+      { id: 'p-512', universityId: 'uni-233', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unife.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-234', name: 'University of Verona', country: 'Italy', city: 'Verona',
+    websiteUrl: 'https://www.univr.it', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Modern Italian university in the city of Romeo and Juliet, excelling in computer science and medicine.',
+    programs: [
+      { id: 'p-513', universityId: 'uni-234', name: 'M.Sc. Computer Science & Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.univr.it/apply' },
+      { id: 'p-514', universityId: 'uni-234', name: 'M.Sc. Mathematics', fieldOfStudy: 'Mathematics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.univr.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-235', name: 'University of Perugia', country: 'Italy', city: 'Perugia',
+    websiteUrl: 'https://www.unipg.it', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'One of Italy\'s most international universities in the heart of Umbria, famous for its language programs and agriculture.',
+    programs: [
+      { id: 'p-515', universityId: 'uni-235', name: 'M.Sc. Agricultural Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unipg.it/apply' },
+      { id: 'p-516', universityId: 'uni-235', name: 'M.A. Italian Language & Culture', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'Italian', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'Italian', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unipg.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-236', name: 'LUISS University', country: 'Italy', city: 'Rome',
+    websiteUrl: 'https://www.luiss.it', logoUrl: '', rankingQs: 701, rankingThe: 680,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'Italy\'s leading private university for economics, political science, and law, with strong industry connections.',
+    programs: [
+      { id: 'p-517', universityId: 'uni-236', name: 'M.Sc. Finance & Banking', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.luiss.it/apply' },
+      { id: 'p-518', universityId: 'uni-236', name: 'M.Sc. Political Science', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.luiss.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-237', name: 'University of Brescia', country: 'Italy', city: 'Brescia',
+    websiteUrl: 'https://www.unibs.it', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'A focused Italian university with strong programs in engineering, economics, and medicine.',
+    programs: [
+      { id: 'p-519', universityId: 'uni-237', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2400, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unibs.it/apply' },
+      { id: 'p-520', universityId: 'uni-237', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2400, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unibs.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-238', name: 'Sant\'Anna School of Advanced Studies', country: 'Italy', city: 'Pisa',
+    websiteUrl: 'https://www.santannapisa.it', logoUrl: '', rankingQs: 380, rankingThe: 350,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'Elite Italian graduate school in the Pisa system, renowned for biorobotics, political science, and economics.',
+    programs: [
+      { id: 'p-521', universityId: 'uni-238', name: 'Ph.D. Biorobotics', fieldOfStudy: 'Engineering', degreeLevel: 'phd', languageOfInstruction: 'English', durationMonths: 36, tuitionPerYearEur: 0, minGpaRequired: 3.5, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.santannapisa.it/apply' },
+      { id: 'p-522', universityId: 'uni-238', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.santannapisa.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-239', name: 'University of Salamanca', country: 'Spain', city: 'Salamanca',
+    websiteUrl: 'https://www.usal.es', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'The oldest Spanish university, with an international reputation for Spanish language and humanities.',
+    programs: [
+      { id: 'p-523', universityId: 'uni-239', name: 'M.A. Spanish Language Studies', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 12, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.usal.es/apply' },
+      { id: 'p-524', universityId: 'uni-239', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.usal.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-240', name: 'University of Zaragoza', country: 'Spain', city: 'Zaragoza',
+    websiteUrl: 'https://www.unizar.es', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'A comprehensive Aragonese university with strong engineering, physics, and water science research.',
+    programs: [
+      { id: 'p-525', universityId: 'uni-240', name: 'M.Sc. Chemical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unizar.es/apply' },
+      { id: 'p-526', universityId: 'uni-240', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unizar.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-241', name: 'University of the Basque Country (UPV/EHU)', country: 'Spain', city: 'Bilbao',
+    websiteUrl: 'https://www.ehu.eus', logoUrl: '', rankingQs: 701, rankingThe: 650,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'The largest university in the Basque region, strong in engineering, chemistry, and environmental sciences.',
+    programs: [
+      { id: 'p-527', universityId: 'uni-241', name: 'M.Sc. Environmental Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.ehu.eus/apply' },
+      { id: 'p-528', universityId: 'uni-241', name: 'M.Sc. Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.ehu.eus/apply' },
+    ]
+  },
+  {
+    id: 'uni-242', name: 'University of Malaga', country: 'Spain', city: 'Malaga',
+    websiteUrl: 'https://www.uma.es', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'A vibrant university on the Costa del Sol with growing tech and tourism management programs.',
+    programs: [
+      { id: 'p-529', universityId: 'uni-242', name: 'M.Sc. Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uma.es/apply' },
+      { id: 'p-530', universityId: 'uni-242', name: 'M.Sc. Tourism Management', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 1800, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uma.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-243', name: 'Universitat Politècnica de València', country: 'Spain', city: 'Valencia',
+    websiteUrl: 'https://www.upv.es', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Spain\'s leading technical university in Valencia, excelling in architecture, agronomy, and industrial engineering.',
+    programs: [
+      { id: 'p-531', universityId: 'uni-243', name: 'M.Sc. Architecture', fieldOfStudy: 'Architecture', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.upv.es/apply' },
+      { id: 'p-532', universityId: 'uni-243', name: 'M.Sc. Telecommunications Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.upv.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-244', name: 'University of Murcia', country: 'Spain', city: 'Murcia',
+    websiteUrl: 'https://www.um.es', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 680,
+    description: 'A welcoming southeastern Spanish university with strong programs in biology, chemistry, and law.',
+    programs: [
+      { id: 'p-533', universityId: 'uni-244', name: 'M.Sc. Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.um.es/apply' },
+      { id: 'p-534', universityId: 'uni-244', name: 'LL.M. Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 12, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.um.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-245', name: 'Autonomous University of Barcelona', country: 'Spain', city: 'Barcelona',
+    websiteUrl: 'https://www.uab.cat', logoUrl: '', rankingQs: 201, rankingThe: 190,
+    estimatedMonthlyLivingCostEur: 950,
+    description: 'One of Spain\'s leading research universities on the Barcelona campus, strong in social sciences and natural sciences.',
+    programs: [
+      { id: 'p-535', universityId: 'uni-245', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uab.cat/apply' },
+      { id: 'p-536', universityId: 'uni-245', name: 'M.Sc. Molecular Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.uab.cat/apply' },
+    ]
+  },
+  {
+    id: 'uni-246', name: 'University of Oviedo', country: 'Spain', city: 'Oviedo',
+    websiteUrl: 'https://www.uniovi.es', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'A traditional Asturian university with solid programs in engineering, chemistry, and humanities.',
+    programs: [
+      { id: 'p-537', universityId: 'uni-246', name: 'M.Sc. Chemical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 24, tuitionPerYearEur: 1600, minGpaRequired: 2.8, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uniovi.es/apply' },
+      { id: 'p-538', universityId: 'uni-246', name: 'M.A. History of Art', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 12, tuitionPerYearEur: 1600, minGpaRequired: 2.5, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uniovi.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-247', name: 'Middle East Technical University (METU)', country: 'Turkey', city: 'Ankara',
+    websiteUrl: 'https://www.metu.edu.tr', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 450,
+    description: 'Turkey\'s premier engineering and science university, fully English-medium with strong international research output.',
+    programs: [
+      { id: 'p-539', universityId: 'uni-247', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.metu.edu.tr/apply' },
+      { id: 'p-540', universityId: 'uni-247', name: 'M.Sc. Civil Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.metu.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-248', name: 'Bogazici University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.boun.edu.tr', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'Founded as Robert College, one of Turkey\'s most prestigious English-medium universities on the Bosphorus.',
+    programs: [
+      { id: 'p-541', universityId: 'uni-248', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 900, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.boun.edu.tr/apply' },
+      { id: 'p-542', universityId: 'uni-248', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 900, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.boun.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-249', name: 'Istanbul Technical University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.itu.edu.tr', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 490,
+    description: 'One of the world\'s oldest technical universities, excelling in engineering, architecture, and management.',
+    programs: [
+      { id: 'p-543', universityId: 'uni-249', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 700, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.itu.edu.tr/apply' },
+      { id: 'p-544', universityId: 'uni-249', name: 'M.Sc. Architecture', fieldOfStudy: 'Architecture', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 700, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.itu.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-250', name: 'Ankara University', country: 'Turkey', city: 'Ankara',
+    websiteUrl: 'https://www.ankara.edu.tr', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 400,
+    description: 'Turkey\'s first modern university, with a broad academic range including medicine, law, and humanities.',
+    programs: [
+      { id: 'p-545', universityId: 'uni-250', name: 'M.Sc. Biotechnology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 600, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ankara.edu.tr/apply' },
+      { id: 'p-546', universityId: 'uni-250', name: 'LL.M. Public Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 600, minGpaRequired: 2.8, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ankara.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-251', name: 'Bilkent University', country: 'Turkey', city: 'Ankara',
+    websiteUrl: 'https://www.bilkent.edu.tr', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 450,
+    description: 'Turkey\'s first private non-profit university, fully English-medium with strong international research.',
+    programs: [
+      { id: 'p-547', universityId: 'uni-251', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.bilkent.edu.tr/apply' },
+      { id: 'p-548', universityId: 'uni-251', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.bilkent.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-252', name: 'Sabancı University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.sabanciuniv.edu', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'A research-intensive private university in Istanbul with a unique interdisciplinary approach to education.',
+    programs: [
+      { id: 'p-549', universityId: 'uni-252', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 6500, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.sabanciuniv.edu/apply' },
+      { id: 'p-550', universityId: 'uni-252', name: 'M.Sc. Business Analytics', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 6500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.sabanciuniv.edu/apply' },
+    ]
+  },
+  {
+    id: 'uni-253', name: 'Koç University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.ku.edu.tr', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'Leading Turkish private university fully in English, known for medicine, law, and business.',
+    programs: [
+      { id: 'p-551', universityId: 'uni-253', name: 'M.Sc. Finance', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 7000, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.ku.edu.tr/apply' },
+      { id: 'p-552', universityId: 'uni-253', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 7000, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.ku.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-254', name: 'Hacettepe University', country: 'Turkey', city: 'Ankara',
+    websiteUrl: 'https://www.hacettepe.edu.tr', logoUrl: '', rankingQs: 701, rankingThe: 650,
+    estimatedMonthlyLivingCostEur: 420,
+    description: 'Turkey\'s foremost health sciences university with internationally recognised medical and pharmacy programs.',
+    programs: [
+      { id: 'p-553', universityId: 'uni-254', name: 'M.Sc. Biomedical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 700, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.hacettepe.edu.tr/apply' },
+      { id: 'p-554', universityId: 'uni-254', name: 'M.Sc. Pharmacy', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 700, minGpaRequired: 3.0, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.hacettepe.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-255', name: 'Istanbul University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.istanbul.edu.tr', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 480,
+    description: 'One of Turkey\'s oldest and largest universities with a wide breadth of programs in law, science, and humanities.',
+    programs: [
+      { id: 'p-555', universityId: 'uni-255', name: 'M.Sc. Molecular Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 600, minGpaRequired: 3.0, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.istanbul.edu.tr/apply' },
+      { id: 'p-556', universityId: 'uni-255', name: 'LL.M. International Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 1500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.istanbul.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-256', name: 'Yıldız Technical University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.yildiz.edu.tr', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 480,
+    description: 'Technical university in Istanbul with solid engineering and architecture programs, affordable tuition.',
+    programs: [
+      { id: 'p-557', universityId: 'uni-256', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 600, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.yildiz.edu.tr/apply' },
+      { id: 'p-558', universityId: 'uni-256', name: 'M.Sc. Architecture', fieldOfStudy: 'Architecture', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 600, minGpaRequired: 2.8, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.yildiz.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-257', name: 'Gazi University', country: 'Turkey', city: 'Ankara',
+    websiteUrl: 'https://www.gazi.edu.tr', logoUrl: '', rankingQs: 801, rankingThe: 780,
+    estimatedMonthlyLivingCostEur: 410,
+    description: 'Comprehensive Ankara university offering diverse programs in education, engineering, and fine arts.',
+    programs: [
+      { id: 'p-559', universityId: 'uni-257', name: 'M.Sc. Industrial Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 500, minGpaRequired: 2.8, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.gazi.edu.tr/apply' },
+      { id: 'p-560', universityId: 'uni-257', name: 'M.A. Education', fieldOfStudy: 'Education', degreeLevel: 'masters', languageOfInstruction: 'Turkish', durationMonths: 24, tuitionPerYearEur: 500, minGpaRequired: 2.8, requiredLanguage: 'Turkish', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.gazi.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-258', name: 'Marmara University', country: 'Turkey', city: 'Istanbul',
+    websiteUrl: 'https://www.marmara.edu.tr', logoUrl: '', rankingQs: 901, rankingThe: 860,
+    estimatedMonthlyLivingCostEur: 480,
+    description: 'A large public university in Istanbul with prominent schools of business and European studies.',
+    programs: [
+      { id: 'p-561', universityId: 'uni-258', name: 'M.Sc. Business Administration (MBA)', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.marmara.edu.tr/apply' },
+      { id: 'p-562', universityId: 'uni-258', name: 'M.A. European Union Relations', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.marmara.edu.tr/apply' },
+    ]
+  },
+  {
+    id: 'uni-259', name: 'Amsterdam University of Applied Sciences', country: 'Netherlands', city: 'Amsterdam',
+    websiteUrl: 'https://www.hva.nl', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1150,
+    description: 'A practice-oriented university in Amsterdam offering hands-on bachelor programs in business, IT, and media.',
+    programs: [
+      { id: 'p-563', universityId: 'uni-259', name: 'B.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.hva.nl/apply' },
+      { id: 'p-564', universityId: 'uni-259', name: 'B.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.hva.nl/apply' },
+    ]
+  },
+  {
+    id: 'uni-260', name: 'Hanze University of Applied Sciences', country: 'Netherlands', city: 'Groningen',
+    websiteUrl: 'https://www.hanze.nl', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 950,
+    description: 'A large Dutch university of applied sciences in Groningen with a focus on energy, healthcare, and business.',
+    programs: [
+      { id: 'p-565', universityId: 'uni-260', name: 'B.Sc. International Business', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.hanze.nl/apply' },
+      { id: 'p-566', universityId: 'uni-260', name: 'B.Sc. Energy Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.hanze.nl/apply' },
+    ]
+  },
+  {
+    id: 'uni-261', name: 'Rotterdam University of Applied Sciences', country: 'Netherlands', city: 'Rotterdam',
+    websiteUrl: 'https://www.rotterdamuas.com', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'Practice-oriented university in Europe\'s largest port city, excelling in logistics, business, and technology.',
+    programs: [
+      { id: 'p-567', universityId: 'uni-261', name: 'B.Sc. Logistics Management', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.rotterdamuas.com/apply' },
+      { id: 'p-568', universityId: 'uni-261', name: 'B.Sc. Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.rotterdamuas.com/apply' },
+    ]
+  },
+  {
+    id: 'uni-262', name: 'Fontys University of Applied Sciences', country: 'Netherlands', city: 'Eindhoven',
+    websiteUrl: 'https://www.fontys.edu', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1000,
+    description: 'One of the largest Dutch universities of applied sciences in the Brainport technology region.',
+    programs: [
+      { id: 'p-569', universityId: 'uni-262', name: 'B.Sc. ICT & Technology', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.fontys.edu/apply' },
+      { id: 'p-570', universityId: 'uni-262', name: 'B.Sc. International Business', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.fontys.edu/apply' },
+    ]
+  },
+  {
+    id: 'uni-263', name: 'University of Gothenburg', country: 'Sweden', city: 'Gothenburg',
+    websiteUrl: 'https://www.gu.se', logoUrl: '', rankingQs: 351, rankingThe: 320,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'Sweden\'s second-largest university with strong programs in social sciences, natural sciences, and arts.',
+    programs: [
+      { id: 'p-571', universityId: 'uni-263', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.gu.se/apply' },
+      { id: 'p-572', universityId: 'uni-263', name: 'M.Sc. Public Health', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.gu.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-264', name: 'Örebro University', country: 'Sweden', city: 'Örebro',
+    websiteUrl: 'https://www.oru.se', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'A welcoming Swedish university known for robotics, informatics, and culinary arts research.',
+    programs: [
+      { id: 'p-573', universityId: 'uni-264', name: 'M.Sc. Robotics and Intelligent Systems', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.oru.se/apply' },
+      { id: 'p-574', universityId: 'uni-264', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.oru.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-265', name: 'Mälardalen University', country: 'Sweden', city: 'Västerås',
+    websiteUrl: 'https://www.mdu.se', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 880,
+    description: 'Sweden\'s fastest-growing university with a strong focus on embedded systems and innovation.',
+    programs: [
+      { id: 'p-575', universityId: 'uni-265', name: 'M.Sc. Embedded Systems', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.mdu.se/apply' },
+      { id: 'p-576', universityId: 'uni-265', name: 'M.Sc. Innovation and Design', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.mdu.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-266', name: 'Mid Sweden University', country: 'Sweden', city: 'Sundsvall',
+    websiteUrl: 'https://www.miun.se', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 860,
+    description: 'A university in northern Sweden with strengths in sports science, media, and sustainable technologies.',
+    programs: [
+      { id: 'p-577', universityId: 'uni-266', name: 'M.Sc. Sustainable Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.miun.se/apply' },
+      { id: 'p-578', universityId: 'uni-266', name: 'M.A. Media & Communication', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.miun.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-267', name: 'Jönköping University', country: 'Sweden', city: 'Jönköping',
+    websiteUrl: 'https://ju.se', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'An entrepreneurial Swedish university with internationally acclaimed business and engineering schools.',
+    programs: [
+      { id: 'p-579', universityId: 'uni-267', name: 'M.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://ju.se/apply' },
+      { id: 'p-580', universityId: 'uni-267', name: 'M.Sc. Industrial Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://ju.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-268', name: 'University of Lodz', country: 'Poland', city: 'Lodz',
+    websiteUrl: 'https://www.uni.lodz.pl', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 600,
+    description: 'A comprehensive Polish university with strengths in economics, sociology, and natural sciences.',
+    programs: [
+      { id: 'p-581', universityId: 'uni-268', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uni.lodz.pl/apply' },
+      { id: 'p-582', universityId: 'uni-268', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uni.lodz.pl/apply' },
+    ]
+  },
+  {
+    id: 'uni-269', name: 'Gdańsk University of Technology', country: 'Poland', city: 'Gdańsk',
+    websiteUrl: 'https://pg.edu.pl', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'A leading technical university on the Baltic Sea coast with excellent civil and electrical engineering programs.',
+    programs: [
+      { id: 'p-583', universityId: 'uni-269', name: 'M.Sc. Civil Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://pg.edu.pl/apply' },
+      { id: 'p-584', universityId: 'uni-269', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://pg.edu.pl/apply' },
+    ]
+  },
+  {
+    id: 'uni-270', name: 'University of Gdańsk', country: 'Poland', city: 'Gdańsk',
+    websiteUrl: 'https://ug.edu.pl', logoUrl: '', rankingQs: 901, rankingThe: 860,
+    estimatedMonthlyLivingCostEur: 640,
+    description: 'Baltic university with top programs in economics, law, and environmental protection.',
+    programs: [
+      { id: 'p-585', universityId: 'uni-270', name: 'M.Sc. Marine Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://ug.edu.pl/apply' },
+      { id: 'p-586', universityId: 'uni-270', name: 'LL.M. International Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://ug.edu.pl/apply' },
+    ]
+  },
+  {
+    id: 'uni-271', name: 'Silesian University of Technology', country: 'Poland', city: 'Gliwice',
+    websiteUrl: 'https://www.polsl.pl', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 580,
+    description: 'One of Poland\'s largest technical universities with comprehensive engineering and computer science programs.',
+    programs: [
+      { id: 'p-587', universityId: 'uni-271', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.polsl.pl/apply' },
+      { id: 'p-588', universityId: 'uni-271', name: 'M.Sc. Automation & Robotics', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.polsl.pl/apply' },
+    ]
+  },
+  {
+    id: 'uni-272', name: 'University of West Bohemia', country: 'Czech Republic', city: 'Plzeň',
+    websiteUrl: 'https://www.zcu.cz', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'A technical university in western Bohemia with strong programs in computer science and electrical engineering.',
+    programs: [
+      { id: 'p-589', universityId: 'uni-272', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.zcu.cz/apply' },
+      { id: 'p-590', universityId: 'uni-272', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.zcu.cz/apply' },
+    ]
+  },
+  {
+    id: 'uni-273', name: 'Palacký University Olomouc', country: 'Czech Republic', city: 'Olomouc',
+    websiteUrl: 'https://www.upol.cz', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 600,
+    description: 'The second oldest Czech university with excellent natural sciences, medicine, and law faculties.',
+    programs: [
+      { id: 'p-591', universityId: 'uni-273', name: 'M.Sc. Biochemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.upol.cz/apply' },
+      { id: 'p-592', universityId: 'uni-273', name: 'M.Sc. Optics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.upol.cz/apply' },
+    ]
+  },
+  {
+    id: 'uni-274', name: 'Óbuda University', country: 'Hungary', city: 'Budapest',
+    websiteUrl: 'https://uni-obuda.hu', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'A modern Budapest university specialising in IT, engineering, and applied sciences.',
+    programs: [
+      { id: 'p-593', universityId: 'uni-274', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://uni-obuda.hu/apply' },
+      { id: 'p-594', universityId: 'uni-274', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://uni-obuda.hu/apply' },
+    ]
+  },
+  {
+    id: 'uni-275', name: 'Semmelweis University', country: 'Hungary', city: 'Budapest',
+    websiteUrl: 'https://semmelweis.hu', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'Hungary\'s leading medical university, offering internationally recognised degrees in medicine and health sciences.',
+    programs: [
+      { id: 'p-595', universityId: 'uni-275', name: 'M.D. Medicine', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 72, tuitionPerYearEur: 16000, minGpaRequired: 3.5, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-05-31', applicationUrl: 'https://semmelweis.hu/apply' },
+      { id: 'p-596', universityId: 'uni-275', name: 'M.Sc. Health Informatics', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 7000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://semmelweis.hu/apply' },
+    ]
+  },
+  {
+    id: 'uni-276', name: 'University of Patras', country: 'Greece', city: 'Patras',
+    websiteUrl: 'https://www.upatras.gr', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'A large Greek polytechnic university with strong engineering and natural sciences research.',
+    programs: [
+      { id: 'p-597', universityId: 'uni-276', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.upatras.gr/apply' },
+      { id: 'p-598', universityId: 'uni-276', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'Greek', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'Greek', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.upatras.gr/apply' },
+    ]
+  },
+  {
+    id: 'uni-277', name: 'University of Ioannina', country: 'Greece', city: 'Ioannina',
+    websiteUrl: 'https://www.uoi.gr', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 600,
+    description: 'A comprehensive Greek university in the scenic Epirus region with strong programs in mathematics and ecology.',
+    programs: [
+      { id: 'p-599', universityId: 'uni-277', name: 'M.Sc. Mathematics', fieldOfStudy: 'Mathematics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uoi.gr/apply' },
+      { id: 'p-600', universityId: 'uni-277', name: 'M.Sc. Environmental Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uoi.gr/apply' },
+    ]
+  },
+  {
+    id: 'uni-278', name: 'Alexandru Ioan Cuza University', country: 'Romania', city: 'Iași',
+    websiteUrl: 'https://www.uaic.ro', logoUrl: '', rankingQs: 901, rankingThe: 860,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'Romania\'s oldest university, known for its scientific research and humanities tradition in the city of Iași.',
+    programs: [
+      { id: 'p-601', universityId: 'uni-278', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uaic.ro/apply' },
+      { id: 'p-602', universityId: 'uni-278', name: 'M.A. Cultural Studies', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uaic.ro/apply' },
+    ]
+  },
+  {
+    id: 'uni-279', name: 'West University of Timișoara', country: 'Romania', city: 'Timișoara',
+    websiteUrl: 'https://www.uvt.ro', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'A multicultural Romanian university in Timișoara with modern programs in computer science and economics.',
+    programs: [
+      { id: 'p-603', universityId: 'uni-279', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uvt.ro/apply' },
+      { id: 'p-604', universityId: 'uni-279', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uvt.ro/apply' },
+    ]
+  },
+  {
+    id: 'uni-280', name: 'University of Eastern Finland', country: 'Finland', city: 'Joensuu',
+    websiteUrl: 'https://www.uef.fi', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'A multidisciplinary Finnish university across two campuses, renowned for forest sciences and photonics.',
+    programs: [
+      { id: 'p-605', universityId: 'uni-280', name: 'M.Sc. Environmental Science', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 10000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-20', applicationUrl: 'https://www.uef.fi/apply' },
+      { id: 'p-606', universityId: 'uni-280', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 10000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-20', applicationUrl: 'https://www.uef.fi/apply' },
+    ]
+  },
+  {
+    id: 'uni-281', name: 'University of Jyväskylä', country: 'Finland', city: 'Jyväskylä',
+    websiteUrl: 'https://www.jyu.fi', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'A vibrant Finnish university known for sports science, educational research, and information technology.',
+    programs: [
+      { id: 'p-607', universityId: 'uni-281', name: 'M.Sc. Information Technology', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 10000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-20', applicationUrl: 'https://www.jyu.fi/apply' },
+      { id: 'p-608', universityId: 'uni-281', name: 'M.Sc. Sport and Exercise Psychology', fieldOfStudy: 'Psychology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 10000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-20', applicationUrl: 'https://www.jyu.fi/apply' },
+    ]
+  },
+  {
+    id: 'uni-282', name: 'IT University of Copenhagen', country: 'Denmark', city: 'Copenhagen',
+    websiteUrl: 'https://en.itu.dk', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 1200,
+    description: 'Denmark\'s dedicated IT university with cutting-edge programs in software development and digital innovation.',
+    programs: [
+      { id: 'p-609', universityId: 'uni-282', name: 'M.Sc. Software Development', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 15000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-03-15', applicationUrl: 'https://en.itu.dk/apply' },
+      { id: 'p-610', universityId: 'uni-282', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 15000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-03-15', applicationUrl: 'https://en.itu.dk/apply' },
+    ]
+  },
+  {
+    id: 'uni-283', name: 'Roskilde University', country: 'Denmark', city: 'Roskilde',
+    websiteUrl: 'https://ruc.dk', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'A problem-oriented Danish university focused on social sciences, humanities, and natural sciences.',
+    programs: [
+      { id: 'p-611', universityId: 'uni-283', name: 'M.Sc. Global Studies', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 15000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-03-15', applicationUrl: 'https://ruc.dk/apply' },
+      { id: 'p-612', universityId: 'uni-283', name: 'M.Sc. Performance Design', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 15000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-03-15', applicationUrl: 'https://ruc.dk/apply' },
+    ]
+  },
+  {
+    id: 'uni-284', name: 'University of Stavanger', country: 'Norway', city: 'Stavanger',
+    websiteUrl: 'https://www.uis.no', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'Norway\'s energy and petroleum university in Stavanger, with strong programs in engineering and business.',
+    programs: [
+      { id: 'p-613', universityId: 'uni-284', name: 'M.Sc. Petroleum Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-15', applicationUrl: 'https://www.uis.no/apply' },
+      { id: 'p-614', universityId: 'uni-284', name: 'M.Sc. Offshore Technology', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-15', applicationUrl: 'https://www.uis.no/apply' },
+    ]
+  },
+  {
+    id: 'uni-285', name: 'University of Agder', country: 'Norway', city: 'Kristiansand',
+    websiteUrl: 'https://www.uia.no', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'A young Norwegian university on the southern coast, focused on applied ICT, engineering, and education.',
+    programs: [
+      { id: 'p-615', universityId: 'uni-285', name: 'M.Sc. Information and Communication Technology', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-15', applicationUrl: 'https://www.uia.no/apply' },
+      { id: 'p-616', universityId: 'uni-285', name: 'M.Sc. Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-15', applicationUrl: 'https://www.uia.no/apply' },
+    ]
+  },
+  {
+    id: 'uni-286', name: 'University of Namur', country: 'Belgium', city: 'Namur',
+    websiteUrl: 'https://www.unamur.be', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'A Walloon university with strong programs in computer science, biology, and economics.',
+    programs: [
+      { id: 'p-617', universityId: 'uni-286', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 835, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unamur.be/apply' },
+      { id: 'p-618', universityId: 'uni-286', name: 'M.Sc. Life Sciences', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 835, minGpaRequired: 3.0, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.unamur.be/apply' },
+    ]
+  },
+  {
+    id: 'uni-287', name: 'University of Liège', country: 'Belgium', city: 'Liège',
+    websiteUrl: 'https://www.uliege.be', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'A major Francophone university in Belgium, excelling in veterinary medicine, engineering, and space sciences.',
+    programs: [
+      { id: 'p-619', universityId: 'uni-287', name: 'M.Sc. Aerospace Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 835, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uliege.be/apply' },
+      { id: 'p-620', universityId: 'uni-287', name: 'M.Sc. Business Engineering', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 835, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uliege.be/apply' },
+    ]
+  },
+  {
+    id: 'uni-288', name: 'University of Neuchâtel', country: 'Switzerland', city: 'Neuchâtel',
+    websiteUrl: 'https://www.unine.ch', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 1400,
+    description: 'A boutique Swiss French-speaking university on Lake Neuchâtel with strong law and language programs.',
+    programs: [
+      { id: 'p-621', universityId: 'uni-288', name: 'LL.M. International Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 12, tuitionPerYearEur: 850, minGpaRequired: 3.2, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.unine.ch/apply' },
+      { id: 'p-622', universityId: 'uni-288', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 850, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.unine.ch/apply' },
+    ]
+  },
+  {
+    id: 'uni-289', name: 'Università della Svizzera italiana (USI)', country: 'Switzerland', city: 'Lugano',
+    websiteUrl: 'https://www.usi.ch', logoUrl: '', rankingQs: 551, rankingThe: 530,
+    estimatedMonthlyLivingCostEur: 1500,
+    description: 'Switzerland\'s Italian-speaking university in Lugano, known for computer science, architecture, and communication.',
+    programs: [
+      { id: 'p-623', universityId: 'uni-289', name: 'M.Sc. Computational Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 4000, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-01', applicationUrl: 'https://www.usi.ch/apply' },
+      { id: 'p-624', universityId: 'uni-289', name: 'M.Sc. Artificial Intelligence', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 4000, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-01', applicationUrl: 'https://www.usi.ch/apply' },
+    ]
+  },
+  {
+    id: 'uni-290', name: 'Maynooth University', country: 'Ireland', city: 'Maynooth',
+    websiteUrl: 'https://www.maynoothuniversity.ie', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'Ireland\'s fastest-growing university, known for computer science, mathematics, and social sciences.',
+    programs: [
+      { id: 'p-625', universityId: 'uni-290', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 8000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.maynoothuniversity.ie/apply' },
+      { id: 'p-626', universityId: 'uni-290', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 8000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.maynoothuniversity.ie/apply' },
+    ]
+  },
+  {
+    id: 'uni-291', name: 'University College Cork', country: 'Ireland', city: 'Cork',
+    websiteUrl: 'https://www.ucc.ie', logoUrl: '', rankingQs: 401, rankingThe: 380,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'One of Ireland\'s top universities, internationally renowned for food science, pharmacy, and engineering.',
+    programs: [
+      { id: 'p-627', universityId: 'uni-291', name: 'M.Sc. Food Science', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 7000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ucc.ie/apply' },
+      { id: 'p-628', universityId: 'uni-291', name: 'M.Sc. Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 8500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ucc.ie/apply' },
+    ]
+  },
+  {
+    id: 'uni-292', name: 'University of Minho', country: 'Portugal', city: 'Braga',
+    websiteUrl: 'https://www.uminho.pt', logoUrl: '', rankingQs: 501, rankingThe: 480,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'A young and dynamic Portuguese university with strong programs in engineering and computer science.',
+    programs: [
+      { id: 'p-629', universityId: 'uni-292', name: 'M.Sc. Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uminho.pt/apply' },
+      { id: 'p-630', universityId: 'uni-292', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uminho.pt/apply' },
+    ]
+  },
+  {
+    id: 'uni-293', name: 'University of Algarve', country: 'Portugal', city: 'Faro',
+    websiteUrl: 'https://www.ualg.pt', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'Portugal\'s southernmost university in sunny Algarve, with marine biology, tourism, and engineering programs.',
+    programs: [
+      { id: 'p-631', universityId: 'uni-293', name: 'M.Sc. Marine Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1700, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ualg.pt/apply' },
+      { id: 'p-632', universityId: 'uni-293', name: 'M.Sc. Tourism Management', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 1700, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ualg.pt/apply' },
+    ]
+  },
+  {
+    id: 'uni-294', name: 'University of Salzburg', country: 'Austria', city: 'Salzburg',
+    websiteUrl: 'https://www.plus.ac.at', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 1000,
+    description: 'A humanities-focused Austrian university in the birthplace of Mozart, with strong law and natural sciences programs.',
+    programs: [
+      { id: 'p-633', universityId: 'uni-294', name: 'LL.M. European and International Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 726, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.plus.ac.at/apply' },
+      { id: 'p-634', universityId: 'uni-294', name: 'M.Sc. Psychology', fieldOfStudy: 'Psychology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 726, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'C1', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.plus.ac.at/apply' },
+    ]
+  },
+  {
+    id: 'uni-295', name: 'Alpen-Adria-Universität Klagenfurt', country: 'Austria', city: 'Klagenfurt',
+    websiteUrl: 'https://www.aau.at', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 920,
+    description: 'An Austrian university at the crossroads of three cultures, with innovative programs in technology and management.',
+    programs: [
+      { id: 'p-635', universityId: 'uni-295', name: 'M.Sc. Information Technology', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 726, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.aau.at/apply' },
+      { id: 'p-636', universityId: 'uni-295', name: 'M.Sc. Management', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 726, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.aau.at/apply' },
+    ]
+  },
+  {
+    id: 'uni-296', name: 'University of Iceland', country: 'Iceland', city: 'Reykjavík',
+    websiteUrl: 'https://english.hi.is', logoUrl: '', rankingQs: 401, rankingThe: 380,
+    estimatedMonthlyLivingCostEur: 1500,
+    description: 'Iceland\'s national university offering graduate programs in engineering, social sciences, and natural sciences, taught in English.',
+    programs: [
+      { id: 'p-637', universityId: 'uni-296', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://english.hi.is/apply' },
+      { id: 'p-638', universityId: 'uni-296', name: 'M.Sc. Environmental Science', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://english.hi.is/apply' },
+    ]
+  },
+  {
+    id: 'uni-297', name: 'Reykjavík University', country: 'Iceland', city: 'Reykjavík',
+    websiteUrl: 'https://en.ru.is', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1500,
+    description: 'Iceland\'s largest private university with English-medium programs in engineering, business, and law.',
+    programs: [
+      { id: 'p-639', universityId: 'uni-297', name: 'M.Sc. Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://en.ru.is/apply' },
+      { id: 'p-640', universityId: 'uni-297', name: 'M.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://en.ru.is/apply' },
+    ]
+  },
+  {
+    id: 'uni-298', name: 'University of Cyprus', country: 'Cyprus', city: 'Nicosia',
+    websiteUrl: 'https://www.ucy.ac.cy', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'The largest public university in Cyprus, offering English-medium graduate programs in engineering and science.',
+    programs: [
+      { id: 'p-641', universityId: 'uni-298', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5125, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.ucy.ac.cy/apply' },
+      { id: 'p-642', universityId: 'uni-298', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5125, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.ucy.ac.cy/apply' },
+    ]
+  },
+  {
+    id: 'uni-299', name: 'Cyprus University of Technology', country: 'Cyprus', city: 'Limassol',
+    websiteUrl: 'https://www.cut.ac.cy', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'A modern Cypriot university in Limassol focused on applied sciences, engineering, and hotel management.',
+    programs: [
+      { id: 'p-643', universityId: 'uni-299', name: 'M.Sc. Information Technology', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.cut.ac.cy/apply' },
+      { id: 'p-644', universityId: 'uni-299', name: 'M.Sc. Biomedical Sciences', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.cut.ac.cy/apply' },
+    ]
+  },
+  {
+    id: 'uni-300', name: 'Frederick University Cyprus', country: 'Cyprus', city: 'Nicosia',
+    websiteUrl: 'https://www.frederick.ac.cy', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'A private Cypriot university with fully English programs in engineering, architecture, and business.',
+    programs: [
+      { id: 'p-645', universityId: 'uni-300', name: 'M.Sc. Civil Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 6000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.frederick.ac.cy/apply' },
+      { id: 'p-646', universityId: 'uni-300', name: 'M.Sc. Architecture', fieldOfStudy: 'Architecture', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 6000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.frederick.ac.cy/apply' },
+    ]
+  },
+  {
+    id: 'uni-301', name: 'University of Luxembourg', country: 'Luxembourg', city: 'Esch-sur-Alzette',
+    websiteUrl: 'https://www.uni.lu', logoUrl: '', rankingQs: 251, rankingThe: 220,
+    estimatedMonthlyLivingCostEur: 1600,
+    description: 'A multilingual, international research university in the heart of Europe with strong programs in finance and computer science.',
+    programs: [
+      { id: 'p-647', universityId: 'uni-301', name: 'M.Sc. Finance and Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 400, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-01', applicationUrl: 'https://www.uni.lu/apply' },
+      { id: 'p-648', universityId: 'uni-301', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 400, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-01', applicationUrl: 'https://www.uni.lu/apply' },
+    ]
+  },
+  {
+    id: 'uni-302', name: 'University of Malta', country: 'Malta', city: 'Msida',
+    websiteUrl: 'https://www.um.edu.mt', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'Malta\'s national university offering English-medium programs in an EU Mediterranean island setting.',
+    programs: [
+      { id: 'p-649', universityId: 'uni-302', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.um.edu.mt/apply' },
+      { id: 'p-650', universityId: 'uni-302', name: 'M.Sc. Maritime Studies', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.um.edu.mt/apply' },
+    ]
+  },
+  {
+    id: 'uni-303', name: 'Tallinn University', country: 'Estonia', city: 'Tallinn',
+    websiteUrl: 'https://www.tlu.ee', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'Estonia\'s digital-humanities university in the medieval capital Tallinn, strong in education and media studies.',
+    programs: [
+      { id: 'p-651', universityId: 'uni-303', name: 'M.Sc. Educational Technology', fieldOfStudy: 'Education', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3400, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.tlu.ee/apply' },
+      { id: 'p-652', universityId: 'uni-303', name: 'M.Sc. Digital Humanities', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3400, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-01', applicationUrl: 'https://www.tlu.ee/apply' },
+    ]
+  },
+  {
+    id: 'uni-304', name: 'Estonian University of Life Sciences', country: 'Estonia', city: 'Tartu',
+    websiteUrl: 'https://www.emu.ee', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'Estonia\'s specialist university for life sciences, veterinary medicine, and environmental sustainability.',
+    programs: [
+      { id: 'p-653', universityId: 'uni-304', name: 'M.Sc. Environmental Management', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.emu.ee/apply' },
+      { id: 'p-654', universityId: 'uni-304', name: 'M.Sc. Agricultural Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.emu.ee/apply' },
+    ]
+  },
+  {
+    id: 'uni-305', name: 'Lithuanian Academy of Health Sciences', country: 'Lithuania', city: 'Kaunas',
+    websiteUrl: 'https://www.lsmuni.lt', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 600,
+    description: 'Lithuania\'s leading health sciences university with internationally recognised programs in medicine and pharmacy.',
+    programs: [
+      { id: 'p-655', universityId: 'uni-305', name: 'M.D. Medicine', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 72, tuitionPerYearEur: 11000, minGpaRequired: 3.3, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.lsmuni.lt/apply' },
+      { id: 'p-656', universityId: 'uni-305', name: 'M.Sc. Pharmacy', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.lsmuni.lt/apply' },
+    ]
+  },
+  {
+    id: 'uni-306', name: 'Mykolas Romeris University', country: 'Lithuania', city: 'Vilnius',
+    websiteUrl: 'https://www.mruni.eu', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'A Lithuanian university specialising in law, social technologies, and public administration.',
+    programs: [
+      { id: 'p-657', universityId: 'uni-306', name: 'LL.M. European Union Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.mruni.eu/apply' },
+      { id: 'p-658', universityId: 'uni-306', name: 'M.Sc. Smart Social Technologies', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.mruni.eu/apply' },
+    ]
+  },
+  {
+    id: 'uni-307', name: 'Rīga Stradiņš University', country: 'Latvia', city: 'Riga',
+    websiteUrl: 'https://www.rsu.lv', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'Latvia\'s leading health sciences university, offering English-medium medicine and dentistry programs.',
+    programs: [
+      { id: 'p-659', universityId: 'uni-307', name: 'M.D. Medicine', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 72, tuitionPerYearEur: 12000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.rsu.lv/apply' },
+      { id: 'p-660', universityId: 'uni-307', name: 'M.Sc. Public Health', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 5000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.rsu.lv/apply' },
+    ]
+  },
+  {
+    id: 'uni-308', name: 'Latvia University of Life Sciences and Technologies', country: 'Latvia', city: 'Jelgava',
+    websiteUrl: 'https://www.llu.lv', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'Latvia\'s specialist university for agriculture, food technology, and environmental sciences.',
+    programs: [
+      { id: 'p-661', universityId: 'uni-308', name: 'M.Sc. Food Science and Technology', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.llu.lv/apply' },
+      { id: 'p-662', universityId: 'uni-308', name: 'M.Sc. Environmental Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.llu.lv/apply' },
+    ]
+  },
+  {
+    id: 'uni-309', name: 'University of Primorska', country: 'Slovenia', city: 'Koper',
+    websiteUrl: 'https://www.upr.si', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'A Slovenian university on the Adriatic coast with English-medium programs in mathematics, bioinformatics, and management.',
+    programs: [
+      { id: 'p-663', universityId: 'uni-309', name: 'M.Sc. Bioinformatics', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.upr.si/apply' },
+      { id: 'p-664', universityId: 'uni-309', name: 'M.Sc. Tourism', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.upr.si/apply' },
+    ]
+  },
+  {
+    id: 'uni-310', name: 'University of Nova Gorica', country: 'Slovenia', city: 'Nova Gorica',
+    websiteUrl: 'https://www.ung.si', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'A research university on the Slovenian-Italian border, known for environmental sciences and materials.',
+    programs: [
+      { id: 'p-665', universityId: 'uni-310', name: 'M.Sc. Materials Science', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ung.si/apply' },
+      { id: 'p-666', universityId: 'uni-310', name: 'M.Sc. Environmental Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.ung.si/apply' },
+    ]
+  },
+  {
+    id: 'uni-311', name: 'University of Žilina', country: 'Slovakia', city: 'Žilina',
+    websiteUrl: 'https://www.uniza.sk', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 600,
+    description: 'Slovak university in the heart of the Carpathians excelling in transport, electrical engineering, and information technologies.',
+    programs: [
+      { id: 'p-667', universityId: 'uni-311', name: 'M.Sc. Transport Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uniza.sk/apply' },
+      { id: 'p-668', universityId: 'uni-311', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uniza.sk/apply' },
+    ]
+  },
+  {
+    id: 'uni-312', name: 'Technical University of Košice', country: 'Slovakia', city: 'Košice',
+    websiteUrl: 'https://www.tuke.sk', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 580,
+    description: 'Eastern Slovakia\'s technical university offering affordable programs in engineering and computer science.',
+    programs: [
+      { id: 'p-669', universityId: 'uni-312', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.tuke.sk/apply' },
+      { id: 'p-670', universityId: 'uni-312', name: 'M.Sc. Industrial Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.tuke.sk/apply' },
+    ]
+  },
+  {
+    id: 'uni-313', name: 'University of Niš', country: 'Serbia', city: 'Niš',
+    websiteUrl: 'https://www.ni.ac.rs', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 450,
+    description: 'A comprehensive Serbian university with faculties spanning engineering, medicine, and economics.',
+    programs: [
+      { id: 'p-671', universityId: 'uni-313', name: 'M.Sc. Electronics Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ni.ac.rs/apply' },
+      { id: 'p-672', universityId: 'uni-313', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ni.ac.rs/apply' },
+    ]
+  },
+  {
+    id: 'uni-314', name: 'University of Kragujevac', country: 'Serbia', city: 'Kragujevac',
+    websiteUrl: 'https://www.kg.ac.rs', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 430,
+    description: 'Central Serbia\'s state university with programs in engineering, medicine, and natural sciences.',
+    programs: [
+      { id: 'p-673', universityId: 'uni-314', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.kg.ac.rs/apply' },
+      { id: 'p-674', universityId: 'uni-314', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2200, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.kg.ac.rs/apply' },
+    ]
+  },
+  {
+    id: 'uni-315', name: 'Plovdiv University', country: 'Bulgaria', city: 'Plovdiv',
+    websiteUrl: 'https://uni-plovdiv.bg', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 450,
+    description: 'Bulgaria\'s second-largest university in the ancient city of Plovdiv, offering modern science and economics programs.',
+    programs: [
+      { id: 'p-675', universityId: 'uni-315', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://uni-plovdiv.bg/apply' },
+      { id: 'p-676', universityId: 'uni-315', name: 'M.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://uni-plovdiv.bg/apply' },
+    ]
+  },
+  {
+    id: 'uni-316', name: 'Varna University of Management', country: 'Bulgaria', city: 'Varna',
+    websiteUrl: 'https://www.vum.bg', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 450,
+    description: 'A focused private Bulgarian university on the Black Sea, offering modern hospitality and business programs.',
+    programs: [
+      { id: 'p-677', universityId: 'uni-316', name: 'B.Sc. International Hospitality Management', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 4500, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.vum.bg/apply' },
+      { id: 'p-678', universityId: 'uni-316', name: 'M.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 4500, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.vum.bg/apply' },
+    ]
+  },
+  {
+    id: 'uni-317', name: 'University of Rijeka', country: 'Croatia', city: 'Rijeka',
+    websiteUrl: 'https://www.uniri.hr', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'A Croatian Adriatic university known for maritime studies, engineering, and medicine.',
+    programs: [
+      { id: 'p-679', universityId: 'uni-317', name: 'M.Sc. Maritime Studies', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uniri.hr/apply' },
+      { id: 'p-680', universityId: 'uni-317', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.uniri.hr/apply' },
+    ]
+  },
+  {
+    id: 'uni-318', name: 'Josip Juraj Strossmayer University of Osijek', country: 'Croatia', city: 'Osijek',
+    websiteUrl: 'https://www.unios.hr', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 650,
+    description: 'The main university in eastern Croatia, with programs in economics, electrical engineering, and agriculture.',
+    programs: [
+      { id: 'p-681', universityId: 'uni-318', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.unios.hr/apply' },
+      { id: 'p-682', universityId: 'uni-318', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1800, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-01', applicationUrl: 'https://www.unios.hr/apply' },
+    ]
+  },
+  {
+    id: 'uni-319', name: 'University of Sarajevo', country: 'Bosnia', city: 'Sarajevo',
+    websiteUrl: 'https://www.unsa.ba', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'The oldest and largest university in Bosnia and Herzegovina, offering a wide range of programs.',
+    programs: [
+      { id: 'p-683', universityId: 'uni-319', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unsa.ba/apply' },
+      { id: 'p-684', universityId: 'uni-319', name: 'LL.M. Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unsa.ba/apply' },
+    ]
+  },
+  {
+    id: 'uni-320', name: 'University of Mostar', country: 'Bosnia', city: 'Mostar',
+    websiteUrl: 'https://www.sum.ba', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 480,
+    description: 'A university in the historic city of Mostar offering economics, engineering, and health science programs.',
+    programs: [
+      { id: 'p-685', universityId: 'uni-320', name: 'M.Sc. Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.sum.ba/apply' },
+      { id: 'p-686', universityId: 'uni-320', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.sum.ba/apply' },
+    ]
+  },
+  {
+    id: 'uni-321', name: 'Ss. Cyril and Methodius University', country: 'North Macedonia', city: 'Skopje',
+    websiteUrl: 'https://www.ukim.edu.mk', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 420,
+    description: 'North Macedonia\'s largest public university, named after the creators of the Cyrillic script.',
+    programs: [
+      { id: 'p-687', universityId: 'uni-321', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ukim.edu.mk/apply' },
+      { id: 'p-688', universityId: 'uni-321', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ukim.edu.mk/apply' },
+    ]
+  },
+  {
+    id: 'uni-322', name: 'National Technical University of Ukraine (KPI)', country: 'Ukraine', city: 'Kyiv',
+    websiteUrl: 'https://kpi.ua', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'Ukraine\'s premier technical university with strong programs in engineering, IT, and natural sciences.',
+    programs: [
+      { id: 'p-689', universityId: 'uni-322', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://kpi.ua/apply' },
+      { id: 'p-690', universityId: 'uni-322', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://kpi.ua/apply' },
+    ]
+  },
+  {
+    id: 'uni-323', name: 'Taras Shevchenko National University of Kyiv', country: 'Ukraine', city: 'Kyiv',
+    websiteUrl: 'https://www.univ.kiev.ua', logoUrl: '', rankingQs: 501, rankingThe: 470,
+    estimatedMonthlyLivingCostEur: 500,
+    description: 'Ukraine\'s flagship classical university covering sciences, humanities, law, and social sciences.',
+    programs: [
+      { id: 'p-691', universityId: 'uni-323', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.univ.kiev.ua/apply' },
+      { id: 'p-692', universityId: 'uni-323', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.univ.kiev.ua/apply' },
+    ]
+  },
+  {
+    id: 'uni-324', name: 'University of Tirana', country: 'Albania', city: 'Tirana',
+    websiteUrl: 'https://www.unitir.edu.al', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 400,
+    description: 'Albania\'s largest and oldest public university offering programs in natural sciences, social sciences, and law.',
+    programs: [
+      { id: 'p-693', universityId: 'uni-324', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unitir.edu.al/apply' },
+      { id: 'p-694', universityId: 'uni-324', name: 'LL.M. Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'Albanian', durationMonths: 24, tuitionPerYearEur: 1000, minGpaRequired: 2.8, requiredLanguage: 'Albanian', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unitir.edu.al/apply' },
+    ]
+  },
+  {
+    id: 'uni-325', name: 'University of Montenegro', country: 'Montenegro', city: 'Podgorica',
+    websiteUrl: 'https://www.ucg.ac.me', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 550,
+    description: 'Montenegro\'s national university offering programs across engineering, economics, and natural sciences.',
+    programs: [
+      { id: 'p-695', universityId: 'uni-325', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ucg.ac.me/apply' },
+      { id: 'p-696', universityId: 'uni-325', name: 'M.Sc. Tourism Management', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ucg.ac.me/apply' },
+    ]
+  },
+  {
+    id: 'uni-326', name: 'University of Pristina', country: 'Kosovo', city: 'Pristina',
+    websiteUrl: 'https://www.uni-pr.edu', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 400,
+    description: 'Kosovo\'s largest public university, offering affordable programs in law, economics, and natural sciences.',
+    programs: [
+      { id: 'p-697', universityId: 'uni-326', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1200, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uni-pr.edu/apply' },
+      { id: 'p-698', universityId: 'uni-326', name: 'LL.M. Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'Albanian', durationMonths: 24, tuitionPerYearEur: 1200, minGpaRequired: 2.5, requiredLanguage: 'Albanian', requiredLanguageLevel: 'C1', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uni-pr.edu/apply' },
+    ]
+  },
+  {
+    id: 'uni-327', name: 'TU Chemnitz', country: 'Germany', city: 'Chemnitz',
+    websiteUrl: 'https://www.tu-chemnitz.de', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'A compact technical university in Saxony with internationally recognised programs in lightweight engineering and smart systems.',
+    programs: [
+      { id: 'p-699', universityId: 'uni-327', name: 'M.Sc. Automotive Software Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.tu-chemnitz.de/apply' },
+      { id: 'p-700', universityId: 'uni-327', name: 'M.Sc. Materials Science', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.tu-chemnitz.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-328', name: 'University of Siegen', country: 'Germany', city: 'Siegen',
+    websiteUrl: 'https://www.uni-siegen.de', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'German university known for engineering, mathematics, and media studies.',
+    programs: [
+      { id: 'p-701', universityId: 'uni-328', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-siegen.de/apply' },
+      { id: 'p-702', universityId: 'uni-328', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-siegen.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-329', name: 'Bielefeld University', country: 'Germany', city: 'Bielefeld',
+    websiteUrl: 'https://www.uni-bielefeld.de', logoUrl: '', rankingQs: 501, rankingThe: 480,
+    estimatedMonthlyLivingCostEur: 840,
+    description: 'A reform university in Germany with a distinctive interdisciplinary approach and strong bioinformatics research.',
+    programs: [
+      { id: 'p-703', universityId: 'uni-329', name: 'M.Sc. Bioinformatics', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-bielefeld.de/apply' },
+      { id: 'p-704', universityId: 'uni-329', name: 'M.Sc. Cognitive Science', fieldOfStudy: 'Psychology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.uni-bielefeld.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-330', name: 'University of Kassel', country: 'Germany', city: 'Kassel',
+    websiteUrl: 'https://www.uni-kassel.de', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'German university in Kassel known for renewable energies, international development, and arts.',
+    programs: [
+      { id: 'p-705', universityId: 'uni-330', name: 'M.Sc. Renewable Energy Systems', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-kassel.de/apply' },
+      { id: 'p-706', universityId: 'uni-330', name: 'M.Sc. International Development', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-kassel.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-331', name: 'University of Oldenburg', country: 'Germany', city: 'Oldenburg',
+    websiteUrl: 'https://www.uni-oldenburg.de', logoUrl: '', rankingQs: 601, rankingThe: 570,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'A comprehensive German university known for wind energy, physics, and educational sciences.',
+    programs: [
+      { id: 'p-707', universityId: 'uni-331', name: 'M.Sc. Wind Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-oldenburg.de/apply' },
+      { id: 'p-708', universityId: 'uni-331', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-oldenburg.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-332', name: 'Hamburg University of Technology', country: 'Germany', city: 'Hamburg',
+    websiteUrl: 'https://www.tuhh.de', logoUrl: '', rankingQs: 401, rankingThe: 380,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'Hamburg\'s technical university with cutting-edge programs in logistics, microelectronics, and green technologies.',
+    programs: [
+      { id: 'p-709', universityId: 'uni-332', name: 'M.Sc. Logistics and Supply Chain Management', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.tuhh.de/apply' },
+      { id: 'p-710', universityId: 'uni-332', name: 'M.Sc. Data Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.tuhh.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-333', name: 'University of Greifswald', country: 'Germany', city: 'Greifswald',
+    websiteUrl: 'https://www.uni-greifswald.de', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 770,
+    description: 'One of the oldest German universities, set on the Baltic Sea coast with strengths in marine sciences and medicine.',
+    programs: [
+      { id: 'p-711', universityId: 'uni-333', name: 'M.Sc. Marine Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-greifswald.de/apply' },
+      { id: 'p-712', universityId: 'uni-333', name: 'M.Sc. Biochemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.uni-greifswald.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-334', name: 'University of Trier', country: 'Germany', city: 'Trier',
+    websiteUrl: 'https://www.uni-trier.de', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 810,
+    description: 'A German university in the oldest city in Germany, known for humanities, social sciences, and environmental law.',
+    programs: [
+      { id: 'p-713', universityId: 'uni-334', name: 'LL.M. European Business Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 4000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-trier.de/apply' },
+      { id: 'p-714', universityId: 'uni-334', name: 'M.A. Digital Humanities', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-trier.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-335', name: 'Otto von Guericke University Magdeburg', country: 'Germany', city: 'Magdeburg',
+    websiteUrl: 'https://www.ovgu.de', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'Innovative German university named after the inventor of the vacuum pump, strong in engineering and neuroscience.',
+    programs: [
+      { id: 'p-715', universityId: 'uni-335', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.ovgu.de/apply' },
+      { id: 'p-716', universityId: 'uni-335', name: 'M.Sc. Mechanical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.ovgu.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-336', name: 'Martin Luther University Halle-Wittenberg', country: 'Germany', city: 'Halle',
+    websiteUrl: 'https://www.uni-halle.de', logoUrl: '', rankingQs: 551, rankingThe: 530,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'One of Germany\'s oldest universities, strong in natural sciences, pharmacy, and social sciences.',
+    programs: [
+      { id: 'p-717', universityId: 'uni-336', name: 'M.Sc. Biochemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-halle.de/apply' },
+      { id: 'p-718', universityId: 'uni-336', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 0, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uni-halle.de/apply' },
+    ]
+  },
+  {
+    id: 'uni-337', name: 'University of Lorraine', country: 'France', city: 'Nancy',
+    websiteUrl: 'https://www.univ-lorraine.fr', logoUrl: '', rankingQs: 601, rankingThe: 580,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'A large northeastern French university with strong programs in materials science, engineering, and computing.',
+    programs: [
+      { id: 'p-719', universityId: 'uni-337', name: 'M.Sc. Materials Science', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-lorraine.fr/apply' },
+      { id: 'p-720', universityId: 'uni-337', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.univ-lorraine.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-338', name: 'University of Poitiers', country: 'France', city: 'Poitiers',
+    websiteUrl: 'https://www.univ-poitiers.fr', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 760,
+    description: 'One of France\'s oldest universities, with growing strengths in biomaterials and environmental chemistry.',
+    programs: [
+      { id: 'p-721', universityId: 'uni-338', name: 'M.Sc. Environmental Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.univ-poitiers.fr/apply' },
+      { id: 'p-722', universityId: 'uni-338', name: 'M.Sc. Biomaterials', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.univ-poitiers.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-339', name: 'Université de Caen Normandie', country: 'France', city: 'Caen',
+    websiteUrl: 'https://www.unicaen.fr', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'Normandy\'s leading university with strong programs in history, law, and health sciences.',
+    programs: [
+      { id: 'p-723', universityId: 'uni-339', name: 'M.A. History', fieldOfStudy: 'Arts & Humanities', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.unicaen.fr/apply' },
+      { id: 'p-724', universityId: 'uni-339', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.unicaen.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-340', name: 'University of Burgundy', country: 'France', city: 'Dijon',
+    websiteUrl: 'https://www.u-bourgogne.fr', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 790,
+    description: 'A comprehensive French university in the wine capital of Burgundy with strengths in oenology and materials science.',
+    programs: [
+      { id: 'p-725', universityId: 'uni-340', name: 'M.Sc. Oenology (Wine Science)', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.u-bourgogne.fr/apply' },
+      { id: 'p-726', universityId: 'uni-340', name: 'M.Sc. Materials Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-15', applicationUrl: 'https://www.u-bourgogne.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-341', name: 'Université Clermont Auvergne', country: 'France', city: 'Clermont-Ferrand',
+    websiteUrl: 'https://www.uca.fr', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 770,
+    description: 'A comprehensive French university in the volcanic Auvergne region, known for physics and applied mathematics.',
+    programs: [
+      { id: 'p-727', universityId: 'uni-341', name: 'M.Sc. Applied Mathematics', fieldOfStudy: 'Mathematics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uca.fr/apply' },
+      { id: 'p-728', universityId: 'uni-341', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.uca.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-342', name: 'IMT Atlantique', country: 'France', city: 'Nantes',
+    websiteUrl: 'https://www.imt-atlantique.fr', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'An elite French engineering school with advanced programs in telecommunications, digital sciences, and energy.',
+    programs: [
+      { id: 'p-729', universityId: 'uni-342', name: 'M.Sc. Digital Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 4000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.imt-atlantique.fr/apply' },
+      { id: 'p-730', universityId: 'uni-342', name: 'M.Sc. Energy Systems', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 4000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-04-30', applicationUrl: 'https://www.imt-atlantique.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-343', name: 'Université Paris-Est Créteil', country: 'France', city: 'Paris',
+    websiteUrl: 'https://www.u-pec.fr', logoUrl: '', rankingQs: 651, rankingThe: 630,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'A Parisian multi-campus university with diverse programs in health sciences, law, and social sciences.',
+    programs: [
+      { id: 'p-731', universityId: 'uni-343', name: 'M.Sc. Public Health', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.u-pec.fr/apply' },
+      { id: 'p-732', universityId: 'uni-343', name: 'LL.M. Social Law', fieldOfStudy: 'Law', degreeLevel: 'masters', languageOfInstruction: 'French', durationMonths: 24, tuitionPerYearEur: 243, minGpaRequired: 2.8, requiredLanguage: 'French', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-31', applicationUrl: 'https://www.u-pec.fr/apply' },
+    ]
+  },
+  {
+    id: 'uni-344', name: 'University of Trieste', country: 'Italy', city: 'Trieste',
+    websiteUrl: 'https://www.units.it', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 850,
+    description: 'An Italian maritime and scientific university at the crossroads of Latin, Slavic, and Germanic cultures.',
+    programs: [
+      { id: 'p-733', universityId: 'uni-344', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.units.it/apply' },
+      { id: 'p-734', universityId: 'uni-344', name: 'M.Sc. Marine Biology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.units.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-345', name: 'University of Parma', country: 'Italy', city: 'Parma',
+    websiteUrl: 'https://www.unipr.it', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 800,
+    description: 'An Italian university in the heart of the food valley, with excellent programs in food science and pharmacy.',
+    programs: [
+      { id: 'p-735', universityId: 'uni-345', name: 'M.Sc. Food Science and Technology', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unipr.it/apply' },
+      { id: 'p-736', universityId: 'uni-345', name: 'M.Sc. Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2800, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unipr.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-346', name: 'University of Pavia', country: 'Italy', city: 'Pavia',
+    websiteUrl: 'https://www.unipv.it', logoUrl: '', rankingQs: 551, rankingThe: 520,
+    estimatedMonthlyLivingCostEur: 820,
+    description: 'One of the world\'s oldest universities with a rich history and excellence in medicine, law, and physics.',
+    programs: [
+      { id: 'p-737', universityId: 'uni-346', name: 'M.Sc. Electronics Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unipv.it/apply' },
+      { id: 'p-738', universityId: 'uni-346', name: 'M.Sc. Physics', fieldOfStudy: 'Physics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unipv.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-347', name: 'University of Modena and Reggio Emilia', country: 'Italy', city: 'Modena',
+    websiteUrl: 'https://www.unimore.it', logoUrl: '', rankingQs: 701, rankingThe: 670,
+    estimatedMonthlyLivingCostEur: 810,
+    description: 'An Italian university in the heart of the Motor Valley, known for automotive engineering and biomedical sciences.',
+    programs: [
+      { id: 'p-739', universityId: 'uni-347', name: 'M.Sc. Automotive Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unimore.it/apply' },
+      { id: 'p-740', universityId: 'uni-347', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.unimore.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-348', name: 'Marche Polytechnic University', country: 'Italy', city: 'Ancona',
+    websiteUrl: 'https://www.univpm.it', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'A technical university on the Adriatic coast specialising in engineering and marine sciences.',
+    programs: [
+      { id: 'p-741', universityId: 'uni-348', name: 'M.Sc. Marine and Coastal Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.univpm.it/apply' },
+      { id: 'p-742', universityId: 'uni-348', name: 'M.Sc. Electrical Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2500, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.univpm.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-349', name: 'University of Calabria', country: 'Italy', city: 'Rende',
+    websiteUrl: 'https://www.unical.it', logoUrl: '', rankingQs: 801, rankingThe: 760,
+    estimatedMonthlyLivingCostEur: 700,
+    description: 'A modern southern Italian campus university known for engineering, computer science, and international student focus.',
+    programs: [
+      { id: 'p-743', universityId: 'uni-349', name: 'M.Sc. Computer Engineering', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unical.it/apply' },
+      { id: 'p-744', universityId: 'uni-349', name: 'M.Sc. Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.unical.it/apply' },
+    ]
+  },
+  {
+    id: 'uni-350', name: 'University of Valladolid', country: 'Spain', city: 'Valladolid',
+    websiteUrl: 'https://www.uva.es', logoUrl: '', rankingQs: 901, rankingThe: 870,
+    estimatedMonthlyLivingCostEur: 720,
+    description: 'A historic Castilian university with strong programs in telecommunications, business, and medicine.',
+    programs: [
+      { id: 'p-745', universityId: 'uni-350', name: 'M.Sc. Telecommunications Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 24, tuitionPerYearEur: 1700, minGpaRequired: 2.8, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uva.es/apply' },
+      { id: 'p-746', universityId: 'uni-350', name: 'M.Sc. Finance', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 2500, minGpaRequired: 3.0, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-15', applicationUrl: 'https://www.uva.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-351', name: 'University of Alicante', country: 'Spain', city: 'Alicante',
+    websiteUrl: 'https://www.ua.es', logoUrl: '', rankingQs: 801, rankingThe: 770,
+    estimatedMonthlyLivingCostEur: 780,
+    description: 'A sunny Mediterranean university in Alicante with growing programs in computer science and tourism.',
+    programs: [
+      { id: 'p-747', universityId: 'uni-351', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 2000, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ua.es/apply' },
+      { id: 'p-748', universityId: 'uni-351', name: 'M.A. Tourism Management', fieldOfStudy: 'Business Administration', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 2000, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.ua.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-352', name: 'University of Santiago de Compostela', country: 'Spain', city: 'Santiago de Compostela',
+    websiteUrl: 'https://www.usc.gal', logoUrl: '', rankingQs: 651, rankingThe: 620,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'A historic Galician university, pilgrimage city host, known for chemistry, pharmacy, and biotechnology.',
+    programs: [
+      { id: 'p-749', universityId: 'uni-352', name: 'M.Sc. Biotechnology', fieldOfStudy: 'Biology', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 24, tuitionPerYearEur: 1700, minGpaRequired: 3.0, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.usc.gal/apply' },
+      { id: 'p-750', universityId: 'uni-352', name: 'M.Sc. Chemistry', fieldOfStudy: 'Chemistry', degreeLevel: 'masters', languageOfInstruction: 'Spanish', durationMonths: 24, tuitionPerYearEur: 1700, minGpaRequired: 3.0, requiredLanguage: 'Spanish', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-30', applicationUrl: 'https://www.usc.gal/apply' },
+    ]
+  },
+  {
+    id: 'uni-353', name: 'Universidad Politécnica de Madrid', country: 'Spain', city: 'Madrid',
+    websiteUrl: 'https://www.upm.es', logoUrl: '', rankingQs: 351, rankingThe: 320,
+    estimatedMonthlyLivingCostEur: 1000,
+    description: 'Spain\'s premier technical university in Madrid, with top programs in aerospace, civil, and computer engineering.',
+    programs: [
+      { id: 'p-751', universityId: 'uni-353', name: 'M.Sc. Aerospace Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.upm.es/apply' },
+      { id: 'p-752', universityId: 'uni-353', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 3000, minGpaRequired: 3.2, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-06-15', applicationUrl: 'https://www.upm.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-354', name: 'University of Cádiz', country: 'Spain', city: 'Cádiz',
+    websiteUrl: 'https://www.uca.es', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 750,
+    description: 'A coastal Andalusian university known for marine sciences, tourism, and economics.',
+    programs: [
+      { id: 'p-753', universityId: 'uni-354', name: 'M.Sc. Marine Sciences', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 1600, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uca.es/apply' },
+      { id: 'p-754', universityId: 'uni-354', name: 'M.Sc. Tourism Economics', fieldOfStudy: 'Economics', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 12, tuitionPerYearEur: 1600, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-07-31', applicationUrl: 'https://www.uca.es/apply' },
+    ]
+  },
+  {
+    id: 'uni-355', name: 'HAN University of Applied Sciences', country: 'Netherlands', city: 'Arnhem',
+    websiteUrl: 'https://www.han.nl', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 950,
+    description: 'A large Dutch UAS offering practical English-medium programs in engineering, business, and health.',
+    programs: [
+      { id: 'p-755', universityId: 'uni-355', name: 'B.Sc. Engineering', fieldOfStudy: 'Engineering', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.han.nl/apply' },
+      { id: 'p-756', universityId: 'uni-355', name: 'B.Sc. International Business Management', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.han.nl/apply' },
+    ]
+  },
+  {
+    id: 'uni-356', name: 'Saxion University of Applied Sciences', country: 'Netherlands', city: 'Deventer',
+    websiteUrl: 'https://www.saxion.edu', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 900,
+    description: 'Dutch UAS in eastern Netherlands with modern technology and business programs taught in English.',
+    programs: [
+      { id: 'p-757', universityId: 'uni-356', name: 'B.Sc. ICT', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.saxion.edu/apply' },
+      { id: 'p-758', universityId: 'uni-356', name: 'B.Sc. Business Administration', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.saxion.edu/apply' },
+    ]
+  },
+  {
+    id: 'uni-357', name: 'Inholland University of Applied Sciences', country: 'Netherlands', city: 'Amsterdam',
+    websiteUrl: 'https://www.inholland.nl', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'A large Dutch UAS with campuses in Amsterdam and other cities offering creative and technical programs.',
+    programs: [
+      { id: 'p-759', universityId: 'uni-357', name: 'B.Sc. Creative Media and Game Technologies', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.inholland.nl/apply' },
+      { id: 'p-760', universityId: 'uni-357', name: 'B.Sc. International Business', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.inholland.nl/apply' },
+    ]
+  },
+  {
+    id: 'uni-358', name: 'The Hague University of Applied Sciences', country: 'Netherlands', city: 'The Hague',
+    websiteUrl: 'https://www.thehagueuniversity.com', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1100,
+    description: 'A Dutch UAS in the political capital of the Netherlands, specialising in international affairs, law, and IT.',
+    programs: [
+      { id: 'p-761', universityId: 'uni-358', name: 'B.Sc. International Business', fieldOfStudy: 'Business Administration', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.thehagueuniversity.com/apply' },
+      { id: 'p-762', universityId: 'uni-358', name: 'B.Sc. IT & Design', fieldOfStudy: 'Computer Science', degreeLevel: 'bachelors', languageOfInstruction: 'English', durationMonths: 48, tuitionPerYearEur: 2530, minGpaRequired: 2.5, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-05-01', applicationUrl: 'https://www.thehagueuniversity.com/apply' },
+    ]
+  },
+  {
+    id: 'uni-359', name: 'Linnaeus University', country: 'Sweden', city: 'Växjö',
+    websiteUrl: 'https://lnu.se', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 880,
+    description: 'A modern Swedish university named after the botanist Carl Linnaeus, with strong programs in digital media and forestry.',
+    programs: [
+      { id: 'p-763', universityId: 'uni-359', name: 'M.Sc. Computer Science', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://lnu.se/apply' },
+      { id: 'p-764', universityId: 'uni-359', name: 'M.Sc. Forestry and Wood Technology', fieldOfStudy: 'Natural Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://lnu.se/apply' },
+    ]
+  },
+  {
+    id: 'uni-360', name: 'Södertörn University', country: 'Sweden', city: 'Stockholm',
+    websiteUrl: 'https://www.sh.se', logoUrl: '', rankingQs: 0, rankingThe: 0,
+    estimatedMonthlyLivingCostEur: 1050,
+    description: 'A Stockholm-area university focused on Baltic studies, cultural sciences, and computer science.',
+    programs: [
+      { id: 'p-765', universityId: 'uni-360', name: 'M.Sc. Computer and Systems Sciences', fieldOfStudy: 'Computer Science', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.sh.se/apply' },
+      { id: 'p-766', universityId: 'uni-360', name: 'M.A. Baltic and East European Studies', fieldOfStudy: 'Social Sciences', degreeLevel: 'masters', languageOfInstruction: 'English', durationMonths: 24, tuitionPerYearEur: 13250, minGpaRequired: 2.8, requiredLanguage: 'English', requiredLanguageLevel: 'B2', applicationDeadline: '2026-01-15', applicationUrl: 'https://www.sh.se/apply' },
+    ]
+  },
 ];
 
 export const scholarships: Scholarship[] = [

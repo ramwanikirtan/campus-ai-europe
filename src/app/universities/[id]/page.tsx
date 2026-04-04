@@ -193,6 +193,13 @@ export default function UniversityDetailPage() {
                         <span className="flex items-center gap-1.5"><EligibilityIcon meets={langStatus as 'yes'|'partial'|'no'} /> {prog.requiredLanguage} {prog.requiredLanguageLevel}+</span>
                       </div>
                     </div>
+                    <div className="mt-4 flex justify-end">
+                      <Button asChild size="sm" className="rounded-xl bg-gradient-to-r from-primary to-primary/90 hover:opacity-90 border-0">
+                        <a href={prog.applicationUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-3.5 h-3.5 mr-1.5" /> Apply Now
+                        </a>
+                      </Button>
+                    </div>
                   </div>
                 );
               })}

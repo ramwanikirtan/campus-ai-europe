@@ -170,3 +170,50 @@ model ScholarshipUniversity {
 
   @@unique([scholarshipId, universityId])
 }
+
+// ============================================
+// AI Admissions Officer Models
+// ============================================
+
+model AdmissionsReview {
+  id                 String   @id @default(cuid())
+  userId             String
+  universityName     String
+  programName        String
+  sopText            String?  @db.Text
+  cvText             String?  @db.Text
+  gpa                String?
+  recommenders       String?
+  status             String   @default("pending")
+  overallScore       Int?
+  verdict            String?
+  verdictReason      String?  @db.Text
+  strengths          Json?
+  risks              Json?
+  sopWeaknesses      Json?
+  admissionsInsights String?  @db.Text
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  iterations ReviewIteration[]
+
+  @@index([userId])
+}
+
+model ReviewIteration {
+  id                 String   @id @default(cuid())
+  reviewId           String
+  iterationNumber    Int
+  overallScore       Int
+  verdict            String
+  verdictReason      String   @db.Text
+  strengths          Json
+  risks              Json
+  sopWeaknesses      Json
+  admissionsInsights String?  @db.Text
+  createdAt          DateTime @default(now())
+
+  review AdmissionsReview @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@index([reviewId])
+}

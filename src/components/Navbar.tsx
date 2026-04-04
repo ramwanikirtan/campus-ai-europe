@@ -11,7 +11,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { GraduationCap, LayoutDashboard, Building2, Award, KanbanSquare, User, LogOut, Menu, X } from 'lucide-react';
+import { GraduationCap, LayoutDashboard, Building2, Award, KanbanSquare, User, LogOut, Menu, X, BrainCircuit } from 'lucide-react';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -27,6 +27,7 @@ export default function Navbar() {
     { href: '/universities', label: 'Universities', icon: Building2 },
     { href: '/scholarships', label: 'Scholarships', icon: Award },
     { href: '/tracker', label: 'App Tracker', icon: KanbanSquare },
+    { href: '/dashboard/admissions-officer', label: 'AI Officer', icon: BrainCircuit },
   ];
 
   return (

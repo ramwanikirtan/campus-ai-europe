@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useMemo, useEffect } from 'react';
 import Link from 'next/link';
@@ -7,7 +7,7 @@ import { useAppStore } from '@/lib/store';
 import { universities, scholarships } from '@/lib/seed-data';
 import { getUniversityRecommendations, getScholarshipRecommendations } from '@/lib/matching';
 import { Button } from '@/components/ui/button';
-import { Heart, ArrowRight, GraduationCap, Award, MapPin, Calendar, Edit3, TrendingUp, UserCircle } from 'lucide-react';
+import { Heart, ArrowRight, GraduationCap, Award, MapPin, Calendar, Edit3, TrendingUp, UserCircle, BrainCircuit } from 'lucide-react';
 import { toast } from 'sonner';
 
 function MatchBadge({ score }: { score: number }) {
@@ -193,6 +193,18 @@ export default function DashboardPage() {
                       </span>
                     )}
                   </div>
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="ghost"
+                    className="mt-3 w-full text-xs gap-1.5 text-primary hover:bg-primary/10 border border-primary/20 hover:border-primary/40"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <Link href={`/dashboard/admissions-officer/new?university=${encodeURIComponent(uni.name)}`}>
+                      <BrainCircuit className="w-3 h-3" />
+                      Review Application
+                    </Link>
+                  </Button>
                 </div>
               </Link>
             ))}

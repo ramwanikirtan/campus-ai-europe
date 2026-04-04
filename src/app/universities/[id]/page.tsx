@@ -12,7 +12,18 @@ import { motion } from 'framer-motion';
 import { toast } from 'sonner';
 
 function getCountryFlag(c: string) {
-  const flags: Record<string, string> = { 'Germany': '🇩🇪', 'Netherlands': '🇳🇱', 'Sweden': '🇸🇪', 'Switzerland': '🇨🇭', 'Austria': '🇦🇹', 'Italy': '🇮🇹', 'Finland': '🇫🇮', 'Poland': '🇵🇱', 'Czech Republic': '🇨🇿' };
+  const flags: Record<string, string> = {
+    'Germany': '🇩🇪', 'Netherlands': '🇳🇱', 'Sweden': '🇸🇪', 'Switzerland': '🇨🇭',
+    'Austria': '🇦🇹', 'Italy': '🇮🇹', 'Finland': '🇫🇮', 'Poland': '🇵🇱',
+    'Czech Republic': '🇨🇿', 'France': '🇫🇷', 'Spain': '🇪🇸', 'Denmark': '🇩🇰',
+    'Norway': '🇳🇴', 'Belgium': '🇧🇪', 'Ireland': '🇮🇪', 'Portugal': '🇵🇹',
+    'Hungary': '🇭🇺', 'Romania': '🇷🇴', 'Croatia': '🇭🇷', 'Greece': '🇬🇷',
+    'Estonia': '🇪🇪', 'Lithuania': '🇱🇹', 'Latvia': '🇱🇻', 'Slovenia': '🇸🇮',
+    'Slovakia': '🇸🇰', 'Serbia': '🇷🇸', 'Bulgaria': '🇧🇬', 'Turkey': '🇹🇷',
+    'Iceland': '🇮🇸', 'Cyprus': '🇨🇾', 'Luxembourg': '🇱🇺', 'Malta': '🇲🇹',
+    'Bosnia': '🇧🇦', 'North Macedonia': '🇲🇰', 'Ukraine': '🇺🇦', 'Albania': '🇦🇱',
+    'Montenegro': '🇲🇪', 'Kosovo': '🇽🇰',
+  };
   return flags[c] || '🇪🇺';
 }
 
